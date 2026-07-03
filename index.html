@@ -170,6 +170,13 @@
     th, td { padding: 12px 14px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
     th { background: #f3f6f1; color: var(--teal-dark); font-size: 12px; font-weight: 840; text-transform: uppercase; }
     td:nth-child(3), td:nth-child(4), th:nth-child(3), th:nth-child(4) { text-align: right; white-space: nowrap; }
+    .facts-table { table-layout: fixed; min-width: 100%; }
+    .facts-table th:nth-child(1) { width: 16%; }
+    .facts-table th:nth-child(2) { width: 18%; }
+    .facts-table th:nth-child(3) { width: 38%; }
+    .facts-table th:nth-child(4) { width: 28%; }
+    .facts-table th, .facts-table td { white-space: normal; word-break: break-word; overflow-wrap: anywhere; }
+    .facts-table th:nth-child(3), .facts-table th:nth-child(4), .facts-table td:nth-child(3), .facts-table td:nth-child(4) { text-align: left; }
     tr:last-child td { border-bottom: 0; }
     .pill { display: inline-flex; padding: 4px 8px; border-radius: 999px; background: #edf3ef; color: var(--teal-dark); font-size: 12px; font-weight: 780; white-space: nowrap; }
     .cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
@@ -321,7 +328,7 @@
         <div><span class="kicker">Facts</span><h2>核心事實資料表</h2></div>
         <p>原本散在總控 Markdown 的專案基本資料，已整理進 SQLite。</p>
       </div>
-      <div class="table-wrap"><table>
+      <div class="table-wrap"><table class="facts-table">
 <thead><tr><th>區塊</th><th>項目</th><th>內容</th><th>備註</th></tr></thead>
 <tbody>
 <tr><td>下船日</td><td>高優先 HIA 備案</td><td>Disembarkation Tour: Singapore Highlights with Airport Transfer</td><td>僅適合 16:30 或更晚起飛回程；雙人 US$199.90 幾乎可用滿 HIA US$200，但以 HAL 結帳畫面為準</td></tr>
