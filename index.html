@@ -200,11 +200,6 @@
     .day p, .decision p { margin: 0 0 8px; color: var(--muted); font-size: 14px; }
     .day span { display: inline-flex; margin-top: 4px; color: var(--teal-dark); font-size: 12px; font-weight: 820; }
     .decision strong { display: block; color: var(--ink); font-size: 12px; }
-    .maintenance {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 14px;
-    }
     code {
       display: block;
       padding: 14px;
@@ -218,7 +213,7 @@
     }
     footer { margin-top: 40px; color: var(--muted); font-size: 13px; text-align: center; }
     @media (max-width: 980px) {
-      .metrics, .budget-grid, .cards, .maintenance, .focus-grid, .basic-grid { grid-template-columns: 1fr; }
+      .metrics, .budget-grid, .cards, .focus-grid, .basic-grid { grid-template-columns: 1fr; }
       .section-head { display: block; }
       .section-head p { margin-top: 8px; }
     }
@@ -245,9 +240,6 @@
       <a href="#shore">岸上</a>
       <a href="#onboard">船上</a>
       <a href="#itinerary">行程</a>
-      <a href="#decisions">決策</a>
-      <a href="#documents">文件</a>
-      <a href="#maintenance">維護</a>
     </div>
   </nav>
   <main>
@@ -539,89 +531,6 @@
 <article class="day"><time>2027-12-05</time><h3>新加坡 → 台灣</h3><p>若回程班機 16:30 後，可考慮 Disembarkation Tour: Singapore Highlights with Airport Transfer 並使用 HIA；若早於 16:30，直接 Taxi / Grab 前往機場</p><p>回程備選仍為 JX772 / CI754 / BR216；航班時間與下船日策略要一起確認</p><span>主方案</span></article></div>
     </section>
 
-    <section id="decisions">
-      <div class="section-head">
-        <div><span class="kicker">Decision log</span><h2>決策紀錄</h2></div>
-        <p>只顯示 active = 1 的最新決策，避免舊方案與新方案混在一起。</p>
-      </div>
-      <div class="cards"><article class="decision"><div><time>2026-07-03</time><h3>版本結論</h3></div><p><strong>舊方案</strong>極限可行版</p><p><strong>最新決策</strong>可行版</p><p><strong>理由</strong>專案帳戶為旅遊專戶，2027/11 月底餘額接近零可接受</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>船上緩衝</h3></div><p><strong>舊方案</strong>船上額外消費／紀念品 + 預備金 NT$15,000</p><p><strong>最新決策</strong>船上紀念品＋預備金 US$450</p><p><strong>理由</strong>已內含旅行緩衝，不再另列 NT$3,000-5,000 額外緩衝</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>新加坡晚餐</h3></div><p><strong>舊方案</strong>S$150</p><p><strong>最新決策</strong>S$200</p><p><strong>理由</strong>晚餐預算調高到 S$200，保留實際旅行彈性</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>機票預算</h3></div><p><strong>舊方案</strong>雙人 NT$26,000</p><p><strong>最新決策</strong>查詢區間 NT$23,000-25,000；保守上限 NT$28,000</p><p><strong>理由</strong>3% 回饋只當額外緩衝，不下修主預算</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>下船日</h3></div><p><strong>舊方案</strong>固定早批下船直達機場</p><p><strong>最新決策</strong>16:30 後班機可考慮 HAL 下船日行程；早於 16:30 則 Taxi / Grab</p><p><strong>理由</strong>若班機過早，不適合用下船日市區觀光加機場接送</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>登船日</h3></div><p><strong>舊方案</strong>12:00 直接登船</p><p><strong>最新決策</strong>13:30 左右離開飯店，14:00 左右抵達碼頭</p><p><strong>理由</strong>船中午才靠港，需保留清關與整理 buffer</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>岸上行程規則</h3></div><p><strong>舊方案</strong>HAL 固定出發前 6 個月開放</p><p><strong>最新決策</strong>未確認固定 6 個月規則；6-9 個月陸續檢查</p><p><strong>理由</strong>正式可訂行程、價格、名額與 HIA 抵用方式以 Manage My Cruise / Navigator App 為準</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>航班決策</h3></div><p><strong>舊方案</strong>單選華航 CI753/CI754</p><p><strong>最新決策</strong>三家航空並列備選：星宇、華航、長榮</p><p><strong>理由</strong>暫不決定最終承運，以價格、時間、行李、退改規則再選</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>Flight Ease</h3></div><p><strong>舊方案</strong>尚未開放</p><p><strong>最新決策</strong>2027/1 後查價備案</p><p><strong>理由</strong>作為同日抵達減壓方案，不列主預算</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>交通</h3></div><p><strong>舊方案</strong>新加坡交通 S$122</p><p><strong>最新決策</strong>新加坡交通 S$170</p><p><strong>理由</strong>新增晚餐多段移動</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>前泊晚餐</h3></div><p><strong>舊方案</strong>Club Lounge / 飯店正式晚餐</p><p><strong>最新決策</strong>松發肉骨茶 + 老巴剎</p><p><strong>理由</strong>Club Lounge 不等於正式晚餐，使用者想吃在地美食</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>飯店</h3></div><p><strong>舊方案</strong>50,000 點普通房</p><p><strong>最新決策</strong>53,000 點 + US$139 Club Lounge Access</p><p><strong>理由</strong>使用者偏好此飯店方案</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>機票</h3></div><p><strong>舊方案</strong>長榮豪經艙 + Bid Upgrade</p><p><strong>最新決策</strong>放棄整合；不列主預算</p><p><strong>理由</strong>長榮豪經 + Bid Upgrade 會使總預算升至約 NT$227,000，不符合減壓方向；保留為願望版/未來參考</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>Day 2 晚餐</h3></div><p><strong>舊方案</strong>Morimoto By Sea</p><p><strong>最新決策</strong>免費主餐廳</p><p><strong>理由</strong>降低支出，HAL 免費餐點已足夠</p></article>
-<article class="decision"><div><time>2026-07-03</time><h3>房型</h3></div><p><strong>舊方案</strong>考慮改海景房</p><p><strong>最新決策</strong>保留陽台房</p><p><strong>理由</strong>價差僅約 NT$7,656，不值得犧牲 8 天體驗</p></article></div>
-    </section>
-
-    <section id="documents">
-      <div class="section-head">
-        <div><span class="kicker">Remaining Markdown</span><h2>保留 Markdown 文件索引</h2></div>
-        <p>剩下的 Markdown 是來源、長篇說明、現場文件或維護文件；表格型摘要已由 SQLite 與網站取代。</p>
-      </div>
-      <div class="table-wrap"><table>
-<thead><tr><th>類型</th><th>文件</th><th>路徑</th><th>保留原因</th></tr></thead>
-<tbody>
-<tr><td>官方來源</td><td>Noordam 官方船舶資料</td><td>02_郵輪訂單/Noordam_官方船舶資料/</td><td>保留，長篇官方參考資料不適合塞入 SQLite</td></tr>
-<tr><td>官方來源</td><td>HAL 官方岸上行程參考包</td><td>HAL_Official_Shore_Excursions_Reference/</td><td>保留，官方來源與模型提示資料</td></tr>
-<tr><td>現場/風險文件</td><td>證件與保險資料</td><td>05_證件與保險/</td><td>保留，護照、保險、醫療與緊急資訊</td></tr>
-<tr><td>現場文件</td><td>現場使用文件</td><td>06_現場使用/</td><td>保留，英文溝通句、流程、打包清單與每日提醒可列印</td></tr>
-<tr><td>現場說明</td><td>洗衣套餐使用方式</td><td>02_郵輪訂單/洗衣套餐使用方式.md</td><td>保留，現場操作步驟</td></tr>
-<tr><td>維護文件</td><td>專案入口與維護規則</td><td>README.md</td><td>保留，給人類與 AI 判斷專案結構</td></tr>
-<tr><td>維護文件</td><td>Codex 接手任務說明</td><td>Codex_接手任務說明.md</td><td>保留，最短接手入口</td></tr>
-<tr><td>維護文件</td><td>AI 快速接手</td><td>90_AI接手/AI快速接手.md</td><td>保留，接手時先讀</td></tr>
-<tr><td>維護文件</td><td>檔案規劃說明</td><td>90_AI接手/檔案規劃說明.md</td><td>保留，說明目錄責任邊界</td></tr>
-<tr><td>航班住宿</td><td>航班備選方案</td><td>03_航班與住宿/航班備選方案.md</td><td>三家航空並列備選的最新基準文件</td></tr>
-<tr><td>航班住宿</td><td>Flight Ease 備案</td><td>03_航班與住宿/Flight_Ease_備案.md</td><td>HAL Flight Ease 同日/前日抵達減壓備案</td></tr>
-<tr><td>長篇說明</td><td>HIA Early Booking Bonus 說明</td><td>02_郵輪訂單/HIA_Early_Booking_Bonus說明.md</td><td>保留，方案規則與備註</td></tr>
-<tr><td>長篇說明</td><td>取消條款與訂金</td><td>02_郵輪訂單/取消條款與訂金.md</td><td>保留，條款與風險說明</td></tr>
-<tr><td>長篇說明</td><td>艙房與用餐設定</td><td>02_郵輪訂單/艙房與用餐設定.md</td><td>保留，房型與用餐偏好脈絡</td></tr>
-<tr><td>長篇說明</td><td>Best of Kuala Lumpur 詳細說明</td><td>04_岸上行程/1129_巴生港_Day1_Best_of_Kuala_Lumpur.md</td><td>保留，單日行程細節</td></tr>
-<tr><td>長篇說明</td><td>巴生港 Day 2 詳細說明</td><td>04_岸上行程/1130_巴生港_Day2_船上休息_免費主餐廳.md</td><td>保留，取消與備案判斷脈絡；Morimoto 僅備案</td></tr>
-<tr><td>長篇說明</td><td>檳城詳細說明</td><td>04_岸上行程/1201_檳城_Historic_Jewels_of_Georgetown.md</td><td>保留，單日行程細節</td></tr>
-<tr><td>長篇說明</td><td>蘭卡威船上休息日</td><td>04_岸上行程/1202_蘭卡威_船上休息日.md</td><td>保留，單日行程細節</td></tr>
-<tr><td>長篇說明</td><td>普吉詳細說明</td><td>04_岸上行程/1203_普吉_Phuket_Old_Town_On_Your_Own.md</td><td>保留，單日行程細節</td></tr>
-<tr><td>預算文件</td><td>每月現金流表</td><td>01_預算/每月現金流表.md</td><td>保留，月度存款與支出試算</td></tr>
-</tbody></table></div>
-    </section>
-
-    <section id="maintenance">
-      <div class="section-head">
-        <div><span class="kicker">Maintenance</span><h2>資料庫與網站維護</h2></div>
-        <p>網站由 SQLite 匯出。更新資料後重跑匯出與驗證即可。</p>
-      </div>
-      <div class="maintenance">
-        <div class="panel">
-          <h3>資料表筆數</h3>
-          <p>budget_items：13</p>
-          <p>payment_schedule：10</p>
-          <p>itinerary：12</p>
-          <p>decision_log：15</p>
-          <p>project_facts：30</p>
-          <p>todos：37</p>
-          <p>flights：6</p>
-          <p>lodging_options：4</p>
-          <p>shore_excursions：9</p>
-          <p>cash_flow_projection：18</p>
-          <p>onboard_activities：16</p>
-          <p>cruise_port_schedule：9</p>
-          <p>document_index：20</p>
-        </div>
-        <div class="panel">
-          <h3>重建網站</h3>
-          <code>python3 data/seed_data.py
-python3 data/export_site.py
-python3 data/validate_budget.py</code>
-        </div>
-      </div>
-    </section>
     <footer>Generated from data/travel_plan.sqlite. Markdown 匯出版已停用，網站為人類閱讀主介面。</footer>
   </main>
 </body>
