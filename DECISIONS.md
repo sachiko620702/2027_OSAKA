@@ -79,14 +79,16 @@ Changed: 2026-07-06.
 
 ## D016 Day 3 confirmed interest-based route
 
-Decision: 2027-11-19 Day 3 is formally confirmed as Kizu Market brunch + Kyoto sweets souvenirs + Pokemon / anime.  
-Status: fixed.  
-Changed: 2026-07-06.
+Decision: 2027-11-19 Day 3 is formally confirmed as Osaka city route: Kizu Market brunch + Namba / Nipponbashi anime models and merch + hotel rest and Executive Lounge afternoon tea + Osaka city sushi dinner.  
+Status: fixed; supersedes the previous Kyoto route.  
+Changed: 2026-07-06.  
+Reason: The user explicitly instructed: “晚餐吃壽司 覆蓋正式行程 並更新所需更新章節.”  
+Impact: Do not treat Kyoto sweets, 京 鰻和 本店, 天ぷら 京星, Pokemon Center KYOTO, or Kyoto International Manga Museum as formal Day 3 stops unless the user later restores Kyoto.
 
 ## D017 Day 3 transport priority
 
-Decision: Day 3 public rail plus short taxi is the primary plan. KKday #133661 10-hour charter remains backup only for rain, fatigue, heavy shopping, or door-to-door comfort.  
-Status: fixed, backup retained.  
+Decision: Day 3 primary transport is Osaka city metro, walking, and short taxi. KKday #133661 10-hour charter is no longer part of the formal Day 3 route and remains backup only if the user restores Kyoto or explicitly requests comfort travel.  
+Status: fixed for V5.25.0.  
 Changed: 2026-07-06.
 
 ## D018 Day 1 Pokemon Center Osaka
@@ -97,20 +99,20 @@ Changed: 2026-07-06.
 
 ## D019 Day 3 formal lunch
 
-Decision: 2027-11-19 Day 3 lunch is 京 鰻和 本店 / 京 うな和 本店.  
-Status: fixed, reservation and 2027 business status pending.  
+Decision: 2027-11-19 Day 3 lunch should be in Namba / Dotonbori / Shinsaibashi area, exact restaurant pending.  
+Status: active, candidate needed; previous 京 鰻和 本店 lunch is superseded and fallback-only.  
 Changed: 2026-07-06.
 
 ## D020 Day 3 formal dinner
 
-Decision: 2027-11-19 Day 3 dinner is 天ぷら 京星 / Tempura Kyoboshi.  
-Status: fixed, reservation and 2027 business status pending.  
+Decision: 2027-11-19 Day 3 dinner should be sushi in Osaka city.  
+Status: formal dinner direction; exact restaurant, price, booking method, cancellation policy, and transportation pending.  
 Changed: 2026-07-06.
 
 ## D021 Tempura Kyoboshi reservation route
 
-Decision: Use TABLEALL Reservation Request as the primary recorded reservation method for 天ぷら 京星 unless a better official route is confirmed.  
-Status: selected; 2027-11-19 availability, price, booking fee, and cancellation policy need reconfirmation.  
+Decision: TABLEALL Reservation Request for 天ぷら 京星 was previously selected as the Day 3 dinner route.  
+Status: superseded by D033; fallback-only unless the user restores Kyoto.  
 Changed: 2026-07-06.
 
 ## D022 Day 4 Pokemon Center Osaka DX
@@ -160,7 +162,7 @@ Impact: Day 4 afternoon should not include distant attractions. Keep Executive L
 ## D028 Day 4 hotel in-house dinner
 
 Decision: Day 4 dinner is planned inside InterContinental Osaka, with PIERRE now selected as the primary formal direction for Anniversary Dinner.  
-Status: active again through D031.  
+Status: active through D031.  
 Changed: 2026-07-06.  
 Reason: The user explicitly changed Day 4 dinner back to PIERRE for an anniversary dinner with a window / Osaka night view request.  
 Impact: The Day 4 evening should remain in-hotel and low-effort after Shinsaibashi, with PIERRE as the primary dinner direction.
@@ -189,10 +191,17 @@ Changed: 2026-07-06.
 Reason: The user explicitly stated: “Anniversary Dinner Pierre的靠窗座位，盡享大阪夜景美景。”  
 Impact: Day 4 dinner should be planned around PIERRE at InterContinental Osaka. Reservation notes must request an anniversary dinner, a window / Osaka night-view seat, and optionally an anniversary dessert message or photo support. The window seat is a request, not a guarantee, until confirmed by the restaurant.
 
-## D032 Budget model V5.24.0
+## D032 Budget model V5.25.0
 
-Decision: Use V5.24.0 budget model as the current planning baseline: recommended total TWD 327,664 for two travelers, safety ceiling TWD 380,000 for two travelers, with luxury handbags, jewelry, and watches budgeted separately.  
+Decision: Use V5.25.0 budget model as the current planning baseline: recommended total TWD 324,664 for two travelers, safety ceiling TWD 380,000 for two travelers, with luxury handbags, jewelry, and watches budgeted separately.  
 Status: active budget baseline; 2027 prices still pending reconfirmation.  
 Changed: 2026-07-06.  
-Reason: The user corrected overestimated transportation assumptions: flight budget TWD 35,000, airport transfer TWD 2,600 each way, and USJ transfer TWD 1,732 each way.  
-Impact: The previous high-level estimate is superseded. Budget tracking should use `database/budget_model.yml` and `docs/06_預算/2027大阪自由行_預算模型_V5.24.0.md` as the current model.
+Reason: Day 3 no longer goes to Kyoto, so Day 3 transport is revised from Osaka-Kyoto transport to Osaka city transport; Day 3 sushi dinner remains pending exact restaurant.
+
+## D033 Day 3 Osaka city sushi formal route
+
+Decision: 2027-11-19 Day 3 should be Kizu Market brunch, Namba / Nipponbashi anime models and merch shopping, return to InterContinental Osaka for rest and Executive Lounge afternoon tea, then Osaka city sushi dinner from 19:00 to 20:30.  
+Status: formal route; lunch and sushi dinner restaurant candidates pending.  
+Changed: 2026-07-06.  
+Reason: The user explicitly provided the Osaka city schedule and stated dinner should be sushi and that the formal itinerary should be overwritten.  
+Impact: The formal Day 3 route is no longer Kyoto. Update all future planning, budget tracking, customer-facing tables, and restaurant search priorities around Osaka city Day 3.
