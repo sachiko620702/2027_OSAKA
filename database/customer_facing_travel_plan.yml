@@ -1,7 +1,7 @@
 metadata:
   id: customer_facing_travel_plan
   title: "顧客版旅遊規劃三表"
-  version: "V5.17.0"
+  version: "V5.18.0"
   status: "active_customer_facing_summary"
   last_updated: "2026-07-06"
   maintained_by: "ChatGPT"
@@ -15,6 +15,7 @@ trip_overview:
   travelers: 2
   hotel: "InterContinental Osaka"
   style: "Luxury Slow Travel"
+  flight_baseline: "去程 EVA Air BR178 暫採現行班表 06:30 TPE → 10:10 KIX；回程 EVA Air BR129 暫採現行班表 18:30 KIX → 20:30 TPE。2027/11 官方班表、票價與訂位狀態仍需確認。"
   confirmed_scope:
     - "USJ 一天"
     - "好吃優先餐飲"
@@ -24,14 +25,15 @@ trip_overview:
     - "天ぷら 京星主預約方式：TABLEALL Reservation Request"
     - "Day 4 正式確認：大阪另一家 Pokémon Center OSAKA DX＋InterContinental Osaka 行政酒廊下午茶"
     - "Day 3 交通主方案：電車＋短程計程車；KKday #133661 包車僅作備案"
+    - "航班時間規劃基準：BR178 06:30–10:10；BR129 18:30–20:30"
 
 itinerary_table:
   - date: "Day 1｜2027/11/17（三）"
     focus: "抵達大阪、飯店入住、梅田 Pokémon Center"
-    main_places: "關西機場、InterContinental Osaka、梅田、Pokémon Center OSAKA"
-    transportation: "EVA Air BR178；KKday #129909 機場接送至飯店；梅田步行／計程車"
+    main_places: "台北桃園機場、關西機場、InterContinental Osaka、梅田、Pokémon Center OSAKA"
+    transportation: "EVA Air BR178 06:30–10:10；KKday #129909 機場接送至飯店；梅田步行／計程車"
     meals: "晚餐待確認"
-    notes: "抵達日保留休息；若體力允許，安排梅田 Pokémon Center OSAKA。2027 官方航班與店鋪營業時間待確認。"
+    notes: "BR178 先採現行班表暫排；抵達日保留休息；若體力允許，安排梅田 Pokémon Center OSAKA。2027 官方航班與店鋪營業時間仍需確認。"
   - date: "Day 2｜2027/11/18（四）"
     focus: "USJ 一日遊"
     main_places: "Universal Studios Japan"
@@ -52,12 +54,16 @@ itinerary_table:
     notes: "正式安排大阪另一家 Pokémon Center 與飯店行政酒廊下午茶；保留購物與休息彈性。"
   - date: "Day 5｜2027/11/21（日）"
     focus: "退房、返回台灣"
-    main_places: "InterContinental Osaka、關西機場"
-    transportation: "KKday #129909 飯店接送至 KIX；EVA Air BR129"
+    main_places: "InterContinental Osaka、關西機場、台北桃園機場"
+    transportation: "KKday #129909 飯店接送至 KIX；EVA Air BR129 18:30–20:30"
     meals: "行政酒廊早餐或機場用餐待確認"
-    notes: "確認回程航班與接送。"
+    notes: "BR129 先採現行班表暫排；回程為晚班機，可保留上午整理與最後採買時間。2027 官方航班與接送時間仍需確認。"
 
 todo_table:
+  - item: "航班時間基準：BR178 / BR129"
+    suggested_time: "已採用現行班表；2027 官方班表開放後複查"
+    status: "進行中"
+    reminder: "目前小時制時間表直接採用 BR178 06:30 TPE → 10:10 KIX、BR129 18:30 KIX → 20:30 TPE；2027/11 官方班表、票價、機型、航廈、行李與訂位狀態仍需確認。"
   - item: "Day 1 梅田 Pokémon Center"
     suggested_time: "出發前 1～2 個月"
     status: "待確認"
@@ -94,10 +100,6 @@ todo_table:
     suggested_time: "出發前確認飯店禮遇"
     status: "進行中"
     reminder: "平常早餐以飯店行政酒廊為主；Day 3 木津市場日例外，且需為正式午餐保留食量。"
-  - item: "機票"
-    suggested_time: "2027 官方班表開放後"
-    status: "待確認"
-    reminder: "確認 BR178／BR129 班表、票價、行李與付款狀態。"
   - item: "USJ 票券"
     suggested_time: "2027/11 票券開賣後"
     status: "待確認"
@@ -108,7 +110,7 @@ budget_table:
     description: "機票、KKday 接送、Day 3 電車＋短程計程車；包車作備案。"
     estimated_cost: "待確認"
     paid: "NT$0（付款未確認）"
-    notes: "Day 3 新增正式午餐與晚餐後，需重估京都市內移動時間與短程計程車費。"
+    notes: "航班時間已先採 BR178 06:30–10:10、BR129 18:30–20:30 作為小時制規劃基準；票價、行李與訂位狀態仍需確認。"
   - category: "住宿"
     description: "InterContinental Osaka 房費、行政酒廊早餐與 Day 4 行政酒廊下午茶。"
     estimated_cost: "待確認"
@@ -143,6 +145,7 @@ cost_summary:
   per_person_average: "待確認"
 
 pending_items:
+  - "EVA Air BR178 / BR129 2027/11 官方班表、票價、機型、航廈、行李與訂位狀態。"
   - "Pokémon Center OSAKA 2027/11/17 營業時間、入場規則、限定商品與活動。"
   - "京 鰻和 本店 2027/11/19 午餐預約、營業時間、菜單、價格、服務費與取消政策。"
   - "天ぷら 京星 2027/11/19 TABLEALL 可訂狀態、價格、預約費、取消政策與實際用餐時間。"
