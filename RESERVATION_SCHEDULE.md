@@ -33,17 +33,22 @@ All dates are planning targets and must be confirmed with official sources.
 ## Airport Transfer
 
 - Selected platform: KKday
+- Selected product: KKday #129909
 - Selected service: KIX to InterContinental Osaka and InterContinental Osaka to KIX transfer
 - Booking timing: after flight times are fixed
-- Must confirm: exact product, total price, vehicle type, luggage capacity, waiting time, flight delay rules, and booking rules
+- Must confirm: 2027 date availability, route price, vehicle type, luggage capacity, waiting time, flight delay rules, and booking rules
 
 ## Hotel to USJ Transfer
 
 - Selected platform: KKday
+- Selected product: KKday #536220
 - Selected service: InterContinental Osaka to USJ and USJ to InterContinental Osaka transfer
 - Target date: 2027-11-18
+- Visible reference price: TWD 600 from price; actual route price needs confirmation
+- Recommended vehicle: luxury 7-seater
+- Backup vehicle: comfort 10-seater
 - Booking timing: after USJ opening hours and Express Pass plan are known
-- Must confirm: exact product, total price, pickup time, pickup point, return pickup point, vehicle type, and booking rules
+- Must confirm: 2027 date availability, route price, pickup time, pickup point, return pickup point, vehicle type, and booking rules
 
 ## Internet
 
