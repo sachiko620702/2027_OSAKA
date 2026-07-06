@@ -156,8 +156,16 @@ Impact: Day 4 afternoon should not include distant attractions. Keep Executive L
 
 ## D028 Day 4 hotel in-house dinner
 
-Decision: Day 4 dinner should be at an InterContinental Osaka in-hotel restaurant.
-Status: fixed location; exact restaurant pending candidate selection.
+Decision: Day 4 dinner was previously recorded as an InterContinental Osaka in-hotel restaurant.
+Status: superseded by D029 sushi dinner preference unless the user later prioritizes in-hotel dining over sushi.
 Changed: 2026-07-06.
-Reason: The user stated that they want dinner at a restaurant inside the hotel.
-Impact: Day 4 dinner candidates are limited to in-hotel dining. Current candidates: PIERRE as primary formal dinner candidate, NOKA Roast & Grill as relaxed backup, and ADEE only as optional after-dinner lounge / nightcap. Confirm 2027 availability, menu, price, service charge, and cancellation policy before booking.
+Reason: The user previously wanted to use an in-hotel restaurant, but later clarified that dinner should be sushi.
+Impact: PIERRE / NOKA Roast & Grill are no longer primary Day 4 dinner candidates. They remain fallback-only if the user accepts non-sushi in-hotel dining.
+
+## D029 Day 4 sushi dinner preference
+
+Decision: Day 4 dinner cuisine preference is sushi.
+Status: fixed cuisine preference; exact restaurant and location pending candidate search and user confirmation.
+Changed: 2026-07-06.
+Reason: The user explicitly stated: “晚餐想要吃壽司”.
+Impact: Because InterContinental Osaka official FAQ currently says the hotel has no Japanese restaurant, the project should search hotel-nearby / Umeda / Osaka Station sushi candidates first. Do not promote PIERRE / NOKA as the final dinner unless the user explicitly changes back to non-sushi in-hotel dining.
