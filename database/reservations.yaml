@@ -1,5 +1,5 @@
 reservations:
-  version: V5.8.0
+  version: V5.9.0
   last_updated: 2026-07-06
   hotel:
     status: fixed
@@ -14,12 +14,25 @@ reservations:
     planning_principle: taste_first
     michelin_status: neutral
     note: Choose good restaurants. Michelin status does not matter either way and should not be used as the main label.
-    booking_channels:
-      - official restaurant site
-      - TableCheck where relevant
-      - hotel concierge if useful
   flights:
-    status: tracking
+    airline: EVA Air
+    status: selected_needs_official_schedule_confirmation
+    outbound:
+      flight_number: BR178
+      date: 2027-11-17
+      route: TPE to KIX
+      status: selected_pending_booking
+    return:
+      flight_number: BR129
+      date: 2027-11-21
+      route: KIX to TPE
+      status: selected_pending_booking
+    required_confirmation:
+      - official schedule
+      - fare and booking status
+      - baggage allowance
+      - seat selection
+      - ticket rules
   airport_transfer:
     platform: KKday
     service_type: airport_charter_transfer
@@ -33,12 +46,25 @@ reservations:
         from: InterContinental Osaka
         to: KIX
         status: pending_product_confirmation
+  usj_transfer:
+    platform: KKday
+    service_type: hotel_usj_charter_transfer
+    status: selected_pending_booking
+    routes:
+      - date: 2027-11-18
+        from: InterContinental Osaka
+        to: Universal Studios Japan
+        status: pending_product_confirmation
+      - date: 2027-11-18
+        from: Universal Studios Japan
+        to: InterContinental Osaka
+        status: pending_product_confirmation
     required_confirmation:
       - product availability
       - final price
-      - vehicle and luggage capacity
-      - cancellation policy
-      - waiting time and delayed-flight handling
+      - pickup time
+      - pickup point
+      - booking rules
   insurance:
     amount_twd: 6900
     status: amount_recorded_payment_status_needs_confirmation
