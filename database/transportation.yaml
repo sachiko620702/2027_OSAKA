@@ -1,5 +1,5 @@
 transportation:
-  version: V5.11.0
+  version: V5.13.0
   last_updated: 2026-07-06
   flights:
     airline: EVA Air
@@ -54,19 +54,6 @@ transportation:
         from: InterContinental Osaka
         to: Kansai International Airport KIX
         status: selected_pending_booking
-    rules_from_product_page:
-      cancellation: free_cancellation_3_days_before_experience_date
-      voucher: e_voucher
-      booking_deadline: up_to_24_hours_before_departure
-      arrival_waiting_time: 90_minutes_free
-      departure_waiting_time: 30_minutes_free
-      night_surcharge_jpy: 2000
-      night_surcharge_time: 22:00-06:00
-      second_child_seat_jpy: 2000
-      overtime_7_to_14_seater_jpy_per_hour: 5000
-      driver_languages:
-        - Japanese
-        - Chinese
     required_checks:
       - select 2027-11-17 and 2027-11-21 when available
       - confirm route price for Osaka city and InterContinental Osaka
@@ -112,21 +99,6 @@ transportation:
         from: Universal Studios Japan
         to: InterContinental Osaka
         status: selected_pending_booking
-    rules_from_product_page:
-      service_area: Osaka city, Kansai Airport, Universal Studios Japan
-      service_time: 05:00-22:00
-      cancellation: free_cancellation_24_hours_before_non_urgent_booking
-      voucher: e_voucher
-      waiting_time: 30_minutes_free
-      overtime_fee_jpy_per_30_minutes: 3000
-      extra_mileage_fee_jpy_per_km: 300
-      point_to_point_distance_limit_km: 20
-      out_of_osaka_city_surcharge_jpy_from: 10000
-      night_service_fee_jpy_from: 2000
-      child_seat_jpy: 2000
-      driver_languages:
-        - Chinese
-        - Japanese
     required_checks:
       - select 2027-11-18 when available
       - confirm InterContinental Osaka to USJ route price
@@ -135,11 +107,64 @@ transportation:
       - confirm return pickup point after USJ closing
       - confirm whether 7-seater is sufficient
       - confirm booking rules on checkout page
+  day3_charter_candidate:
+    status: candidate_not_formal
+    platform: KKday
+    selected_product:
+      product_id: 133661
+      title: Osaka Kyoto Nara 10-hour private charter tour
+      url: https://www.kkday.com/zh-tw/product/133661-10-hour-private-charter-tour-osaka-kyoto-nara-japan
+      rating: 4.9
+      sold_count: 8000_plus
+      query_date: 2026-07-06
+      cancellation: free_cancellation_2_days_before
+      voucher: e_voucher
+      service_area:
+        - Osaka city
+        - Kyoto city
+        - Nara city
+      service_time: earliest_07:00_latest_22:00
+      duration: 10 hours
+      price_status: dynamic_price_needs_manual_confirmation
+      note: KKday sample routes are references only. Project route should be customized for relaxed food, photo, Pokemon, Conan, and anime interests.
+    travelers: 2
+    recommended_option:
+      vehicle: luxury_7_seater
+      reason: best fit for two travelers and Luxury Slow Travel comfort
+      capacity_people: 6
+      luggage_allowance: 3 pieces 28-inch or 4 pieces 25-inch or 5 pieces 24-inch luggage
+      status: recommended_candidate
+    fallback_option:
+      vehicle: comfort_10_seater
+      reason: choose only if more space, luggage, or shopping load is preferred
+      capacity_people: 9
+      luggage_allowance: 9 pieces 28-inch or 10 pieces 26-inch or 14 pieces 24-inch luggage
+      status: backup_candidate
+    candidate_route:
+      date: 2027-11-19
+      start: InterContinental Osaka
+      end_primary: Shinsaibashi or Dotonbori
+      end_backup: InterContinental Osaka
+      route_summary: Kizu Market brunch, Pokemon Center KYOTO, Kyoto International Manga Museum, Higashiyama Gion photo walk, flexible return to Osaka
+    rules_from_product_page:
+      overtime_5_to_14_seater_jpy_per_hour: 5000
+      first_child_seat: free_if_requested
+      second_child_seat_jpy: 2000
+      driver_inside_attractions: no
+      custom_route_requires_customer_service_confirmation: true
+    required_checks:
+      - confirm 2027-11-19 availability and price
+      - confirm actual pickup and drop-off points
+      - confirm whether Shinsaibashi or Dotonbori drop-off is allowed
+      - confirm route fits 10-hour service duration
+      - confirm no overtime fee risk with Kyoto traffic
+      - confirm vehicle type and luggage or shopping capacity
   local:
     airport_to_hotel: KKday product 129909 selected
     hotel_to_airport: KKday product 129909 selected
     hotel_to_usj: KKday product 536220 selected
     usj_to_hotel: KKday product 536220 selected
+    day3_osaka_kyoto_charter: KKday product 133661 candidate
     shopping_routes: pending
     city_rail: backup
     taxi: candidate for shopping day and rainy-day movement
