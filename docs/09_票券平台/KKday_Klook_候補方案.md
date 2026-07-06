@@ -1,6 +1,6 @@
 # KKday / Klook 票券平台候補方案
 
-Version: V5.1.0  
+Version: V5.4.0  
 Last updated: 2026-07-06  
 Status: Candidate / 候補方案  
 Scope: 2027/11/17–2027/11/21 Osaka Luxury Slow Travel
@@ -32,7 +32,7 @@ Scope: 2027/11/17–2027/11/21 Osaka Luxury Slow Travel
 | Osaka e-Pass | 中低 | 官方 / 平台比價 | 僅景點 QR 入場候補，不等於 Osaka Amazing Pass |
 | eSIM / SIM / Pocket Wi-Fi | 高 | KKday/Klook 比價 | 出發前 1–2 週再買即可 |
 | 私人接送 / 行李配送 | 中高 | KKday/Klook 比價 | 若行李多、晚抵達、精品購物多，符合 Luxury Slow Travel |
-| 米其林餐廳預約 | 低 | 餐廳官方 / TableCheck / Concierge | 不建議以平台作為三星米其林主預約管道 |
+| 餐廳套裝 / 餐飲體驗 | 低 | 專案餐廳資料庫優先 | 不以米其林為目標；平台餐飲商品只作候補參考 |
 
 ---
 
@@ -112,16 +112,17 @@ Osaka e-Pass 是 QR-code 景點入場型商品，官方說明為可使用 25 個
 
 ---
 
-### 3.6 米其林餐廳：平台不作主管道
+### 3.6 餐廳商品：平台只作參考，不作正式餐飲主軸
 
-本專案固定重點包含三星米其林餐廳規劃。三星米其林正式預約應優先使用：
+本專案餐飲方向已調整為「非米其林導向」。餐廳安排應優先考慮：
 
-1. 餐廳官方
-2. TableCheck
-3. 飯店 Concierge
-4. Michelin / 官方指定預約渠道
+1. 好吃與穩定度
+2. 與 InterContinental Osaka、USJ、購物日的動線
+3. 用餐舒適度
+4. 預約難度與取消政策
+5. 是否符合 Luxury Slow Travel
 
-KKday / Klook 若出現餐廳商品，只能作為候補或特殊體驗參考，不得直接替代正式預約流程。
+KKday / Klook 若出現餐廳套裝或餐飲體驗，只能作為候補參考，不得直接替代專案餐廳候補資料庫與正式行程決策。
 
 ---
 
@@ -150,7 +151,7 @@ KKday / Klook 若出現餐廳商品，只能作為候補或特殊體驗參考，
 | 2027 Express Pass | 尚未公布，且方案內容會變動 |
 | 不可退改機場交通指定班次 | 班機可能變動或延誤 |
 | 為了回本而買大阪周遊券 | 可能破壞慢旅行節奏 |
-| 平台上的高級餐廳套裝 | 三星米其林應走官方 / TableCheck / Concierge |
+| 平台上的高級餐廳套裝 | 餐飲方向已改為非米其林導向，平台商品只作候補參考 |
 
 ---
 
@@ -160,6 +161,7 @@ KKday / Klook 若出現餐廳商品，只能作為候補或特殊體驗參考，
 2. 2027 Q2 起，每月檢查一次 USJ、Osaka Amazing Pass、eSIM、機場交通票券。
 3. 航班確認後，再決定 KIX → InterContinental Osaka 是否採 HARUKA、私人接送或其他方案。
 4. 不要因平台促銷把候補票券直接加入正式行程。
+5. 餐飲商品只作候補參考，不作正式餐飲主軸。
 
 ---
 
