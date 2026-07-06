@@ -1,6 +1,6 @@
 project:
   name: 2027 Osaka Trip
-  version: V5.10.0
+  version: V5.11.0
   source_of_truth: GitHub main
   repository: sachiko620702/2027_OSAKA
   dates:
@@ -16,7 +16,7 @@ project:
     - Phone roaming for two people
     - EVA Air BR178 outbound and BR129 return
     - KKday product 129909 for KIX hotel round trip candidate
-    - KKday transfer for hotel USJ round trip
+    - KKday product 536220 for hotel USJ round trip candidate
   user_confirmed_inputs:
     flights:
       airline: EVA Air
@@ -48,11 +48,16 @@ project:
       booking_status: product_selected_price_pending
     usj_transfer:
       platform: KKday
-      service_type: hotel_usj_charter_transfer
+      selected_product_id: 536220
+      product_url: https://www.kkday.com/zh-tw/product/536220
+      service_type: osaka_city_usj_point_to_point_transfer
+      recommended_vehicle: luxury_7_seater_if_luggage_under_4_24inch_bags
+      fallback_vehicle: comfort_10_seater_if_more_space_needed
+      price_status: from_twd_600_reference_dynamic_price_needs_manual_confirmation
       routes:
         - InterContinental Osaka to Universal Studios Japan
         - Universal Studios Japan to InterContinental Osaka
-      booking_status: product_pending_confirmation
+      booking_status: product_selected_price_pending
     dining:
       principle: taste_first
       michelin_status: neutral
