@@ -1,5 +1,28 @@
 # CHANGELOG
 
+## V5.12.0 - 2026-07-06
+
+### Changed
+
+- Added `database/customer_facing_travel_plan.yml` as the source data for the customer-facing travel plan.
+- Added `docs/15_顧客版資料/旅遊規劃三表.md` as the customer-readable travel planning document.
+- Updated root `index.md` and `docs/index.md` so GitHub Pages is now based on the three customer-facing tables: itinerary, pre-trip TODO list, and budget summary.
+- Added fixed customer-facing table rules to README, AI_CONTEXT, PROJECT_RULE, and DECISIONS.
+- Added `docs/13_版本與更新/2026-07-06_V5.12.0_顧客版三表.md`.
+
+### Reason
+
+The user requested a customer-facing travel planning table set in Traditional Chinese, and then clarified that GitHub Pages should primarily follow these three tables.
+
+### Follow-up required
+
+- Confirm official 2027 flight schedule and fare for EVA Air BR178 / BR129.
+- Confirm InterContinental Osaka booking amount, room type, breakfast, lounge access, and accommodation tax.
+- Confirm KKday #129909 and #536220 actual 2027/11 route prices and vehicle choices.
+- Confirm USJ 2027 tickets, Express Pass, VIP options, timed entry rules, and events after official release.
+- Confirm restaurant candidates, reservation windows, deposits, and cancellation rules.
+- Confirm shopping budget, exchange rate, credit card reward assumptions, and contingency budget.
+
 ## V5.11.0 - 2026-07-06
 
 ### Changed
