@@ -14,9 +14,11 @@ Do not change these without an explicit user request:
 
 Current user-confirmed planning inputs:
 
+- Flights: EVA Air BR178 outbound and BR129 return; official 2027-11 schedule and fare need confirmation.
 - Travel insurance budget amount: TWD 6,900; payment status needs confirmation.
 - Internet: phone roaming for two people, total TWD 499; eSIM / SIM / Pocket Wi-Fi are backup only.
-- Airport transfer: use KKday private charter both ways between KIX and InterContinental Osaka.
+- Airport transfer: use KKday transfer both ways between KIX and InterContinental Osaka.
+- USJ transfer: use KKday transfer both ways between InterContinental Osaka and Universal Studios Japan.
 - Dining: restaurants should be selected because they are good. Michelin status does not matter either way and should not be used as the main planning label.
 
 Before adding content, check existing docs, database files, and changelog.
