@@ -1,11 +1,23 @@
 transportation:
-  version: V5.8.0
+  version: V5.9.0
   last_updated: 2026-07-06
   flights:
-    route_outbound: TPE to KIX
-    route_return: KIX to TPE
-    airline_focus: EVA Air
-    status: tracking
+    airline: EVA Air
+    status: selected_needs_official_schedule_confirmation
+    outbound:
+      flight_number: BR178
+      date: 2027-11-17
+      route: TPE to KIX
+      status: user_selected_needs_official_schedule_confirmation
+    return:
+      flight_number: BR129
+      date: 2027-11-21
+      route: KIX to TPE
+      status: user_selected_needs_official_schedule_confirmation
+    required_checks:
+      - official 2027-11 schedule and ticket availability
+      - departure and arrival times
+      - fare, baggage allowance, seat selection, and cancellation rules
   airport_transfer:
     status: selected_pending_product_confirmation
     platform: KKday
@@ -27,13 +39,36 @@ transportation:
       - total round-trip price and currency
       - vehicle type and luggage capacity
       - waiting time
-      - delayed-flight handling
+      - flight delay rules
       - cancellation and refund policy
-    rationale: User explicitly selected KKday airport transfer both ways for comfort and luggage convenience.
+  usj_transfer:
+    status: selected_pending_product_confirmation
+    platform: KKday
+    service_type: hotel_usj_charter_transfer
+    travelers: 2
+    routes:
+      outbound:
+        date: 2027-11-18
+        from: InterContinental Osaka
+        to: Universal Studios Japan
+        status: selected_pending_booking
+      return:
+        date: 2027-11-18
+        from: Universal Studios Japan
+        to: InterContinental Osaka
+        status: selected_pending_booking
+    required_checks:
+      - exact KKday product page and availability for 2027-11-18
+      - total round-trip price and currency
+      - pickup time and pickup point
+      - return pickup point after USJ closing
+      - vehicle type and luggage or stroller capacity if needed
+      - cancellation and refund policy
   local:
     airport_to_hotel: KKday airport transfer selected
     hotel_to_airport: KKday airport transfer selected
-    hotel_to_usj: pending
+    hotel_to_usj: KKday transfer selected
+    usj_to_hotel: KKday transfer selected
     shopping_routes: pending
-    city_rail: pending
+    city_rail: backup
     taxi: candidate for shopping day and rainy-day movement
