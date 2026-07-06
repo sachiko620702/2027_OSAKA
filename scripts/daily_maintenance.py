@@ -538,17 +538,33 @@ title: 2027 大阪自由行
     --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
   }}
 
-  html {{
+  html,
+  body,
+  .markdown-body {{
     background:
       radial-gradient(circle at top left, rgba(143, 179, 255, 0.2), transparent 28%),
       radial-gradient(circle at top right, rgba(242, 201, 125, 0.14), transparent 24%),
       linear-gradient(180deg, #040813 0%, #08111f 42%, #0c1526 100%);
   }}
 
-  body {{
+  body,
+  .markdown-body {{
     margin: 0;
     color: var(--text);
     font-family: "Noto Sans TC", "PingFang TC", "Hiragino Sans", "Microsoft JhengHei", system-ui, sans-serif;
+  }}
+
+  .markdown-body {{
+    background-attachment: fixed;
+    min-height: 100vh;
+  }}
+
+  .markdown-body > * {{
+    max-width: none;
+  }}
+
+  .markdown-body a {{
+    color: inherit;
   }}
 
   .page-shell {{
@@ -693,8 +709,8 @@ title: 2027 大阪自由行
   .watch-group {{
     border-radius: 22px;
     padding: 18px;
-    border: 1px solid var(--line);
-    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(170, 190, 224, 0.18);
+    background: rgba(14, 21, 34, 0.84);
   }}
 
   .feature-card h3,
@@ -714,7 +730,7 @@ title: 2027 大阪自由行
   .stat-card span,
   .watch-group li {{
     margin: 8px 0 0;
-    color: var(--muted);
+    color: #c4d0e4;
     line-height: 1.7;
   }}
 
@@ -759,8 +775,8 @@ title: 2027 大阪自由行
     gap: 12px;
     padding: 16px 18px;
     border-radius: 18px;
-    border: 1px solid var(--line);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03));
+    border: 1px solid rgba(170, 190, 224, 0.2);
+    background: linear-gradient(180deg, rgba(18, 27, 45, 0.96), rgba(10, 16, 28, 0.94));
     color: var(--text);
     text-decoration: none;
   }}
@@ -780,7 +796,7 @@ title: 2027 大阪自由行
     padding: 18px 20px;
     border-left: 4px solid var(--gold);
     border-radius: 18px;
-    background: rgba(242, 201, 125, 0.08);
+    background: rgba(242, 201, 125, 0.12);
     color: var(--text);
     line-height: 1.8;
   }}
