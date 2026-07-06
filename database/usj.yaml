@@ -1,0 +1,10 @@
+usj:
+  visit_policy: one_day
+  target_month: 2027_11
+  future_prices: pending
+  express_pass: pending
+  vip_group: pending
+  vip_private: pending
+  timed_entry: pending
+  nintendo_area: priority
+  donkey_kong_area: priority
