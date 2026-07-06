@@ -264,7 +264,7 @@ title: 2027 大阪自由行
     <div class="panel side-panel">
       <div class="mini-card">
         <div class="label">Last sync</div>
-        <div class="value">2026-07-06T11:54:27+08:00</div>
+        <div class="value">2026-07-06T11:55:11+08:00</div>
       </div>
       <div class="mini-card">
         <div class="label">Trip focus</div>
