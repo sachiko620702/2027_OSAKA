@@ -7,37 +7,40 @@
 - Import current Markdown handbook into docs.
 - Clean YouTube candidate entries.
 - Build Osaka Amazing Pass candidate plan.
-- Maintain V5.24.0 budget model: recommended TWD 327,664 for two travelers, safety ceiling TWD 380,000, luxury shopping separate.
+- Maintain V5.25.0 budget model: recommended TWD 324,664 for two travelers, safety ceiling TWD 380,000, luxury shopping separate.
 - Track user-provided transportation references: flight TWD 35,000, airport transfer TWD 2,600 each way, USJ transfer TWD 1,732 each way.
 - Maintain current hourly itinerary using current BR178 / BR129 timetable baseline.
 - Keep homepage `index.md` and `docs/index.md` itinerary table in hourly format.
 - Add Day 1 dinner candidates near Pokémon Center OSAKA in Umeda.
+- Add Day 3 Osaka city sushi dinner candidates near Umeda / Kitashinchi / Fukushima / Nakanoshima / north Namba.
+- Add Day 3 Namba / Dotonbori / Shinsaibashi lunch candidates.
+- Confirm Day 3 Nipponbashi / Den Den Town / Ota Road store hours, events, and shopping fit.
 - Add Day 4 Shinsaibashi lunch candidates that allow returning to InterContinental Osaka after lunch.
 - Confirm Day 4 PIERRE Anniversary Dinner reservation workflow, booking window, menu, price, cancellation policy, dress code, and seat request wording.
-- Keep sushi as fallback-only if the user changes back from PIERRE.
 
 ## 2026 Q4
 
 - Track whether the BR178 / BR129 current timetable baseline remains stable.
 - Track 2027 flight schedule patterns for EVA Air BR178 and BR129.
 - Track hotel price references.
-- Track InterContinental Osaka Executive Lounge arrival-day afternoon tea access assumptions.
+- Track InterContinental Osaka Executive Lounge arrival-day and Day 3 / Day 4 afternoon tea access assumptions.
 - Improve budget model when new official or booking-platform prices appear.
 - Expand taste-first Osaka restaurant candidate database.
-- Maintain Day 3 formal itinerary source status: Kizu Market brunch, Kyoto sweets souvenirs, Pokemon / anime.
+- Maintain Day 3 Osaka city formal itinerary source status: Kizu Market, Nipponbashi anime / models, Executive Lounge afternoon tea, Osaka sushi dinner.
 - Maintain Day 4 Shinsaibashi-centered route and PIERRE Anniversary Dinner planning status.
 
 ## 2027 Q1
 
 - Review Osaka restaurant candidates for taste, comfort, location, and reservation feasibility.
 - Review Day 1 Umeda dinner candidates after Pokémon Center OSAKA.
+- Review Day 3 Osaka city sushi dinner candidates.
+- Review Day 3 Namba / Dotonbori / Shinsaibashi lunch candidates.
 - Review Day 4 Shinsaibashi lunch candidates.
 - Review Day 4 PIERRE Anniversary Dinner booking status and current restaurant details.
 - Update USJ official ticket and pass policy when available.
 - Review shopping targets.
-- Review Day 3 formal route pacing after updated Kyoto and Osaka shop information is available.
 - Recheck the hourly itinerary against any updated BR178 / BR129 public schedules.
-- Recheck whether V5.24.0 budget categories remain realistic after any flight, hotel, USJ, and KKday changes.
+- Recheck whether V5.25.0 budget categories remain realistic after any flight, hotel, USJ, KKday, and Day 3 sushi changes.
 
 ## 2027 Q2
 
@@ -47,7 +50,8 @@
 - Recalculate budget from `database/budget_model.yml`.
 - Confirm KKday airport transfer product #129909 final price, vehicle choice, route, luggage rules, waiting time, and cancellation rules.
 - Confirm KKday hotel-USJ transfer product #536220 final price, route, pickup point, 20KM rule, luggage rules, and cancellation rules.
-- Recalculate Day 3 rail plus short taxi transportation cost.
+- Recalculate Day 3 Osaka city transportation cost.
+- Recalculate Day 3 sushi dinner budget after restaurant selection.
 - Recalculate Day 4 Shinsaibashi-to-hotel return transport cost by metro vs taxi.
 - Recalculate Day 4 PIERRE Anniversary Dinner budget and optional nightcap cost.
 
@@ -61,12 +65,11 @@
 - Confirm phone roaming activation and billing rules.
 - Confirm Day 1 Executive Lounge afternoon tea access and final Umeda dinner choice.
 - Confirm Day 3 Kizu Market business calendar and brunch candidates.
-- Confirm Day 3 Kyoto sweets shop hours, closure notices, and product availability.
-- Confirm Pokemon Center KYOTO and Kyoto International Manga Museum hours, closure days, events, and product availability.
+- Confirm Day 3 Nipponbashi / Den Den Town / Ota Road shop hours, closure days, events, and product availability.
+- Confirm Day 3 Osaka sushi dinner reservation.
 - Confirm Day 4 Pokémon Center OSAKA DX hours, entry rules, and limited goods.
 - Confirm Day 4 Shinsaibashi lunch choice.
 - Confirm Day 4 PIERRE booking window, menu, price, service charge, dress code, cancellation policy, window / night-view seat request rules, anniversary dessert message, and photo support.
-- Keep sushi only as fallback if the user changes back.
 
 ## 2027 Q4
 
@@ -77,6 +80,6 @@
 - Confirm weather, events, and transportation.
 - Confirm travel insurance documents.
 - Final confirmation for Day 1 formal route: afternoon tea, hotel rest, Umeda Pokémon Center, dinner nearby, return to hotel.
-- Final confirmation for Day 3 formal itinerary: Kizu Market brunch + Kyoto sweets souvenirs + Pokemon / anime.
+- Final confirmation for Day 3 formal route: Kizu Market brunch, Namba / Nipponbashi anime models and merch, hotel lounge afternoon tea, Osaka city sushi dinner.
 - Final confirmation for Day 4 formal route: Shinsaibashi-centered morning/lunch, return to hotel after lunch, Executive Lounge afternoon tea, hotel-nearby activities, PIERRE Anniversary Dinner with window / Osaka night-view request.
-- Final budget lock: compare confirmed costs against V5.24.0 recommended TWD 327,664 and safety ceiling TWD 380,000.
+- Final budget lock: compare confirmed costs against V5.25.0 recommended TWD 324,664 and safety ceiling TWD 380,000.
