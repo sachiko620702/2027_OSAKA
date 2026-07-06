@@ -1,5 +1,30 @@
 # CHANGELOG
 
+## V5.4.0 - 2026-07-06
+
+### Changed
+
+- Updated the fixed dining decision from three-star Michelin planning to non-Michelin-focused dining.
+- Updated `DECISIONS.md` D006 while preserving the previous Michelin decision as historical context.
+- Updated `README.md`, `AI_CONTEXT.md`, `PROJECT_RULE.md`, `AGENTS.md`, and `database/project.yaml` to reflect the new dining direction.
+- Updated `ROADMAP.md` and `WATCHLIST.md` to track non-Michelin Osaka restaurant candidates, opening hours, booking windows, location fit, and cancellation policies.
+- Updated `database/ticket_platforms_kkday_klook.yml` and `docs/09_票券平台/KKday_Klook_候補方案.md` so platform restaurant products remain candidate references only.
+- Updated `scripts/daily_maintenance.py`, `database/daily_checks.json`, and `database/daily_status.json` so automated maintenance will not restore the old Michelin wording.
+- Added `docs/13_版本與更新/2026-07-06_V5.4.0_非米其林餐飲方向.md` as the version update record.
+
+### Reason
+
+The user explicitly stated that they no longer want Michelin dining. The project dining direction is now comfort-, taste-, location-, reservation-, and slow-travel-oriented rather than Michelin-oriented.
+
+### Affected sections
+
+- Fixed project decisions
+- Project metadata
+- Dining roadmap and watchlist
+- Ticket platform candidate planning
+- Daily maintenance automation
+- Version control
+
 ## V5.3.0 - 2026-07-06
 
 ### Changed
