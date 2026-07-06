@@ -1,7 +1,7 @@
 metadata:
   id: itinerary_hourly
   title: "2027 大阪自由行小時制時間表"
-  version: "V5.22.0"
+  version: "V5.23.0"
   status: "active_hourly_planning_baseline"
   last_updated: "2026-07-06"
   maintained_by: "ChatGPT"
@@ -14,7 +14,7 @@ basis:
   flight_baseline: "使用現行 BR178 / BR129 班表作為 2027 行程暫排基準"
   flight_caveat: "2027/11 官方班表、票價、機型與訂位狀態仍需再次確認"
   day1_lounge_preference: "Day 1 抵達飯店後希望使用 InterContinental Osaka 行政酒廊下午茶；下午茶後先休息，再去梅田 Pokémon Center，晚餐選千房梅田周邊店，之後回飯店。"
-  day4_shinsaibashi_preference: "Day 4 活動範圍以心齋橋為主；午餐後回飯店，在飯店附近活動；晚餐固定在 InterContinental Osaka 飯店內餐廳使用。"
+  day4_shinsaibashi_preference: "Day 4 活動範圍以心齋橋為主；午餐後回飯店，在飯店附近活動；晚餐為 PIERRE Anniversary Dinner，預約時請求靠窗座位／大阪夜景座位。"
 
 hourly_itinerary:
   - day: "Day 1"
@@ -159,7 +159,7 @@ hourly_itinerary:
         note: "全程最長日。"
   - day: "Day 4"
     date: "2027/11/20（六）"
-    theme: "心齋橋 Pokémon Center OSAKA DX＋精品購物＋午餐後回飯店＋行政酒廊下午茶＋飯店內晚餐"
+    theme: "心齋橋 Pokémon Center OSAKA DX＋精品購物＋午餐後回飯店＋行政酒廊下午茶＋PIERRE Anniversary Dinner"
     items:
       - time: "08:30–09:30"
         plan: "InterContinental Osaka 行政酒廊早餐"
@@ -190,9 +190,9 @@ hourly_itinerary:
         status: "fixed_area"
         note: "午餐後活動範圍限制在飯店附近，維持 Luxury Slow Travel。"
       - time: "19:00–20:30"
-        plan: "InterContinental Osaka 飯店內餐廳晚餐"
-        status: "fixed_location_restaurant_candidate_pending"
-        note: "使用者希望晚餐在飯店內餐廳使用；候選以 PIERRE 或 NOKA Roast & Grill 為主，2027 訂位、菜單、價格與取消政策待確認。"
+        plan: "Anniversary Dinner：PIERRE"
+        status: "formal_dinner_direction_pending_2027_reservation"
+        note: "預約時需備註 anniversary dinner，並請求靠窗座位／大阪夜景座位；座位安排需由餐廳確認，不保證。"
       - time: "20:30 後"
         plan: "整理戰利品與行李"
         status: "planning_baseline"
