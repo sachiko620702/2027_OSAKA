@@ -6,7 +6,6 @@ This file records fixed project decisions.
 
 Decision: 2027-11-17 to 2027-11-21.
 Status: fixed.
-Do not change unless the user explicitly requests it.
 
 ## D002 Duration
 
@@ -30,11 +29,9 @@ Status: fixed.
 
 ## D006 Dining
 
-Decision: Dining should be taste-first. Choose restaurants because they are good, comfortable, convenient, and fit the trip rhythm. Michelin status is neutral: it does not matter whether a restaurant is Michelin-starred or not, and the project should not label dining as non-Michelin-focused.
+Decision: Dining should be taste-first. Michelin status is neutral.
 Status: fixed.
 Changed: 2026-07-06.
-Previous decision: dining was described as non-Michelin-focused after the user moved away from a three-star Michelin target.
-Reason: user explicitly stated that dining does not need to be described as non-Michelin; the only important point is that the food is good, and Michelin status does not matter either way.
 
 ## D007 Shopping
 
@@ -43,29 +40,40 @@ Status: fixed.
 
 ## D008 Osaka Amazing Pass
 
-Decision: candidate plan only. Do not add to formal daily itinerary unless the user approves.
+Decision: candidate plan only.
 Status: candidate.
 
 ## D009 YouTube restaurants
 
-Decision: YouTube restaurants are candidate entries first. Do not add to formal itinerary until reviewed.
+Decision: YouTube restaurants are candidate entries first.
 Status: candidate.
 
 ## D010 Internet
 
-Decision: use phone roaming for two people. The user-provided total amount is TWD 499. eSIM, SIM, and Pocket Wi-Fi are backup options only unless the user changes this decision.
+Decision: use phone roaming for two people. Amount is TWD 499.
 Status: fixed.
 Changed: 2026-07-06.
 
 ## D011 Airport transfer
 
-Decision: use KKday 包車接送 for both KIX to InterContinental Osaka and InterContinental Osaka to KIX.
-Status: fixed pending product confirmation.
+Decision: use KKday transfer for KIX hotel round trip.
+Status: selected, details pending.
 Changed: 2026-07-06.
-Need confirmation: exact KKday product, vehicle type, luggage rules, price, waiting time, delayed-flight handling, and cancellation policy.
 
 ## D012 Travel insurance
 
-Decision: travel insurance budget amount is TWD 6,900 based on user-provided data.
+Decision: travel insurance amount is TWD 6,900.
 Status: amount recorded; payment status needs confirmation.
+Changed: 2026-07-06.
+
+## D013 Flights
+
+Decision: outbound flight is EVA Air BR178 and return flight is EVA Air BR129.
+Status: selected; official 2027-11 schedule, fare, and booking status need confirmation.
+Changed: 2026-07-06.
+
+## D014 Hotel to USJ transfer
+
+Decision: use KKday transfer for hotel USJ round trip.
+Status: selected; product details need confirmation.
 Changed: 2026-07-06.
