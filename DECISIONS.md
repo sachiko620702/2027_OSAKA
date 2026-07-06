@@ -133,10 +133,10 @@ Impact: Day 1 now assumes KIX arrival at 10:10 and hotel arrival around early af
 ## D025 Day 1 afternoon tea and Umeda sequence
 
 Decision: Day 1 sequence is hotel arrival, InterContinental Osaka Executive Lounge afternoon tea target, rest at the hotel, Pokémon Center OSAKA in Umeda, dinner near Pokémon Center OSAKA, then return to InterContinental Osaka.
-Status: fixed preference, implementation pending 2027 hotel lounge policy, arrival timing, store hours, and dinner candidate selection.
+Status: fixed preference, implementation pending 2027 hotel lounge policy, arrival timing, store hours, and final branch confirmation for dinner.
 Changed: 2026-07-06.
 Reason: The user specified that after afternoon tea they want to rest, then go to Umeda Pokémon Center, eat dinner nearby, and return to the hotel.
-Impact: Day 1 dinner should be selected from restaurants near Pokémon Center OSAKA / Umeda. The afternoon schedule should not move directly from afternoon tea to shopping without a rest block.
+Impact: Day 1 dinner should stay near Pokémon Center OSAKA / Umeda. The afternoon schedule should not move directly from afternoon tea to shopping without a rest block.
 
 ## D026 Day 4 Shinsaibashi-centered route
 
@@ -169,3 +169,11 @@ Status: fixed cuisine preference; exact restaurant and location pending candidat
 Changed: 2026-07-06.
 Reason: The user explicitly stated: “晚餐想要吃壽司”.
 Impact: Because InterContinental Osaka official FAQ currently says the hotel has no Japanese restaurant, the project should search hotel-nearby / Umeda / Osaka Station sushi candidates first. Do not promote PIERRE / NOKA as the final dinner unless the user explicitly changes back to non-sushi in-hotel dining.
+
+## D030 Day 1 formal dinner direction
+
+Decision: Day 1 dinner after Pokémon Center OSAKA should be 千房 梅田周邊店 / Chibo Umeda-area branch.
+Status: formal dinner direction; exact branch pending confirmation.
+Changed: 2026-07-06.
+Reason: The user explicitly selected 千房 梅田周邊店 from the Day 1 Umeda dinner candidates.
+Impact: Day 1 dinner is no longer only a candidate list. Keep dinner in the Chibo / Umeda branch direction, but do not record a specific branch as final until Google Maps / official source / Tabelog confirms the best actual branch, hours, reservation rules, price, and walking route from Pokémon Center OSAKA.
