@@ -8,9 +8,11 @@
 - Clean YouTube candidate entries.
 - Build Osaka Amazing Pass candidate plan.
 - Normalize budget tracking for insurance, phone roaming, KKday airport transfer, KKday hotel-USJ transfer, selected flights, and Day 3 formal route budget.
-- Maintain V5.19.0 hourly itinerary using current BR178 / BR129 timetable baseline.
+- Maintain V5.20.0 hourly itinerary using current BR178 / BR129 timetable baseline.
 - Keep homepage `index.md` and `docs/index.md` itinerary table in hourly format.
 - Add Day 1 dinner candidates near Pokémon Center OSAKA in Umeda.
+- Add Day 4 Shinsaibashi lunch candidates that allow returning to InterContinental Osaka after lunch.
+- Maintain Day 4 in-hotel dinner candidates: PIERRE primary, NOKA Roast & Grill backup, ADEE optional nightcap.
 
 ## 2026 Q4
 
@@ -21,11 +23,13 @@
 - Improve budget model.
 - Expand taste-first Osaka restaurant candidate database.
 - Maintain Day 3 formal itinerary source status: Kizu Market brunch, Kyoto sweets souvenirs, Pokemon / anime.
+- Maintain Day 4 Shinsaibashi-centered route and hotel-dinner planning status.
 
 ## 2027 Q1
 
 - Review Osaka restaurant candidates for taste, comfort, location, and reservation feasibility.
 - Review Day 1 Umeda dinner candidates after Pokémon Center OSAKA.
+- Review Day 4 Shinsaibashi lunch candidates and InterContinental Osaka in-hotel dinner candidates.
 - Update USJ official ticket and pass policy when available.
 - Review shopping targets.
 - Review Day 3 formal route pacing after updated Kyoto and Osaka shop information is available.
@@ -40,6 +44,7 @@
 - Confirm KKday airport transfer products and price.
 - Confirm KKday hotel-USJ transfer products and price.
 - Recalculate Day 3 rail plus short taxi transportation cost.
+- Recalculate Day 4 Shinsaibashi-to-hotel return transport cost by metro vs taxi.
 
 ## 2027 Q3
 
@@ -53,6 +58,9 @@
 - Confirm Day 3 Kizu Market business calendar and brunch candidates.
 - Confirm Day 3 Kyoto sweets shop hours, closure notices, and product availability.
 - Confirm Pokemon Center KYOTO and Kyoto International Manga Museum hours, closure days, events, and product availability.
+- Confirm Day 4 Pokémon Center OSAKA DX hours, entry rules, events, and limited goods.
+- Confirm Day 4 Shinsaibashi lunch choice.
+- Confirm Day 4 InterContinental Osaka PIERRE / NOKA dinner booking window, menu, price, service charge, and cancellation policy.
 
 ## 2027 Q4
 
@@ -64,3 +72,4 @@
 - Confirm travel insurance documents.
 - Final confirmation for Day 1 formal route: afternoon tea, hotel rest, Umeda Pokémon Center, dinner nearby, return to hotel.
 - Final confirmation for Day 3 formal itinerary: Kizu Market brunch + Kyoto sweets souvenirs + Pokemon / anime.
+- Final confirmation for Day 4 formal route: Shinsaibashi-centered morning/lunch, return to hotel after lunch, Executive Lounge afternoon tea, hotel-nearby activities, in-hotel dinner.
