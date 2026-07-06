@@ -1,4 +1,4 @@
-# 2027 大阪自由行 V5.16.1
+# 2027 大阪自由行 V5.17.0
 
 本 repository 是 2027 大阪自由行專案的唯一主資料源，供 ChatGPT 與 Codex 共同維護。
 
@@ -13,8 +13,11 @@
 ## 目前已確認的新資訊
 
 - 航班：去程 EVA Air BR178，回程 EVA Air BR129；2027/11 官方班表與票價待確認。
-- 早餐原則：平常早餐以飯店行政酒廊為主；Day 3 木津市場日例外，改吃木津市場早午餐。
-- Day 3 正式確認：Kizu Market brunch + Kyoto sweets souvenirs + Pokemon / anime。
+- 早餐原則：平常早餐以飯店行政酒廊為主；Day 3 木津市場日例外，不吃飯店早餐，改吃木津市場早段輕食／早午餐。
+- Day 1 正式確認：梅田 Pokémon Center OSAKA。
+- Day 3 正式確認：木津市場＋京都甜點伴手禮＋寶可夢／動漫＋京 鰻和 本店午餐＋天ぷら 京星晚餐。
+- 天ぷら 京星主預約方式：TABLEALL Reservation Request；目前參考晚餐 JPY 25,500，包含 TABLEALL booking fee JPY 8,000；2027/11/19 可訂狀態、價格與取消政策待確認。
+- Day 4 正式確認：Pokémon Center OSAKA DX＋InterContinental Osaka 行政酒廊下午茶。
 - Day 3 交通主方案：電車＋短程計程車；KKday #133661 10 小時包車僅保留為雨天、疲勞或大量購物備案。
 - 機場接送：KIX 與 InterContinental Osaka 來回皆使用 KKday 商品 #129909；價格待確認。
 - USJ 接送：InterContinental Osaka 與 USJ 來回皆使用 KKday 商品 #536220；實際路線價格待確認。
