@@ -1,7 +1,7 @@
 # AI_CONTEXT
 
 Project: 2027 Osaka Trip
-Version: V5.0.0
+Version: V5.3.0
 Repository: sachiko620702/2027_OSAKA
 Source of truth: GitHub main branch
 
@@ -17,14 +17,15 @@ Source of truth: GitHub main branch
 
 ## Current Priorities
 
-1. USJ strategy and official 2027 updates
-2. Michelin restaurant reservation planning
-3. Flight and airport planning
-4. InterContinental Osaka stay planning
-5. Luxury shopping plan
-6. Osaka Amazing Pass candidate plan
-7. YouTube source database cleanup
-8. Budget tracking
+1. Daily price and open-status monitoring across watchlist sources
+2. USJ strategy and official 2027 updates
+3. Michelin restaurant reservation planning
+4. Flight and airport planning
+5. InterContinental Osaka stay planning
+6. Luxury shopping plan
+7. Osaka Amazing Pass candidate plan
+8. YouTube source database cleanup
+9. Budget tracking
 
 ## Maintenance Rule
 

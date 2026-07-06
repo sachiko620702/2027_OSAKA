@@ -1,5 +1,41 @@
 # CHANGELOG
 
+## V5.3.0 - 2026-07-06
+
+### Changed
+
+- Expanded `scripts/daily_maintenance.py` to run daily web checks for the configured watchlist sources and write the latest status report to `database/daily_status.json`.
+- Added a data-driven daily checks config so price and availability monitoring can be extended without rewriting the automation script.
+- Aligned the current version markers across `README.md`, `AI_CONTEXT.md`, and `database/project.yaml`.
+
+### Reason
+
+The repository now supports automated daily monitoring of source pages for price and open-status changes, which is the backbone for long-term maintenance of the Osaka travel plan.
+
+### Affected sections
+
+- Maintenance automation
+- Daily monitoring
+- Version markers
+- Source-of-truth metadata
+
+## V5.2.0 - 2026-07-06
+
+### Changed
+
+- Added `scripts/daily_maintenance.py` for scheduled repository maintenance, metadata sync, and git commit/push automation.
+- Aligned the current version markers across `README.md`, `AI_CONTEXT.md`, and `database/project.yaml`.
+
+### Reason
+
+The repository now has a repeatable daily maintenance entry point that keeps the shared travel metadata in sync and publishes updates to GitHub.
+
+### Affected sections
+
+- Maintenance automation
+- Version markers
+- Source-of-truth metadata
+
 ## V5.1.0 - 2026-07-06
 
 ### Added

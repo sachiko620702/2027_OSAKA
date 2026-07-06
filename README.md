@@ -1,4 +1,4 @@
-# 2027 大阪自由行 V4
+# 2027 大阪自由行 V5.3.0
 
 本 repository 是 2027 大阪自由行專案的唯一主資料源，供 ChatGPT 與 Codex 共同維護。
 
@@ -39,3 +39,13 @@
 3. 若已存在，進行合併、補充或修正。
 4. 若不存在，新增資料卡。
 5. 同步更新受影響章節與 `CHANGELOG.md`。
+
+## 自動維護
+
+每日排程可直接執行：
+
+```bash
+python3 scripts/daily_maintenance.py
+```
+
+預設會同步固定欄位、更新 `database/project.yaml` 的 `last_updated`、執行每日價格與開賣狀態檢查，並在有變更時執行 `git commit` 和 `git push`。
