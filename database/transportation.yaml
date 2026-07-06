@@ -1,11 +1,39 @@
 transportation:
+  version: V5.8.0
+  last_updated: 2026-07-06
   flights:
     route_outbound: TPE to KIX
     route_return: KIX to TPE
     airline_focus: EVA Air
     status: tracking
+  airport_transfer:
+    status: selected_pending_product_confirmation
+    platform: KKday
+    service_type: airport_charter_transfer
+    travelers: 2
+    routes:
+      outbound:
+        date: 2027-11-17
+        from: Kansai International Airport KIX
+        to: InterContinental Osaka
+        status: selected_pending_booking
+      return:
+        date: 2027-11-21
+        from: InterContinental Osaka
+        to: Kansai International Airport KIX
+        status: selected_pending_booking
+    required_checks:
+      - exact KKday product page and availability for 2027-11 dates
+      - total round-trip price and currency
+      - vehicle type and luggage capacity
+      - waiting time
+      - delayed-flight handling
+      - cancellation and refund policy
+    rationale: User explicitly selected KKday airport transfer both ways for comfort and luggage convenience.
   local:
-    airport_to_hotel: pending
+    airport_to_hotel: KKday airport transfer selected
+    hotel_to_airport: KKday airport transfer selected
     hotel_to_usj: pending
-    hotel_to_michelin: pending
     shopping_routes: pending
+    city_rail: pending
+    taxi: candidate for shopping day and rainy-day movement
