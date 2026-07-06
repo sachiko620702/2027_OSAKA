@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## V5.0.0 - 2026-07-06
+
+### Changed
+
+- Added AI-first knowledge base structure.
+- Added AI_CONTEXT, CLAUDE, DECISIONS, ROADMAP, WATCHLIST, RESERVATION_SCHEDULE, RISK_REGISTER, and CHECKLISTS.
+- Added expanded database files for transportation, shopping, itinerary, and reservations.
+- Added YouTube and hotel templates.
+
+### Reason
+
+The project now supports long-term maintenance by ChatGPT, Codex, Claude Code, and other AI tools using GitHub main as the single source of truth.
+
+### Affected sections
+
+- Repository root files
+- Database
+- Templates
+- Checklists
+- Version control
+
 ## V4.0.0 - 2026-07-06
 
 ### Changed
