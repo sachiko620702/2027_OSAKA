@@ -38,16 +38,6 @@ Changed: 2026-07-06.
 Decision: luxury shopping is part of the formal project scope.
 Status: fixed.
 
-## D008 Osaka Amazing Pass
-
-Decision: candidate plan only.
-Status: candidate.
-
-## D009 YouTube restaurants
-
-Decision: YouTube restaurants are candidate entries first.
-Status: candidate.
-
 ## D010 Internet
 
 Decision: use phone roaming for two people. Amount is TWD 499.
@@ -80,12 +70,18 @@ Changed: 2026-07-06.
 
 ## D015 Customer-facing travel plan tables
 
-Decision: maintain a customer-facing travel planning document with three fixed tables: itinerary, pre-trip TODO list, and budget summary.
+Decision: maintain a customer-facing travel planning document with three fixed tables.
 Status: fixed.
 Changed: 2026-07-06.
 
-## D016 Day 3 relaxed interest-based charter
+## D016 Day 3 relaxed interest-based route
 
-Decision: 2027-11-19 should use a candidate route focused on relaxed pacing, food, photo spots, Pokemon, Conan atmosphere, and anime, instead of forcing KKday sample routes or temple collection.
+Decision: 2027-11-19 should focus on relaxed pacing, food, photo spots, Pokemon, Conan atmosphere, anime, and Kyoto sweets.
+Status: candidate, not formal.
+Changed: 2026-07-06.
+
+## D017 Day 3 transport priority
+
+Decision: Day 3 no-charter route is the primary candidate. Use public rail plus short taxi. KKday #133661 10-hour charter remains backup only for rain, fatigue, heavy shopping, or door-to-door comfort.
 Status: candidate, not formal.
 Changed: 2026-07-06.
