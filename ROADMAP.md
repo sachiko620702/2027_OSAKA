@@ -7,7 +7,8 @@
 - Import current Markdown handbook into docs.
 - Clean YouTube candidate entries.
 - Build Osaka Amazing Pass candidate plan.
-- Normalize budget tracking for insurance, phone roaming, KKday airport transfer, KKday hotel-USJ transfer, selected flights, and Day 3 formal route budget.
+- Maintain V5.24.0 budget model: recommended TWD 327,664 for two travelers, safety ceiling TWD 380,000, luxury shopping separate.
+- Track user-provided transportation references: flight TWD 35,000, airport transfer TWD 2,600 each way, USJ transfer TWD 1,732 each way.
 - Maintain current hourly itinerary using current BR178 / BR129 timetable baseline.
 - Keep homepage `index.md` and `docs/index.md` itinerary table in hourly format.
 - Add Day 1 dinner candidates near Pokémon Center OSAKA in Umeda.
@@ -21,7 +22,7 @@
 - Track 2027 flight schedule patterns for EVA Air BR178 and BR129.
 - Track hotel price references.
 - Track InterContinental Osaka Executive Lounge arrival-day afternoon tea access assumptions.
-- Improve budget model.
+- Improve budget model when new official or booking-platform prices appear.
 - Expand taste-first Osaka restaurant candidate database.
 - Maintain Day 3 formal itinerary source status: Kizu Market brunch, Kyoto sweets souvenirs, Pokemon / anime.
 - Maintain Day 4 Shinsaibashi-centered route and PIERRE Anniversary Dinner planning status.
@@ -36,15 +37,16 @@
 - Review shopping targets.
 - Review Day 3 formal route pacing after updated Kyoto and Osaka shop information is available.
 - Recheck the hourly itinerary against any updated BR178 / BR129 public schedules.
+- Recheck whether V5.24.0 budget categories remain realistic after any flight, hotel, USJ, and KKday changes.
 
 ## 2027 Q2
 
 - Confirm EVA Air BR178 and BR129 purchase window.
 - Update USJ Express Pass strategy.
 - Update hotel and lounge planning.
-- Recalculate budget.
-- Confirm KKday airport transfer products and price.
-- Confirm KKday hotel-USJ transfer products and price.
+- Recalculate budget from `database/budget_model.yml`.
+- Confirm KKday airport transfer product #129909 final price, vehicle choice, route, luggage rules, waiting time, and cancellation rules.
+- Confirm KKday hotel-USJ transfer product #536220 final price, route, pickup point, 20KM rule, luggage rules, and cancellation rules.
 - Recalculate Day 3 rail plus short taxi transportation cost.
 - Recalculate Day 4 Shinsaibashi-to-hotel return transport cost by metro vs taxi.
 - Recalculate Day 4 PIERRE Anniversary Dinner budget and optional nightcap cost.
@@ -61,7 +63,7 @@
 - Confirm Day 3 Kizu Market business calendar and brunch candidates.
 - Confirm Day 3 Kyoto sweets shop hours, closure notices, and product availability.
 - Confirm Pokemon Center KYOTO and Kyoto International Manga Museum hours, closure days, events, and product availability.
-- Confirm Day 4 Pokémon Center OSAKA DX hours, entry rules, events, and limited goods.
+- Confirm Day 4 Pokémon Center OSAKA DX hours, entry rules, and limited goods.
 - Confirm Day 4 Shinsaibashi lunch choice.
 - Confirm Day 4 PIERRE booking window, menu, price, service charge, dress code, cancellation policy, window / night-view seat request rules, anniversary dessert message, and photo support.
 - Keep sushi only as fallback if the user changes back.
@@ -77,3 +79,4 @@
 - Final confirmation for Day 1 formal route: afternoon tea, hotel rest, Umeda Pokémon Center, dinner nearby, return to hotel.
 - Final confirmation for Day 3 formal itinerary: Kizu Market brunch + Kyoto sweets souvenirs + Pokemon / anime.
 - Final confirmation for Day 4 formal route: Shinsaibashi-centered morning/lunch, return to hotel after lunch, Executive Lounge afternoon tea, hotel-nearby activities, PIERRE Anniversary Dinner with window / Osaka night-view request.
+- Final budget lock: compare confirmed costs against V5.24.0 recommended TWD 327,664 and safety ceiling TWD 380,000.
