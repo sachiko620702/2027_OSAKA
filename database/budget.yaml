@@ -1,0 +1,11 @@
+budget:
+  status: active
+  categories:
+    - lodging
+    - dining
+    - transportation
+    - shopping
+    - usj
+    - reserve
+    - exchange_rate
+    - credit_card_rewards
