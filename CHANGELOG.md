@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## V5.1.0 - 2026-07-06
+
+### Added
+
+- Added `database/ticket_platforms_kkday_klook.yml` as a candidate data card for KKday / Klook ticket-platform planning.
+- Added `docs/09_票券平台/KKday_Klook_候補方案.md` for Osaka ticket, transport, connectivity, and luxury-convenience use cases.
+- Added KKday / Klook related tracking items to `WATCHLIST.md`.
+- Added `docs/13_版本與更新/2026-07-06_V5.1.0_KKday_Klook.md` as the version update record.
+
+### Reason
+
+The project needs a maintainable way to compare KKday and Klook for USJ tickets, KIX airport transport, Osaka Amazing Pass / Osaka e-Pass, eSIM, private transfer, and luggage-related convenience services without overwriting the formal itinerary.
+
+### Affected sections
+
+- Database
+- Docs
+- Watchlist
+- Version control
+
 ## V5.0.0 - 2026-07-06
 
 ### Changed
