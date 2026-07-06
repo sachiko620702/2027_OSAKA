@@ -26,7 +26,9 @@ Fixed assumptions:
 
 Current logistics and budget inputs:
 
+- Flights: EVA Air BR178 outbound and BR129 return; official 2027-11 schedule and fare need confirmation.
 - Insurance: TWD 6,900, payment status needs confirmation.
 - Internet: phone roaming for two people, total TWD 499.
-- Airport transfer: KKday private charter for both KIX to hotel and hotel to KIX.
+- Airport transfer: KKday transfer for both KIX to hotel and hotel to KIX.
+- USJ transfer: KKday transfer for both hotel to USJ and USJ to hotel.
 - Dining: choose good restaurants; do not label the plan as non-Michelin, and do not prioritize Michelin status either way.
