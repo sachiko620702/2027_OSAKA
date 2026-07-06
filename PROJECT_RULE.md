@@ -16,14 +16,46 @@ Current user-confirmed planning inputs:
 
 - Flights: EVA Air BR178 outbound and BR129 return; official 2027-11 schedule and fare need confirmation.
 - Travel insurance budget amount: TWD 6,900; payment status needs confirmation.
-- Internet: phone roaming for two people, total TWD 499; eSIM / SIM / Pocket Wi-Fi are backup only.
+- Internet: phone roaming for two people. Amount is TWD 499.
 - Airport transfer: use KKday transfer both ways between KIX and InterContinental Osaka.
 - USJ transfer: use KKday transfer both ways between InterContinental Osaka and Universal Studios Japan.
 - Dining: restaurants should be selected because they are good. Michelin status does not matter either way and should not be used as the main planning label.
+- Customer-facing output: maintain a traveler/customer readable three-table format consisting of itinerary, pre-trip TODO list, and budget summary.
 
 Before adding content, check existing docs, database files, and changelog.
 
 When content already exists, update or merge it instead of creating a duplicate.
+
+## Customer-facing table rule
+
+The customer-facing planning document must remain simple and easy to read.
+
+Required output order:
+
+1. 旅遊行程總覽
+2. 行程表
+3. 行前提醒／TODO LIST
+4. 預算表
+5. 費用統計
+6. 待確認事項
+7. 補充說明
+
+Required tables:
+
+- 行程表: 日期, 行程重點, 主要地點, 交通安排, 餐食安排, 備註
+- 行前提醒／TODO LIST: 項目, 建議完成時間, 狀態, 提醒說明
+- 預算表: 分類, 內容說明, 預估費用, 已付款, 備註
+
+Budget categories are fixed as:
+
+- 交通
+- 住宿
+- 購物
+- 飲食
+- USJ
+- 其他
+
+If information is not confirmed, mark it as 待確認, 待官方公布, 暫估, or 參考價格. Do not present uncertain prices as final.
 
 If daily maintenance changes anything, regenerate GitHub Pages outputs before commit and push:
 
