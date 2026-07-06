@@ -28,6 +28,7 @@ Track items that may change before departure.
 - breakfast policy
 - early check-in pricing
 - room upgrade options
+- Executive Lounge afternoon tea 2027 hours, access rules, and food / beverage offering for 2027-11-20
 
 ## Dining
 
@@ -39,6 +40,8 @@ Track items that may change before departure.
 - Location fit with InterContinental Osaka, USJ day, shopping day, formal Day 3 route, and slow-travel pacing
 - Michelin status is neutral and should not be used as the main planning label
 - Osaka Kizu Market 2027-11-19 business calendar and brunch restaurant candidates
+- 京 鰻和 本店 2027-11-19 lunch reservation window, opening hours, menu, price, 10% reservation fee rule, and cancellation policy
+- 天ぷら 京星 2027-11-19 TABLEALL availability, Reservation Request rules, dinner time, price, booking fee, cancellation policy, and final availability
 
 ## Day 3 formal route
 
@@ -49,11 +52,14 @@ Track items that may change before departure.
 - Kyoto route timing after Kizu Market brunch
 - Rail plus short taxi cost estimate for the formal Day 3 route
 - KKday #133661 backup-only status and whether to keep it for rain, fatigue, or heavy shopping
+- Lunch at 京 鰻和 本店 timing fit after Kizu Market and before Kyoto sweets stops
+- Dinner at 天ぷら 京星 timing fit after Gion / Higashiyama
 
 ## Shopping and anime interests
 
 - Pokemon Center KYOTO 2027 hours, closure notices, events, and limited goods
-- Pokemon Center OSAKA DX 2027 hours, closure notices, events, and limited goods
+- Pokemon Center OSAKA 2027-11-17 hours, closure notices, events, and limited goods
+- Pokemon Center OSAKA DX 2027-11-20 hours, closure notices, events, and limited goods
 - Kyoto International Manga Museum 2027 calendar, hours, exhibits, and closure days
 - Detective Conan Osaka or Kyoto limited-time events, pop-up shops, cafe, exhibitions, and official announcements
 - department store tax refund rules
@@ -73,6 +79,10 @@ Track items that may change before departure.
 - KKday product 536220 hotel-USJ transfer final price and booking rules
 - Day 3 rail plus short taxi actual cost
 - KKday product 133661 backup-only Day 3 10-hour charter final price, vehicle choice, and overtime risk
+- 京 鰻和 本店 lunch budget and reservation fee
+- 天ぷら 京星 TABLEALL price, booking fee, and cancellation policy
+- Pokemon Center OSAKA / OSAKA DX shopping budget
+- Executive Lounge afternoon tea included benefit versus extra charge status
 
 ## Ticket Platforms
 
