@@ -74,14 +74,14 @@ Decision: maintain a customer-facing travel planning document with three fixed t
 Status: fixed.
 Changed: 2026-07-06.
 
-## D016 Day 3 relaxed interest-based route
+## D016 Day 3 confirmed interest-based route
 
-Decision: 2027-11-19 should focus on relaxed pacing, food, photo spots, Pokemon, Conan atmosphere, anime, and Kyoto sweets.
-Status: candidate, not formal.
+Decision: 2027-11-19 Day 3 is formally confirmed as Kizu Market brunch + Kyoto sweets souvenirs + Pokemon / anime.
+Status: fixed.
 Changed: 2026-07-06.
 
 ## D017 Day 3 transport priority
 
-Decision: Day 3 no-charter route is the primary candidate. Use public rail plus short taxi. KKday #133661 10-hour charter remains backup only for rain, fatigue, heavy shopping, or door-to-door comfort.
-Status: candidate, not formal.
+Decision: Day 3 public rail plus short taxi is the primary plan. KKday #133661 10-hour charter remains backup only for rain, fatigue, heavy shopping, or door-to-door comfort.
+Status: fixed, backup retained.
 Changed: 2026-07-06.
