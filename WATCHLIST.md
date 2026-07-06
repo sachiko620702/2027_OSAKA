@@ -14,10 +14,11 @@ Track items that may change before departure.
 
 ## Flights
 
-- TPE to KIX schedule
-- KIX to TPE schedule
+- EVA Air BR178 TPE to KIX official 2027-11 schedule
+- EVA Air BR129 KIX to TPE official 2027-11 schedule
 - EVA Air pricing
 - baggage policy
+- seat selection and ticket rules
 - airport services
 
 ## Hotel
@@ -50,17 +51,20 @@ Track items that may change before departure.
 - credit card reward rules
 - hotel rate changes
 - USJ price changes
+- EVA Air BR178 / BR129 fare and payment status
 - travel insurance amount TWD 6,900 and payment status
 - phone roaming amount TWD 499 for two people and carrier billing rules
-- KKday airport transfer final price and cancellation policy
+- KKday airport transfer final price and booking rules
+- KKday hotel-USJ transfer final price and booking rules
 
 ## Ticket Platforms
 
 - KKday 2027/11 Osaka product availability
 - Klook 2027/11 Osaka product availability
 - USJ Studio Pass / Express Pass inventory on KKday and Klook
-- KKday / Klook cancellation and refund policy for USJ tickets
-- KKday KIX to InterContinental Osaka transfer product, luggage rules, waiting time, and cancellation policy
+- KKday / Klook booking rules for USJ tickets
+- KKday KIX to InterContinental Osaka transfer product, luggage rules, waiting time, and price
+- KKday InterContinental Osaka to USJ transfer product, pickup time, pickup point, and price
 - Osaka Amazing Pass 2027 price, valid facilities, and transportation coverage
 - Osaka e-Pass 2027 price and valid facilities
 - Japan eSIM / SIM / Pocket Wi-Fi only as backup; phone roaming is the selected primary plan
