@@ -1,0 +1,5 @@
+hotels:
+  - id: intercontinental-osaka
+    name: InterContinental Osaka
+    status: fixed
+    role: primary hotel
