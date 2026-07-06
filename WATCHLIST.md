@@ -36,11 +36,16 @@ Track items that may change before departure.
 - Booking windows
 - TableCheck availability where relevant
 - Cancellation policies
-- Location fit with InterContinental Osaka, USJ day, shopping day, and slow-travel pacing
+- Location fit with InterContinental Osaka, USJ day, shopping day, Day 3 charter candidate, and slow-travel pacing
 - Michelin status is neutral and should not be used as the main planning label
+- Osaka Kizu Market 2027-11-19 business calendar and brunch restaurant candidates
 
-## Shopping
+## Shopping and anime interests
 
+- Pokemon Center KYOTO 2027 hours, closure notices, events, and limited goods
+- Pokemon Center OSAKA DX 2027 hours, closure notices, events, and limited goods
+- Kyoto International Manga Museum 2027 calendar, hours, exhibits, and closure days
+- Detective Conan Osaka or Kyoto limited-time events, pop-up shops, cafe, exhibitions, and official announcements
 - department store tax refund rules
 - luxury boutique appointment policy
 - seasonal sale dates
@@ -56,6 +61,7 @@ Track items that may change before departure.
 - phone roaming amount TWD 499 for two people and carrier billing rules
 - KKday product 129909 airport transfer final price and booking rules
 - KKday product 536220 hotel-USJ transfer final price and booking rules
+- KKday product 133661 Day 3 10-hour charter final price, vehicle choice, and overtime risk
 
 ## Ticket Platforms
 
@@ -66,6 +72,7 @@ Track items that may change before departure.
 - KKday product 129909 KIX to InterContinental Osaka route price, luggage rules, waiting time, and vehicle choice
 - KKday product 536220 InterContinental Osaka to USJ route price, pickup time, pickup point, and vehicle choice
 - KKday product 536220 USJ to InterContinental Osaka return pickup point and route price
+- KKday product 133661 2027-11-19 availability, price, vehicle choice, custom route confirmation, and overtime fee rules
 - Osaka Amazing Pass 2027 price, valid facilities, and transportation coverage
 - Osaka e-Pass 2027 price and valid facilities
 - Japan eSIM / SIM / Pocket Wi-Fi only as backup; phone roaming is the selected primary plan
