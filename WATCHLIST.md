@@ -33,14 +33,16 @@ Track items that may change before departure.
 - room upgrade options
 - Day 1 Executive Lounge afternoon tea 2027 hours, arrival-day access rules, room benefit eligibility, companion policy, and food / beverage offering for 2027-11-17
 - Executive Lounge afternoon tea 2027 hours, access rules, and food / beverage offering for 2027-11-20
-- Day 4 PIERRE / NOKA Roast & Grill 2027-11-20 dinner availability, booking window, menu, price, service charge, dress code, and cancellation policy
-- Day 4 ADEE Lounge & Bar 2027-11-20 after-dinner availability and age / live music rules if used as optional nightcap
+- InterContinental Osaka 2027 restaurant lineup and whether any Japanese / sushi restaurant is added; current official FAQ says no Japanese restaurant
+- PIERRE / NOKA Roast & Grill only as non-sushi fallback if user later prioritizes in-hotel dinner over sushi
+- ADEE Lounge & Bar 2027-11-20 after-dinner availability and age / live music rules if used as optional nightcap
 
 ## Dining
 
 - Day 1 dinner candidates near Pokémon Center OSAKA in Umeda
 - Day 4 Shinsaibashi lunch candidates that allow returning to InterContinental Osaka after lunch
-- Day 4 InterContinental Osaka in-hotel dinner candidate selection: PIERRE vs NOKA Roast & Grill
+- Day 4 sushi dinner candidates near InterContinental Osaka / Umeda / Osaka Station
+- Whether the user accepts a short hotel-nearby trip for sushi dinner, since the hotel currently has no Japanese restaurant
 - Taste-first Osaka restaurant candidates
 - Restaurant opening days and hours
 - Booking windows
@@ -81,8 +83,8 @@ Track items that may change before departure.
 - Shinsaibashi to InterContinental Osaka return route: Osaka Metro Midosuji Line vs direct taxi depending on shopping volume and fatigue
 - InterContinental Osaka Executive Lounge afternoon tea 2027 hours and eligibility for 2027-11-20
 - Hotel / Grand Front Osaka nearby activity options after returning from Shinsaibashi
-- InterContinental Osaka PIERRE 2027-11-20 dinner booking window, menu, price, service charge, dress code, cancellation policy, and table availability
-- InterContinental Osaka NOKA Roast & Grill 2027-11-20 dinner booking window, menu, price, service charge, cancellation policy, and table availability
+- Day 4 sushi dinner candidate list near InterContinental Osaka / Umeda / Osaka Station
+- PIERRE / NOKA fallback-only status if the user decides in-hotel dinner is more important than sushi
 - ADEE Lounge & Bar availability only if used as optional after-dinner drink / nightcap
 
 ## Shopping and anime interests
@@ -112,7 +114,8 @@ Track items that may change before departure.
 - Day 3 rail plus short taxi actual cost
 - Day 4 Shinsaibashi lunch budget
 - Day 4 Shinsaibashi to InterContinental Osaka return transport cost
-- Day 4 PIERRE / NOKA Roast & Grill dinner budget
+- Day 4 sushi dinner budget and short transfer cost if outside hotel
+- PIERRE / NOKA fallback dinner budget only if user changes back to in-hotel non-sushi dinner
 - KKday product 133661 backup-only Day 3 10-hour charter final price, vehicle choice, and overtime risk
 - 京 鰻和 本店 lunch budget and reservation fee
 - 天ぷら 京星 TABLEALL price, booking fee, and cancellation policy
