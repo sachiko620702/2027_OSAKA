@@ -1,6 +1,6 @@
 project:
   name: 2027 Osaka Trip
-  version: V5.13.0
+  version: V5.14.0
   source_of_truth: GitHub main
   repository: sachiko620702/2027_OSAKA
   dates:
@@ -15,8 +15,8 @@ project:
     - Luxury shopping
     - Phone roaming for two people
     - EVA Air BR178 outbound and BR129 return
-    - KKday product 129909 for KIX hotel round trip candidate
-    - KKday product 536220 for hotel USJ round trip candidate
+    - KKday product 129909 for KIX hotel transfer
+    - KKday product 536220 for hotel USJ transfer
   user_confirmed_inputs:
     flights:
       airline: EVA Air
@@ -24,12 +24,12 @@ project:
         flight_number: BR178
         route: TPE to KIX
         date: 2027-11-17
-        status: user_selected_needs_official_schedule_confirmation
+        status: needs_official_schedule_confirmation
       return:
         flight_number: BR129
         route: KIX to TPE
         date: 2027-11-21
-        status: user_selected_needs_official_schedule_confirmation
+        status: needs_official_schedule_confirmation
     insurance_total_twd: 6900
     internet:
       type: phone_roaming
@@ -37,53 +37,28 @@ project:
     airport_transfer:
       platform: KKday
       selected_product_id: 129909
-      product_url: https://www.kkday.com/zh-tw/product/129909-japan-kansai-international-airport-private-transfer-to-osaka-kyoto-nara-kobe-nagoya
-      service_type: airport_charter_transfer
-      recommended_vehicle: luxury_7_seater_if_luggage_under_3_checked_bags
-      fallback_vehicle: comfort_10_seater_if_luggage_over_3_checked_bags
-      price_status: dynamic_price_needs_manual_confirmation
-      routes:
-        - KIX to InterContinental Osaka
-        - InterContinental Osaka to KIX
-      booking_status: product_selected_price_pending
+      price_status: needs_confirmation
     usj_transfer:
       platform: KKday
       selected_product_id: 536220
-      product_url: https://www.kkday.com/zh-tw/product/536220
-      service_type: osaka_city_usj_point_to_point_transfer
-      recommended_vehicle: luxury_7_seater_if_luggage_under_4_24inch_bags
-      fallback_vehicle: comfort_10_seater_if_more_space_needed
-      price_status: from_twd_600_reference_dynamic_price_needs_manual_confirmation
-      routes:
-        - InterContinental Osaka to Universal Studios Japan
-        - Universal Studios Japan to InterContinental Osaka
-      booking_status: product_selected_price_pending
+      price_status: needs_confirmation
     day3_candidate:
       date: 2027-11-19
       status: candidate_not_formal
-      theme: relaxed_food_photo_pokemon_anime
-      principle: do_not_force_vendor_sample_route
-      charter_candidate:
-        platform: KKday
-        product_id: 133661
-        product_url: https://www.kkday.com/zh-tw/product/133661-10-hour-private-charter-tour-osaka-kyoto-nara-japan
-        duration: 10 hours
-        recommended_vehicle: luxury_7_seater
-        price_status: dynamic_price_needs_manual_confirmation
-      preferred_route:
-        - InterContinental Osaka
+      theme: relaxed food, photo spots, Pokemon, anime, Kyoto sweets
+      primary_transport: public rail plus short taxi
+      charter_fallback: KKday product 133661 only if comfort, weather, or shopping load requires it
+      preferred_stops:
         - Osaka Kizu Market brunch
+        - Tsuruya Yoshinobu IRODORI
+        - Suetomi
         - Pokemon Center KYOTO
-        - Kyoto International Manga Museum
-        - Higashiyama Gion photo walk
-        - Shinsaibashi or Dotonbori drop-off
-      optional_swaps:
-        - Fushimi Inari front section if energy allows
-        - Kiyomizu Temple and Ninenzaka Sannenzaka if Kyoto classic photo spots are preferred
-        - Skip temple interiors if the day feels too full
+        - Kyoto International Manga Museum optional
+        - MALEBRANCHE Cacao 365 Gion
+        - Higashiyama and Gion photo walk
+      note: Do not force vendor sample routes. Keep the day light and interest-based.
     dining:
       principle: taste_first
       michelin_status: neutral
-      note: Good food matters; Michelin status does not matter either way.
   status: active
   last_updated: 2026-07-06
