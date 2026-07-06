@@ -32,14 +32,16 @@ Current logistics and budget inputs:
 
 - Flights: EVA Air BR178 outbound and BR129 return.
 - Flight timing baseline: use current timetable directly for hourly planning: BR178 06:30 TPE to 10:10 KIX; BR129 18:30 KIX to 20:30 TPE. Official 2027-11 schedule, fare, aircraft, terminal, baggage, and booking status still need confirmation before ticketing.
+- Flight budget reference: TWD 35,000 for two travelers round trip, user-provided.
 - Day 1 sequence: after afternoon tea, rest at the hotel, then go to Umeda Pokemon Center, eat dinner at 千房 梅田周邊店 / Chibo Umeda-area branch, and return to the hotel.
 - Day 4 sequence: Shinsaibashi / Daimaru Shinsaibashi / Pokemon Center OSAKA DX before and around lunch; after lunch return to InterContinental Osaka; afternoon at or near the hotel; dinner is PIERRE Anniversary Dinner.
 - Day 4 dinner request: request a window table / Osaka night-view table and anniversary support if available. Seating requests are not guaranteed until confirmed by the restaurant.
 - Day 4 sushi note: V5.22.0 sushi preference is superseded by V5.23.0 PIERRE Anniversary Dinner; sushi remains fallback-only.
 - Insurance: TWD 6,900, payment status needs confirmation.
 - Internet: phone roaming for two people, total TWD 499.
-- Airport transfer: KKday transfer for both KIX to hotel and hotel to KIX.
-- USJ transfer: KKday transfer for both hotel to USJ and USJ to hotel.
+- Airport transfer: KKday #129909 for both KIX to hotel and hotel to KIX. V5.24.0 reference price is TWD 2,600 each way, TWD 5,200 round trip.
+- USJ transfer: KKday #536220 for both hotel to USJ and USJ to hotel. V5.24.0 reference price is TWD 1,732 each way, TWD 3,464 round trip.
+- Active budget model: recommended total TWD 327,664 for two travelers; safety ceiling TWD 380,000; luxury handbags, jewelry, and watches are separate.
 - Day 3 transport: public rail plus short taxi is the primary plan; KKday #133661 10-hour charter is backup only.
 - Day 3 dinner reservation: primary route is TABLEALL Reservation Request unless a better official route is confirmed.
 - Dining: choose good restaurants; do not label the plan as non-Michelin, and do not prioritize Michelin status either way.
