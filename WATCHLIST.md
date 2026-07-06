@@ -47,3 +47,15 @@ Track items that may change before departure.
 - credit card reward rules
 - hotel rate changes
 - USJ price changes
+
+## Ticket Platforms
+
+- KKday 2027/11 Osaka product availability
+- Klook 2027/11 Osaka product availability
+- USJ Studio Pass / Express Pass inventory on KKday and Klook
+- KKday / Klook cancellation and refund policy for USJ tickets
+- KKday / Klook KIX to Osaka / Umeda transportation vouchers
+- Osaka Amazing Pass 2027 price, valid facilities, and transportation coverage
+- Osaka e-Pass 2027 price and valid facilities
+- Japan eSIM / SIM / Pocket Wi-Fi validity, hotspot, and fair-use policy
+- Private airport transfer luggage limits, waiting time, and flight delay rules
