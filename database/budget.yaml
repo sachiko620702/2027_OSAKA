@@ -1,6 +1,6 @@
 budget:
   status: active
-  version: V5.11.0
+  version: V5.13.0
   last_updated: 2026-07-06
   currency_assumptions:
     primary_currency: TWD
@@ -111,8 +111,36 @@ budget:
       price_type: visible_from_price_dynamic_query_pending
       recommendation: backup_if_more_space_or_luggage_needed
       note: Product 536220 backup option if more space or luggage capacity is preferred.
+    - id: kkday_day3_charter_133661_luxury_7_seater
+      category: transportation
+      item: KKday product 133661 10-hour Osaka Kyoto private charter luxury 7-seater candidate
+      amount: NEEDS_MANUAL_KKDAY_DATE_ROUTE_PRICE
+      currency: NEEDS_RECONFIRMATION
+      people: 2
+      quantity: 1
+      subtotal_twd: NEEDS_RECONFIRMATION
+      payment_status: NOT_PAID_OR_NEEDS_CONFIRMATION
+      paid: NEEDS_RECONFIRMATION
+      payment_method: KKday_checkout_NEEDS_RECONFIRMATION
+      price_type: dynamic_query_price_pending
+      recommendation: recommended_for_relaxed_day3_food_photo_pokemon_anime_route
+      note: Candidate only. Route is customized for Kizu Market, Pokemon Center KYOTO, Kyoto International Manga Museum, Higashiyama/Gion photo walk, and Osaka drop-off.
+    - id: kkday_day3_charter_133661_comfort_10_seater_backup
+      category: transportation
+      item: KKday product 133661 10-hour Osaka Kyoto private charter comfort 10-seater backup
+      amount: NEEDS_MANUAL_KKDAY_DATE_ROUTE_PRICE
+      currency: NEEDS_RECONFIRMATION
+      people: 2
+      quantity: 1
+      subtotal_twd: NEEDS_RECONFIRMATION
+      payment_status: NOT_PAID_OR_NEEDS_CONFIRMATION
+      paid: NEEDS_RECONFIRMATION
+      payment_method: KKday_checkout_NEEDS_RECONFIRMATION
+      price_type: dynamic_query_price_pending
+      recommendation: backup_if_more_space_or_shopping_luggage_needed
+      note: Backup only. Do not select unless comfort or shopping load justifies larger vehicle.
   budget_model_notes:
-    transportation: Includes flights, KKday airport product 129909, KKday hotel-USJ product 536220, local rail backup, taxi, and luggage-related movement.
+    transportation: Includes flights, KKday airport product 129909, KKday hotel-USJ product 536220, Day 3 KKday product 133661 charter candidate, local rail backup, taxi, and luggage-related movement.
     lodging: Includes InterContinental Osaka room cost, taxes, breakfast or lounge add-ons, early check-in, late check-out, and upgrade fees.
     shopping: Includes department stores, luxury boutiques, drugstores, apparel, electronics, character goods, souvenirs, and tax-free shopping.
     dining: Taste-first planning. Michelin status is neutral and should not be used as the budget label.
