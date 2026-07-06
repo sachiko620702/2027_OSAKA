@@ -1,5 +1,42 @@
 # CHANGELOG
 
+## V5.8.0 - 2026-07-06
+
+### Changed
+
+- Updated dining direction from non-Michelin-focused to taste-first dining: choose restaurants because they are good; Michelin status is neutral and should not be used as the main planning label.
+- Added user-provided travel insurance amount: TWD 6,900, with payment status requiring confirmation.
+- Added user-provided internet plan: phone roaming for two people, total TWD 499; eSIM / SIM / Pocket Wi-Fi are backup only.
+- Set KKday as the selected airport transfer direction for both KIX to InterContinental Osaka and InterContinental Osaka to KIX.
+- Updated database budget, transportation, reservations, ticket-platform planning, roadmap, watchlist, reservation schedule, risk register, and docs to reflect the new inputs.
+- Added `docs/02_預算/預算追蹤_V5.8.0.md`.
+- Added `docs/13_版本與更新/2026-07-06_V5.8.0_預算交通餐飲方向.md`.
+
+### Reason
+
+The user provided updated planning decisions: insurance amount, phone roaming amount, KKday airport transfer preference, and a dining principle that prioritizes good food without caring whether a restaurant is Michelin-starred.
+
+### Affected sections
+
+- Project metadata
+- Fixed decisions
+- Budget model
+- Airport transportation
+- Ticket platform planning
+- Dining planning language
+- Reservation schedule
+- Risk register
+- Watchlist
+- Docs budget tracking
+- Version control
+
+### Follow-up required
+
+- Confirm whether insurance TWD 6,900 has already been paid.
+- Confirm whether phone roaming TWD 499 is paid or billed later.
+- Confirm exact KKday airport transfer product, price, cancellation policy, vehicle type, luggage rules, waiting time, and delayed-flight handling after flights are fixed.
+- `scripts/daily_maintenance.py` still requires follow-up because the GitHub connector blocked direct overwrite attempts during this update.
+
 ## V5.7.0 - 2026-07-06
 
 ### Changed
