@@ -1,6 +1,6 @@
 project:
   name: 2027 Osaka Trip
-  version: V5.3.0
+  version: V5.4.0
   source_of_truth: GitHub main
   repository: sachiko620702/2027_OSAKA
   dates:
@@ -11,7 +11,7 @@ project:
   positioning: Luxury Slow Travel
   fixed_items:
     - USJ one day
-    - Three-star Michelin planning
+    - Non-Michelin-focused dining
     - Luxury shopping
   status: active
   last_updated: 2026-07-06
