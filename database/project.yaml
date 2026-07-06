@@ -1,6 +1,6 @@
 project:
   name: 2027 Osaka Trip
-  version: V5.14.0
+  version: V5.15.0
   source_of_truth: GitHub main
   repository: sachiko620702/2027_OSAKA
   dates:
@@ -17,6 +17,7 @@ project:
     - EVA Air BR178 outbound and BR129 return
     - KKday product 129909 for KIX hotel transfer
     - KKday product 536220 for hotel USJ transfer
+    - Breakfast normally at hotel Executive Lounge except Kizu Market day
   user_confirmed_inputs:
     flights:
       airline: EVA Air
@@ -42,12 +43,18 @@ project:
       platform: KKday
       selected_product_id: 536220
       price_status: needs_confirmation
+    breakfast_preference:
+      normal_days: hotel_executive_lounge_breakfast
+      exception_day: 2027-11-19
+      exception_reason: Osaka Kizu Market brunch day
     day3_candidate:
       date: 2027-11-19
       status: candidate_not_formal
       theme: relaxed food, photo spots, Pokemon, anime, Kyoto sweets
       primary_transport: public rail plus short taxi
+      kyoto_access_note: after Kizu Market, go to Kyoto Station by metro plus JR or taxi to Osaka Station then JR; use short taxi in Kyoto as needed
       charter_fallback: KKday product 133661 only if comfort, weather, or shopping load requires it
+      shop_status_summary: 2027-11-19 final shop calendar not published; current regular hours recorded in restaurants database
       preferred_stops:
         - Osaka Kizu Market brunch
         - Tsuruya Yoshinobu IRODORI
@@ -56,7 +63,6 @@ project:
         - Kyoto International Manga Museum optional
         - MALEBRANCHE Cacao 365 Gion
         - Higashiyama and Gion photo walk
-      note: Do not force vendor sample routes. Keep the day light and interest-based.
     dining:
       principle: taste_first
       michelin_status: neutral
