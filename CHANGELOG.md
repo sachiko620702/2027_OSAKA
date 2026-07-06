@@ -1,5 +1,29 @@
 # CHANGELOG
 
+## V5.13.0 - 2026-07-06
+
+### Changed
+
+- Added a Day 3 candidate itinerary for 2027-11-19 focused on relaxed pacing, food, photo spots, Pokemon, Conan atmosphere, and anime.
+- Recorded the user preference that the plan does not need to follow KKday sample routes and should prioritize a relaxed route that matches personal interests.
+- Added KKday product #133661 as the candidate 10-hour private charter for Day 3.
+- Added candidate route: InterContinental Osaka, Osaka Kizu Market brunch, Pokemon Center KYOTO, Kyoto International Manga Museum, Higashiyama/Gion photo walk, and Shinsaibashi/Dotonbori or hotel drop-off.
+- Added interest-based attraction candidates: Osaka Kizu Market, Pokemon Center KYOTO, Kyoto International Manga Museum, Higashiyama/Gion photo walk, Kiyomizu/Ninenzaka/Sannenzaka optional swap, Fushimi Inari front-section optional swap, Pokemon Center OSAKA DX, and Dotonbori/Shinsaibashi evening photo walk.
+- Updated project, itinerary, transportation, budget, attractions, customer-facing tables, README, AI context, decisions, watchlist, docs/01 itinerary planning, and version record.
+- Added `docs/01_行程規劃/2027-11-19_Day3_木津市場京都寶可夢動漫候補包車_V5.13.0.md`.
+- Added `docs/13_版本與更新/2026-07-06_V5.13.0_Day3木津市場京都寶可夢動漫候補包車.md`.
+
+### Reason
+
+The user clarified that Day 3 does not need to follow KKday's suggested routes and should prioritize an easy pace that matches interests: food, photo spots, Pokemon, Conan, and anime.
+
+### Follow-up required
+
+- Confirm whether the Day 3 candidate should become the formal itinerary.
+- Confirm KKday #133661 2027-11-19 availability, price, vehicle type, pickup/drop-off points, custom route approval, and overtime risk.
+- Confirm Osaka Kizu Market 2027-11-19 market calendar and brunch candidates.
+- Confirm 2027 business hours, closures, and event calendars for Pokemon Center KYOTO, Kyoto International Manga Museum, Pokemon Center OSAKA DX, and any Detective Conan Osaka/Kyoto events.
+
 ## V5.12.0 - 2026-07-06
 
 ### Changed
@@ -82,67 +106,3 @@ The user provided new planning decisions: outbound BR178, return BR129, and KKda
 - Confirm EVA Air official 2027-11 BR178 / BR129 schedule, fare, baggage, seat selection, and ticket rules.
 - Confirm KKday hotel-USJ transfer product, price, pickup time, pickup point, return pickup point, vehicle type, and booking rules.
 - `scripts/daily_maintenance.py` still requires follow-up from Codex or local git tooling.
-
-## V5.8.0 - 2026-07-06
-
-### Changed
-
-- Updated dining direction from non-Michelin-focused to taste-first dining.
-- Added travel insurance amount TWD 6,900.
-- Added phone roaming for two people, total TWD 499.
-- Set KKday as selected airport transfer direction for KIX to hotel and hotel to KIX.
-
-## V5.7.0 - 2026-07-06
-
-### Changed
-
-- Reworked the GitHub Pages homepage into a travel-plan introduction website.
-- Added travel rhythm, project frame, daily pulse, quick access, and watchlist sections.
-
-## V5.6.0 - 2026-07-06
-
-### Changed
-
-- Added GitHub Pages root homepage synchronization to the daily maintenance flow.
-
-## V5.5.0 - 2026-07-06
-
-### Changed
-
-- Reverted the dining scope back to non-Michelin-focused planning at the user's request.
-
-## V5.4.0 - 2026-07-06
-
-### Changed
-
-- Updated the fixed dining decision from three-star Michelin planning to non-Michelin-focused dining.
-
-## V5.3.0 - 2026-07-06
-
-### Changed
-
-- Expanded daily maintenance to run configured web checks and write `database/daily_status.json`.
-
-## V5.2.0 - 2026-07-06
-
-### Changed
-
-- Added `scripts/daily_maintenance.py` for scheduled repository maintenance and metadata sync.
-
-## V5.1.0 - 2026-07-06
-
-### Added
-
-- Added `database/ticket_platforms_kkday_klook.yml`.
-
-## V5.0.0 - 2026-07-06
-
-### Changed
-
-- Added AI-first knowledge base structure.
-
-## V4.0.0 - 2026-07-06
-
-### Changed
-
-- Set this GitHub repository as the single source of truth for the 2027 Osaka trip project.
