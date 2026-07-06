@@ -1,6 +1,6 @@
 budget:
   status: active
-  version: V5.8.0
+  version: V5.9.0
   last_updated: 2026-07-06
   currency_assumptions:
     primary_currency: TWD
@@ -40,6 +40,19 @@ budget:
       payment_method: carrier_billing_or_credit_card_NEEDS_RECONFIRMATION
       price_type: user_provided_amount
       note: Primary internet plan. eSIM, SIM, and Pocket Wi-Fi are backup only.
+    - id: eva_air_br178_br129
+      category: transportation
+      item: EVA Air BR178 outbound and BR129 return
+      amount: NEEDS_RECONFIRMATION
+      currency: NEEDS_RECONFIRMATION
+      people: 2
+      quantity: 2
+      subtotal_twd: NEEDS_RECONFIRMATION
+      payment_status: NOT_PAID_OR_NEEDS_CONFIRMATION
+      paid: NEEDS_RECONFIRMATION
+      payment_method: NEEDS_RECONFIRMATION
+      price_type: pending_query_price
+      note: User selected outbound BR178 and return BR129. Official schedule, fare, baggage, and ticket rules still need confirmation.
     - id: kkday_airport_transfer_roundtrip
       category: transportation
       item: KKday airport transfer round trip between KIX and InterContinental Osaka
@@ -52,9 +65,22 @@ budget:
       paid: NEEDS_RECONFIRMATION
       payment_method: KKday_checkout_NEEDS_RECONFIRMATION
       price_type: pending_query_price
-      note: User selected KKday airport transfer both ways; exact product, vehicle type, luggage rules, price, waiting time, and cancellation policy must be confirmed.
+      note: User selected KKday airport transfer both ways; exact product, vehicle type, luggage rules, price, waiting time, and booking rules must be confirmed.
+    - id: kkday_hotel_usj_transfer_roundtrip
+      category: transportation
+      item: KKday hotel to USJ round trip transfer
+      amount: NEEDS_RECONFIRMATION
+      currency: NEEDS_RECONFIRMATION
+      people: 2
+      quantity: 2
+      subtotal_twd: NEEDS_RECONFIRMATION
+      payment_status: NOT_PAID_OR_NEEDS_CONFIRMATION
+      paid: NEEDS_RECONFIRMATION
+      payment_method: KKday_checkout_NEEDS_RECONFIRMATION
+      price_type: pending_query_price
+      note: User selected KKday transfer between InterContinental Osaka and USJ both ways. Product, price, pickup time, and pickup point need confirmation.
   budget_model_notes:
-    transportation: Includes flights, KKday airport transfer, local rail, taxi, and luggage-related movement.
+    transportation: Includes flights, KKday airport transfer, KKday hotel-USJ transfer, local rail backup, taxi, and luggage-related movement.
     lodging: Includes InterContinental Osaka room cost, taxes, breakfast or lounge add-ons, early check-in, late check-out, and upgrade fees.
     shopping: Includes department stores, luxury boutiques, drugstores, apparel, electronics, character goods, souvenirs, and tax-free shopping.
     dining: Taste-first planning. Michelin status is neutral and should not be used as the budget label.
