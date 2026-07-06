@@ -11,7 +11,7 @@ Do not change these without an explicit user request:
 - One USJ day
 - Taste-first dining; Michelin status neutral
 - Luxury shopping
-- Day 1 formal stop: Pokémon Center OSAKA in Umeda
+- Day 1 formal sequence: arrival at InterContinental Osaka, target Executive Lounge afternoon tea, rest at the hotel, Pokémon Center OSAKA in Umeda, dinner near Pokémon Center OSAKA, then return to the hotel
 - Day 3 formal itinerary: Kizu Market + Kyoto sweets souvenirs + Pokemon / anime + 京 鰻和 本店 lunch + 天ぷら 京星 dinner
 - Day 4 formal stop: Pokémon Center OSAKA DX and InterContinental Osaka Executive Lounge afternoon tea
 
@@ -19,6 +19,7 @@ Current user-confirmed planning inputs:
 
 - Flights: EVA Air BR178 outbound and BR129 return.
 - Flight timing baseline: use the current timetable directly for hourly planning: BR178 06:30 TPE to 10:10 KIX; BR129 18:30 KIX to 20:30 TPE. Official 2027-11 schedule, fare, aircraft, terminal, baggage, and booking status still require confirmation before ticketing.
+- Day 1 arrival sequence: use afternoon tea at the hotel, rest a bit, go to Umeda Pokémon Center, eat dinner near the Pokémon Center, and return to the hotel.
 - Travel insurance budget amount: TWD 6,900; payment status needs confirmation.
 - Internet: phone roaming for two people. Amount is TWD 499.
 - Airport transfer: use KKday transfer both ways between KIX and InterContinental Osaka.
