@@ -4,9 +4,10 @@ All dates are planning targets and must be confirmed with official sources.
 
 ## Flight
 
-- Target travel dates: 2027-11-17 to 2027-11-21
-- Track opening window: pending official airline schedule
-- Target route: TPE to KIX, KIX to TPE
+- Selected outbound flight: EVA Air BR178, TPE to KIX, 2027-11-17.
+- Selected return flight: EVA Air BR129, KIX to TPE, 2027-11-21.
+- Track opening window: pending official airline schedule.
+- Must confirm: official schedule, fare, baggage allowance, seat selection, and ticket rules.
 
 ## Hotel
 
@@ -27,14 +28,22 @@ All dates are planning targets and must be confirmed with official sources.
 - Planning principle: taste-first dining
 - Michelin status: neutral; do not use Michelin or non-Michelin as the main planning label
 - Track official restaurant sites and TableCheck where relevant
-- Confirm booking windows, business days, menu, price, and cancellation policy before booking
+- Confirm booking windows, business days, menu, price, and booking rules before booking
 
 ## Airport Transfer
 
 - Selected platform: KKday
-- Selected service: KIX to InterContinental Osaka and InterContinental Osaka to KIX airport transfer
+- Selected service: KIX to InterContinental Osaka and InterContinental Osaka to KIX transfer
 - Booking timing: after flight times are fixed
-- Must confirm: exact product, total price, vehicle type, luggage capacity, waiting time, delayed-flight handling, and cancellation policy
+- Must confirm: exact product, total price, vehicle type, luggage capacity, waiting time, flight delay rules, and booking rules
+
+## Hotel to USJ Transfer
+
+- Selected platform: KKday
+- Selected service: InterContinental Osaka to USJ and USJ to InterContinental Osaka transfer
+- Target date: 2027-11-18
+- Booking timing: after USJ opening hours and Express Pass plan are known
+- Must confirm: exact product, total price, pickup time, pickup point, return pickup point, vehicle type, and booking rules
 
 ## Internet
 
