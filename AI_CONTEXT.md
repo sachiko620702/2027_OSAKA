@@ -1,7 +1,7 @@
 # AI_CONTEXT
 
 Project: 2027 Osaka Trip
-Version: V5.21.0
+Version: V5.22.0
 Repository: sachiko620702/2027_OSAKA
 Source of truth: GitHub main branch
 
@@ -17,7 +17,8 @@ Source of truth: GitHub main branch
 - Day 1 formal sequence: arrival at InterContinental Osaka, target Executive Lounge afternoon tea, rest at the hotel, Pokémon Center OSAKA in Umeda, dinner near Pokémon Center OSAKA, then return to the hotel.
 - Day 1 dinner candidate list exists but no candidate has been promoted to formal itinerary yet.
 - Day 3 formal itinerary: Kizu Market + Kyoto sweets souvenirs + Pokemon / anime + 京 鰻和 本店 lunch + 天ぷら 京星 dinner
-- Day 4 formal route: Shinsaibashi-centered morning / lunch area including Pokémon Center OSAKA DX; return to InterContinental Osaka after lunch; hotel / nearby activities in the afternoon; Executive Lounge afternoon tea; dinner at an InterContinental Osaka in-hotel restaurant.
+- Day 4 formal route: Shinsaibashi-centered morning / lunch area including Pokémon Center OSAKA DX; return to InterContinental Osaka after lunch; hotel / nearby activities in the afternoon; Executive Lounge afternoon tea; dinner cuisine preference is now sushi.
+- Day 4 dinner location issue: InterContinental Osaka official FAQ currently says there is no Japanese restaurant in the hotel, so sushi dinner likely requires a hotel-nearby / Umeda / Osaka Station sushi candidate unless the hotel offering changes by 2027.
 - Flight timing baseline: use the current BR178 / BR129 timetable for hourly planning: BR178 TPE 06:30 to KIX 10:10; BR129 KIX 18:30 to TPE 20:30. Official 2027-11 schedule, fare, aircraft, terminal, baggage, and booking status still require reconfirmation.
 
 ## Current Priorities
@@ -41,7 +42,8 @@ Source of truth: GitHub main branch
 17. Keep the current hourly itinerary aligned with current flight baseline and later official 2027 airline updates
 18. Confirm Day 1 InterContinental Osaka Executive Lounge afternoon tea access and choose one formal dinner from the Day 1 Umeda candidate list only after user confirmation
 19. Confirm Day 4 Shinsaibashi lunch candidate and the post-lunch return-to-hotel route
-20. Confirm Day 4 InterContinental Osaka in-hotel dinner: PIERRE vs NOKA Roast & Grill, reservation window, menu, price, service charge, and cancellation policy
+20. Search and compare Day 4 sushi dinner candidates near InterContinental Osaka / Umeda / Osaka Station, prioritizing taste, reservation feasibility, comfort, and short travel time
+21. Keep PIERRE / NOKA as fallback-only if the user decides in-hotel dinner is more important than sushi
 
 ## User-Provided Confirmed Planning Inputs
 
@@ -57,8 +59,8 @@ Source of truth: GitHub main branch
 - Customer-facing output: always maintain the three simple tables requested by the user: 行程表, 行前提醒／TODO LIST, 預算表.
 - Day 3 formal itinerary: 木津市場＋京都甜點伴手禮＋寶可夢／動漫＋京 鰻和 本店午餐＋天ぷら 京星晚餐.
 - Day 3 dinner reservation method: TABLEALL Reservation Request for 天ぷら 京星; current reference JPY 25,500 including TABLEALL booking fee JPY 8,000; 2027-11-19 availability and cancellation rules need reconfirmation.
-- Day 4 formal route: 2027-11-20 activity range should be Shinsaibashi-centered; after lunch return to InterContinental Osaka; afternoon should stay at / near the hotel; dinner should be at an in-hotel restaurant.
-- Day 4 in-hotel dinner candidates: PIERRE as primary formal dinner candidate, NOKA Roast & Grill as relaxed backup, ADEE only as optional nightcap / after-dinner lounge.
+- Day 4 formal route: 2027-11-20 activity range should be Shinsaibashi-centered; after lunch return to InterContinental Osaka; afternoon should stay at / near the hotel; dinner preference is now sushi.
+- Day 4 sushi dinner issue: InterContinental Osaka currently has no Japanese restaurant, so the project must search for hotel-nearby / Umeda / Osaka Station sushi candidates unless the user later prioritizes in-hotel dining over sushi.
 - Day 3 transport: public rail plus short taxi is the primary plan; KKday #133661 10-hour charter is backup only for rain, fatigue, heavy shopping, or door-to-door comfort.
 
 ## Day 3 Formal Plan
@@ -67,7 +69,7 @@ Source of truth: GitHub main branch
 
 ## Day 4 Formal Plan
 
-2027-11-20 is formally Shinsaibashi-centered until lunch: Pokémon Center OSAKA DX / Daimaru Shinsaibashi and nearby shopping. After lunch, the route returns to InterContinental Osaka. Afternoon activities should stay at the hotel or nearby Grand Front Osaka / Umeda area, with Executive Lounge afternoon tea retained. Dinner is fixed to an InterContinental Osaka in-hotel restaurant, with PIERRE and NOKA Roast & Grill as candidates. Do not move Day 4 dinner to Shinsaibashi / Namba / Umeda unless the user explicitly changes this.
+2027-11-20 is formally Shinsaibashi-centered until lunch: Pokémon Center OSAKA DX / Daimaru Shinsaibashi and nearby shopping. After lunch, the route returns to InterContinental Osaka. Afternoon activities should stay at the hotel or nearby Grand Front Osaka / Umeda area, with Executive Lounge afternoon tea retained. Dinner cuisine preference is now sushi. Because the hotel currently has no Japanese restaurant, sushi dinner should be planned as a hotel-nearby / Umeda / Osaka Station candidate unless the user later explicitly prioritizes in-hotel dining over sushi. Do not promote PIERRE / NOKA as final dinner unless the user accepts non-sushi in-hotel dining.
 
 ## Customer-Facing Output Rules
 
