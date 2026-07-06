@@ -77,3 +77,9 @@ Changed: 2026-07-06.
 Decision: use KKday transfer for hotel USJ round trip.
 Status: selected; product details need confirmation.
 Changed: 2026-07-06.
+
+## D015 Customer-facing travel plan tables
+
+Decision: maintain a customer-facing travel planning document with three fixed tables: itinerary, pre-trip TODO list, and budget summary.
+Status: fixed.
+Changed: 2026-07-06.
