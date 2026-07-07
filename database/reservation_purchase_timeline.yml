@@ -1,0 +1,177 @@
+metadata:
+  id: reservation_purchase_timeline
+  title: "2027 大阪自由行預約與購買時間軸"
+  version: "V5.26.0"
+  status: "active_reservation_purchase_baseline"
+  last_updated: "2026-07-07"
+  maintained_by: "ChatGPT"
+  language: "zh-Hant"
+  source_instruction: "使用者指定以月份／日期排序，列出每一項需要購買、續約、搶票、訂位或申請的事項。"
+
+scope:
+  trip_dates: "2027/11/17（三）～2027/11/21（日）"
+  travelers: 2
+  hotel: "InterContinental Osaka"
+  style: "Luxury Slow Travel"
+  note: "本時間軸只記錄使用者確認的購買／預約節點；2027 官方未公布票券、價格或訂位窗口者標示待官方公布或待確認。"
+
+budget_impact:
+  flight_reference_twd_for_two:
+    previous_amount_twd: 35000
+    updated_amount_twd: 36000
+    impact: "交通預算 +TWD 1,000；建議版主預算由 TWD 324,664 調整為 TWD 325,664。"
+  ambassador_renewal:
+    amount_usd: 250
+    budget_policy: "以 USD 獨立追蹤；未指定匯率前不硬轉 TWD，不併入 TWD 主預算。"
+  scheduled_twd_payments_with_known_amounts:
+    total_twd: 43399
+    includes:
+      - "EVA Air BR178 / BR129 機票 TWD 36,000"
+      - "旅遊保險 TWD 6,900"
+      - "手機漫遊 TWD 499"
+  unknown_amount_items:
+    - "USJ Express Pass 7"
+    - "PIERRE Anniversary Dinner"
+    - "KKday 機場接送"
+    - "USJ Studio Pass"
+
+timeline:
+  - sort_key: "2026-11-01"
+    display_date: "2026/11"
+    action_type: "purchase"
+    item: "買機票"
+    target: "EVA Air BR178／BR129"
+    amount:
+      value: 36000
+      currency: "TWD"
+      display: "36,000 TWD"
+    status: "planned_user_confirmed"
+    related_trip_day:
+      - "Day 1｜2027/11/17"
+      - "Day 5｜2027/11/21"
+    reconfirmation: "2027/11 官方班表、票價、行李、機型、航廈與訂位狀態仍需確認。"
+    budget_category: "交通"
+
+  - sort_key: "2026-12-01"
+    display_date: "2026/12"
+    action_type: "renewal"
+    item: "續約洲際酒店大使"
+    target: "IHG InterContinental Ambassador"
+    amount:
+      value: 250
+      currency: "USD"
+      display: "250 USD"
+    status: "planned_user_confirmed"
+    related_trip_day:
+      - "Day 1–Day 5｜InterContinental Osaka"
+    reconfirmation: "續約費用、會員禮遇、Weekend Night / BOGO 適用規則與 2027 住宿方案仍需確認。"
+    budget_category: "住宿／會員費"
+    budget_policy: "USD 獨立追蹤，待付款當日匯率或使用者指定匯率後再決定是否併入 TWD 主預算。"
+
+  - sort_key: "2027-09-17"
+    display_date: "2027/09/17"
+    action_type: "ticket_purchase"
+    item: "搶購 USJ Express Pass 7"
+    target: "Universal Studios Japan Express Pass 7"
+    amount:
+      value: null
+      currency: "TWD/JPY"
+      display: "待官方公布"
+    status: "planned_date_pending_official_release"
+    related_trip_day:
+      - "Day 2｜2027/11/18"
+    reconfirmation: "2027/11 USJ Express Pass 7 開賣日、票種內容、價格、適用設施、Super Nintendo World / Donkey Kong Country 規則待官方公布。"
+    budget_category: "USJ"
+
+  - sort_key: "2027-09-17"
+    display_date: "2027/09/17"
+    action_type: "restaurant_reservation"
+    item: "PIERRE Anniversary Dinner 訂位"
+    target: "PIERRE / InterContinental Osaka"
+    amount:
+      value: null
+      currency: "JPY/TWD"
+      display: "待確認"
+    status: "planned_date_pending_booking_window"
+    related_trip_day:
+      - "Day 4｜2027/11/20"
+    reservation_note_required:
+      - "Anniversary Dinner"
+      - "Window table / Osaka night-view table request"
+      - "Anniversary dessert message or small celebration option if available"
+    reconfirmation: "2027/11/20 營業、訂位開放日、菜單、價格、服務費、dress code、取消政策與座位 request 規則待確認；靠窗／夜景座位不保證。"
+    budget_category: "飲食"
+
+  - sort_key: "2027-10-10"
+    display_date: "2027/10/10"
+    action_type: "purchase"
+    item: "買 KKday 機場接送"
+    target: "KKday #129909｜KIX ↔ InterContinental Osaka"
+    amount:
+      value: null
+      currency: "TWD"
+      display: "待確認"
+    status: "planned_user_confirmed_date"
+    related_trip_day:
+      - "Day 1｜2027/11/17"
+      - "Day 5｜2027/11/21"
+    reference_price:
+      one_way_twd: 2600
+      round_trip_twd: 5200
+      status: "V5.24.0 使用者提供參考；2027 最終價格待確認"
+    reconfirmation: "2027/11 日期、車型、行李限制、等待時間、取消政策與可訂狀態需確認。"
+    budget_category: "交通"
+
+  - sort_key: "2027-10-10"
+    display_date: "2027/10/10"
+    action_type: "ticket_purchase"
+    item: "買 USJ Studio Pass"
+    target: "Universal Studios Japan Studio Pass"
+    amount:
+      value: null
+      currency: "TWD/JPY"
+      display: "待官方公布"
+    status: "planned_date_pending_official_release"
+    related_trip_day:
+      - "Day 2｜2027/11/18"
+    reconfirmation: "2027/11 Studio Pass 價格、入園規則、平台庫存與取消規則待官方公布。"
+    budget_category: "USJ"
+
+  - sort_key: "2027-11-05"
+    display_date: "2027/11/05"
+    action_type: "purchase"
+    item: "旅遊保險"
+    target: "兩人旅遊保險"
+    amount:
+      value: 6900
+      currency: "TWD"
+      display: "6,900 TWD"
+    status: "planned_user_confirmed_date"
+    related_trip_day:
+      - "全程"
+    reconfirmation: "確認投保內容、醫療保障、旅遊不便險、保單文件與付款狀態。"
+    budget_category: "其他"
+
+  - sort_key: "2027-11-05"
+    display_date: "2027/11/05"
+    action_type: "application"
+    item: "申請漫遊"
+    target: "手機漫遊｜兩人"
+    amount:
+      value: 499
+      currency: "TWD"
+      display: "499 TWD"
+    status: "planned_user_confirmed_date"
+    related_trip_day:
+      - "全程"
+    reconfirmation: "確認電信商方案、啟用時間、計費方式、熱點分享與付款狀態。"
+    budget_category: "其他"
+
+related_existing_project_items_not_removed:
+  - item: "KKday #536220｜InterContinental Osaka ↔ USJ 接送"
+    status: "still_selected_in_project_budget_and_watchlist"
+    note: "使用者本次時間軸未指定購買日；仍保留既有正式交通設定與預算參考，後續需補購買日期或與 2027/10/10 KKday 項目合併處理。"
+
+maintenance_notes:
+  - "本檔為 V5.26.0 新增的正式預約／購買主控時間軸。"
+  - "如未來使用者調整日期或金額，先更新本 database，再同步 docs、預算模型與 CHANGELOG。"
