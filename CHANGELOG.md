@@ -1,5 +1,96 @@
 # CHANGELOG
 
+# V5.34.0 - 2026-07-07
+
+### Changed
+
+- Lowered the shopping budget from NT$40,000 to NT$10,000 across the website, database, and customer-facing planning documents.
+- Recalculated the recommended TWD budget from NT$325,664 to NT$295,664 for two travelers.
+- Updated `web/index.html`, `database/budget_model.yml`, `database/customer_facing_travel_plan.yml`, `docs/06_預算/2027大阪自由行_預算模型_V5.26.0.md`, `docs/15_顧客版資料/旅遊規劃三表.md`, `docs/15_顧客版資料/旅遊常用表格總覽.md`, `README.md`, `AGENTS.md`, `PROJECT_RULE.md`, `AI_CONTEXT.md`, `ROADMAP.md`, `WATCHLIST.md`, and `database/project.yaml`.
+- Added version note `docs/13_版本與更新/V5.34.0_Web_Shopping_Budget_Adjustment.md`.
+
+### Reason
+
+The user asked to change the shopping budget from NT$40,000 to NT$10,000.
+
+### Impact
+
+- The active shopping category is now smaller and the main TWD budget is lower.
+- The safety ceiling remains unchanged at NT$380,000.
+- Historical notes that describe earlier budget revisions are left intact where they are clearly archival.
+
+## V5.33.0 - 2026-07-07
+
+### Changed
+
+- Updated the active accommodation wording across the website and current budget/customer-facing documents to clarify that the stay is split into two booking orders, not a single four-night order.
+- Adjusted `web/index.html`, `database/budget_model.yml`, `database/customer_facing_travel_plan.yml`, `docs/15_顧客版資料/旅遊規劃三表.md`, and `docs/15_顧客版資料/旅遊常用表格總覽.md`.
+- Added version note `docs/13_版本與更新/V5.33.0_Web_Accommodation_Booking_Split.md`.
+
+### Reason
+
+The user corrected the accommodation structure and said it should be understood as two separate bookings rather than one direct four-night booking.
+
+### Impact
+
+- Current materials now reflect the booking structure more accurately.
+- The total stay length remains four nights.
+- No budget amount changed; this is a wording and structure clarification.
+
+## V5.32.0 - 2026-07-07
+
+### Changed
+
+- Removed the itinerary rhythm chart and its explanatory note from `web/index.html` so the itinerary section returns to a simpler card-only view.
+- Removed the now-unused itinerary rhythm styles from `web/styles.css`.
+- Added version note `docs/13_版本與更新/V5.32.0_Web_Remove_Itinerary_Chart.md`.
+
+### Reason
+
+The user said the itinerary chart was still hard to understand and wanted it removed.
+
+### Impact
+
+- The itinerary section is now easier to read because only the daily cards remain.
+- Budget, calendar, and key-date visuals are unchanged.
+- No planning values were changed; this is a presentation cleanup.
+
+## V5.31.0 - 2026-07-07
+
+### Changed
+
+- Replaced the detailed budget table in `web/index.html` with an expandable tree-style budget list for the six main categories.
+- Added tree node and nested leaf styles to `web/styles.css`.
+- Added version note `docs/13_版本與更新/V5.31.0_Web_Budget_Tree.md`.
+
+### Reason
+
+The user wanted the six budget categories to behave more like a tree so the subitems are easier to inspect on demand.
+
+### Impact
+
+- Budget categories now appear as expandable nodes with nested subitems.
+- The homepage is easier to scan by category while still preserving the detailed amounts.
+- No planning values were changed; this is a presentation-only update.
+
+## V5.30.0 - 2026-07-07
+
+### Changed
+
+- Added plain-language helper text to the itinerary and calendar sections in `web/index.html` so the visual blocks are easier to interpret.
+- Updated `web/styles.css` with a reusable section-note style for explanatory text.
+- Added version note `docs/13_版本與更新/V5.30.0_Web_Itinerary_Helper_Text.md`.
+
+### Reason
+
+The user said the itinerary table was hard to understand, so the web page needed short explanations that say how to read each section.
+
+### Impact
+
+- The itinerary visuals now explain what the bars and day cards mean.
+- The calendar section now explains how to read the dates and tasks.
+- No planning values were changed; this is a usability update.
+
 ## V5.29.0 - 2026-07-07
 
 ### Changed

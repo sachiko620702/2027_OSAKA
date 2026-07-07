@@ -112,8 +112,8 @@ project:
   budget:
     active_model: database/budget_model.yml
     version: V5.26.0
-    recommended_total_twd_for_two: 325664
-    recommended_per_person_twd: 162832
+    recommended_total_twd_for_two: 295664
+    recommended_per_person_twd: 147832
     safety_ceiling_twd_for_two: 380000
     luxury_shopping: separate
     ambassador_usd_250: tracked_separately_until_exchange_rate_or_actual_charge_confirmed
