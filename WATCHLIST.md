@@ -10,10 +10,10 @@ Track items that may change before departure.
 - 2027/09/17 USJ Express Pass 7 purchase target; official 2027 release and inventory pending
 - 2027/09/17 PIERRE Anniversary Dinner reservation target; booking window and seat request rules pending
 - 2027/10/10 KKday #129909 airport transfer purchase target
+- 2027/10/10 KKday #536220 hotel-USJ transfer purchase target; final 2027 route price, 20KM rule, pickup point, and luggage rules pending
 - 2027/10/10 USJ Studio Pass purchase target; official 2027 release and inventory pending
 - 2027/11/05 travel insurance purchase target; current reference TWD 6,900
 - 2027/11/05 phone roaming application target; current reference TWD 499
-- KKday #536220 hotel-USJ transfer purchase date remains unassigned in V5.26.0 timeline
 
 ## USJ
 
@@ -86,6 +86,14 @@ Track items that may change before departure.
 - Pokémon Center OSAKA 2027-11-17 hours, entry rules, events, and limited goods
 - Dinner candidates near Pokémon Center OSAKA in Umeda
 
+## Day 2 USJ formal route
+
+- KKday #536220 InterContinental Osaka → USJ purchase target: 2027/10/10
+- KKday #536220 USJ → InterContinental Osaka purchase target: 2027/10/10
+- KKday #536220 final 2027 route price, pickup time, pickup point, 20KM rule, vehicle, luggage rules, waiting time, and cancellation policy
+- USJ Studio Pass purchase target: 2027/10/10 if official inventory is available
+- USJ Express Pass 7 purchase target: 2027/09/17 if official inventory is available
+
 ## Day 3 formal route
 
 - Kizu Market 2027-11-19 business calendar and brunch restaurant candidates
@@ -132,15 +140,15 @@ Track items that may change before departure.
 - credit card reward rules
 - hotel rate changes
 - USJ price changes
-- Active V5.26.0 recommended budget: TWD 325,664 for two travelers
-- Active V5.26.0 safety ceiling: TWD 380,000 for two travelers
+- Active V5.26.1 recommended budget: TWD 325,664 for two travelers
+- Active V5.26.1 safety ceiling: TWD 380,000 for two travelers
 - Luxury handbags, jewelry, and watches are excluded from the base budget and must be budgeted separately
 - InterContinental Ambassador renewal amount USD 250, tracked separately until conversion or actual card charge is known
 - EVA Air BR178 / BR129 fare and payment status; V5.26.0 reference TWD 36,000 for two travelers round trip
 - travel insurance amount TWD 6,900 and payment status; planned purchase date 2027/11/05
 - phone roaming amount TWD 499 for two people and carrier billing rules; planned application date 2027/11/05
 - KKday product #129909 airport transfer final price and booking rules; V5.24.0 reference TWD 2,600 each way, TWD 5,200 round trip; planned purchase date 2027/10/10
-- KKday product #536220 hotel-USJ transfer final price and booking rules; V5.24.0 reference TWD 1,732 each way, TWD 3,464 round trip; purchase date not yet assigned in V5.26.0
+- KKday product #536220 hotel-USJ transfer final price and booking rules; V5.24.0 reference TWD 1,732 each way, TWD 3,464 round trip; planned purchase date 2027/10/10
 - Day 1 dinner near Pokémon Center OSAKA budget
 - Day 3 Osaka city transportation actual cost
 - Day 3 sushi dinner budget after restaurant selection
@@ -160,8 +168,8 @@ Track items that may change before departure.
 - USJ Studio Pass / Express Pass inventory on KKday and Klook
 - KKday / Klook booking rules for USJ tickets
 - KKday product 129909 KIX to InterContinental Osaka route price, luggage rules, waiting time, and vehicle choice
-- KKday product 536220 InterContinental Osaka to USJ route price, pickup time, pickup point, 20KM rule, and vehicle choice
-- KKday product 536220 USJ to InterContinental Osaka return pickup point and route price
+- KKday product 536220 InterContinental Osaka to USJ route price, pickup time, pickup point, 20KM rule, vehicle choice, luggage rules, and cancellation policy before 2027/10/10 purchase target
+- KKday product 536220 USJ to InterContinental Osaka return pickup point and route price before 2027/10/10 purchase target
 - KKday product 133661 backup-only availability only if Kyoto or comfort-day route is restored
 - Osaka Amazing Pass 2027 price, valid facilities, and transportation coverage
 - Osaka e-Pass 2027 price and valid facilities
