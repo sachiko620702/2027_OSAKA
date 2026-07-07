@@ -16,7 +16,7 @@ trip_overview:
   hotel: "InterContinental Osaka"
   style: "Luxury Slow Travel"
   flight_baseline: "去程 EVA Air BR178 暫採現行班表 06:30 TPE → 10:10 KIX；回程 EVA Air BR129 暫採現行班表 18:30 KIX → 20:30 TPE。2027/11 官方班表、票價與訂位狀態仍需確認。"
-  budget_baseline: "V5.46.0 建議版主預算 NT$217,292／兩人；安全版 NT$250,000／兩人；安全上限 NT$380,000／兩人；Ambassador 續約 USD 250 與精品購物另計。住宿以低價那晚免費後的淨額估算，不用把臨時刷卡高峰值當主預算。Day 4 NOKA 以 JPY 38,500／兩人、匯率 0.2 換算成 NT$7,700／兩人。USJ 票券以兩人計算。"
+  budget_baseline: "V5.47.0 建議版主預算 NT$217,292／兩人；安全版 NT$250,000／兩人；安全上限 NT$280,000／兩人；Ambassador 續約 USD 250 與精品購物另計。住宿以低價那晚免費後的淨額估算，不用把臨時刷卡高峰值當主預算。Day 4 NOKA 以 JPY 38,500／兩人、匯率 0.2 換算成 NT$7,700／兩人。USJ 票券以兩人計算。"
   confirmed_scope:
     - "USJ 一天"
     - "好吃優先餐飲"

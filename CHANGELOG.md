@@ -1,5 +1,21 @@
 # CHANGELOG
 
+# V5.47.0 - 2026-07-07
+
+### Changed
+
+- Lowered the hard budget ceiling from NT$380,000 to NT$280,000 for two travelers while keeping the displayed safety version at NT$250,000.
+- Updated `database/project.yaml`, `database/budget_model.yml`, `database/customer_facing_travel_plan.yml`, `docs/03_預約購買/2027大阪自由行_預約購買時間軸_V5.26.0.md`, `docs/06_預算/2027大阪自由行_預算模型_V5.26.0.md`, `docs/14_自動同步狀態/每日同步狀態.md`, `docs/15_顧客版資料/旅遊規劃三表.md`, `web/index.html`, `README.md`, and `docs/13_版本與更新/V5.47.0_Safety_Upper_Limit_280000.md`.
+
+### Reason
+
+The user asked to reduce the upper limit to NT$280,000.
+
+### Impact
+
+- The active hard ceiling is now NT$280,000 for two travelers.
+- The safety version remains NT$250,000 for two travelers.
+
 # V5.46.0 - 2026-07-07
 
 ### Changed

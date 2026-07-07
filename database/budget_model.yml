@@ -141,7 +141,7 @@ reservation_purchase_timeline:
     label: "安全版"
     total_twd: 250000
     per_person_twd: 125000
-    use_case: "住宿、USJ Express、Day 3 壽司、NOKA、匯率或臨時加購偏高時的實務緩衝版；真正硬上限仍維持 380,000。"
+    use_case: "住宿、USJ Express、Day 3 壽司、NOKA、匯率或臨時加購偏高時的實務緩衝版；真正硬上限仍維持 280,000。"
 
   revision_notes:
   previous_estimate_twd: 306274
@@ -161,7 +161,7 @@ reservation_purchase_timeline:
     - "USJ 園區餐飲與購物由 TWD 10,000 調整為 TWD 7,892，USJ 類別由 TWD 27,108 調整為 TWD 25,000，主預算由 TWD 222,400 調整為 TWD 220,292。"
     - "Day 1 千房 梅田周邊店晚餐由 NT$9,000 下修為 NT$4,000，Day 3 木津市場早午餐由 NT$6,000 上修為 NT$8,000，飲食預算由 TWD 30,782 調整為 TWD 27,782，主預算由 TWD 220,292 調整為 TWD 217,292。"
     - "2026/12 續約 InterContinental Ambassador，金額 USD 250，先以外幣獨立追蹤。"
-  budget_positioning: "目前建議以 NT$217,292 作為 TWD 主預算記帳值，NT$380,000 作為安全上限；Ambassador USD 250 與精品購物另計。"
+  budget_positioning: "目前建議以 NT$217,292 作為 TWD 主預算記帳值，NT$280,000 作為安全上限；Ambassador USD 250 與精品購物另計。"
 
 pending_reconfirmation:
   - "EVA Air BR178 / BR129 2027/11 官方班表、票價、行李與訂位狀態。"
