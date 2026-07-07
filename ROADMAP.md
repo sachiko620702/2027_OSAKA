@@ -7,7 +7,7 @@
 - Import current Markdown handbook into docs.
 - Clean YouTube candidate entries.
 - Build Osaka Amazing Pass candidate plan.
-- Maintain V5.26.1 budget model: recommended TWD 306,274 for two travelers, safety ceiling TWD 380,000, Ambassador renewal USD 250 and luxury shopping separate.
+- Maintain V5.26.2 budget model: recommended TWD 274,510 for two travelers, safety ceiling TWD 380,000, Ambassador renewal USD 250 and luxury shopping separate. Use the lodging net amount after the lower-price complimentary night is treated as free.
 - Track user-provided transportation references: flight TWD 36,000, airport transfer TWD 2,600 each way, USJ transfer TWD 1,732 each way.
 - Maintain current hourly itinerary using current BR178 / BR129 timetable baseline.
 - Keep homepage `index.md` and `docs/index.md` itinerary table in hourly format.
@@ -43,7 +43,7 @@
 - Update USJ official ticket and pass policy when available.
 - Review shopping targets.
 - Recheck the hourly itinerary against any updated BR178 / BR129 public schedules.
-- Recheck whether V5.26.1 budget categories remain realistic after any flight, hotel, USJ, KKday, and Day 3 sushi changes.
+- Recheck whether V5.26.2 budget categories remain realistic after any flight, hotel, USJ, KKday, and Day 3 sushi changes.
 
 ## 2027 Q2
 
@@ -92,4 +92,4 @@
 - Final confirmation for Day 1 formal route: afternoon tea, hotel rest, Umeda Pokémon Center, dinner nearby, return to hotel.
 - Final confirmation for Day 3 formal route: Kizu Market brunch, Namba / Nipponbashi anime models and merch, hotel lounge afternoon tea, Osaka city sushi dinner.
 - Final confirmation for Day 4 formal route: Shinsaibashi-centered morning/lunch, return to hotel after lunch, Executive Lounge afternoon tea, hotel-nearby activities, PIERRE Anniversary Dinner with window / Osaka night-view request.
-- Final budget lock: compare confirmed costs against V5.26.1 recommended TWD 306,274 and safety ceiling TWD 380,000; handle Ambassador USD 250 separately unless converted later.
+- Final budget lock: compare confirmed costs against V5.26.2 recommended TWD 274,510 and safety ceiling TWD 380,000; handle Ambassador USD 250 separately unless converted later. Lodging should remain net of the lower-price complimentary night.

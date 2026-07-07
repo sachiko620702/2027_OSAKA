@@ -1,5 +1,24 @@
 # CHANGELOG
 
+# V5.26.2 - 2026-07-07
+
+### Changed
+
+- Recalculated the recommended TWD budget from NT$306,274 to NT$274,510 for two travelers after treating the lower-price lodging night as free.
+- Lowered the lodging baseline from NT$115,609.84 to an estimated net NT$83,845.73, displayed as NT$83,846 in the budget tables.
+- Updated `web/index.html`, `database/budget_model.yml`, `database/customer_facing_travel_plan.yml`, `docs/06_預算/2027大阪自由行_預算模型_V5.26.0.md`, `docs/15_顧客版資料/旅遊規劃三表.md`, `docs/15_顧客版資料/旅遊常用表格總覽.md`, `docs/03_預約購買/2027大阪自由行_預約購買時間軸_V5.26.0.md`, `database/project.yaml`, `database/reservation_purchase_timeline.yml`, `README.md`, `AGENTS.md`, `PROJECT_RULE.md`, `AI_CONTEXT.md`, `ROADMAP.md`, `WATCHLIST.md`, and `docs/14_自動同步狀態/每日同步狀態.md`.
+- Added version note `docs/13_版本與更新/V5.26.2_Web_Lodging_Net_Budget_Adjustment.md`.
+
+### Reason
+
+The user clarified that the hotel updates the amount at checkout and the lower-price night should be treated as free, so the budget should show a modest buffer without overestimating and making the trip look infeasible.
+
+### Impact
+
+- The website and customer-facing docs now use the lodging net amount after the complimentary night treatment.
+- The active recommended TWD budget is now NT$274,510 for two travelers.
+- The safety ceiling remains unchanged at NT$380,000.
+
 # V5.35.0 - 2026-07-07
 
 ### Changed

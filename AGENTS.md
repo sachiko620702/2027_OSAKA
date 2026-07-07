@@ -48,6 +48,6 @@ Current logistics and budget inputs:
 - Insurance: TWD 6,900, planned purchase date 2027/11/05, payment status needs confirmation.
 - Internet: phone roaming for two people, total TWD 499, planned application date 2027/11/05.
 - Airport transfer: KKday #129909 for both KIX to hotel and hotel to KIX. V5.24.0 reference price is TWD 2,600 each way, TWD 5,200 round trip. Planned purchase date 2027/10/10.
-- USJ transfer: KKday #536220 for both hotel to USJ and USJ to hotel. V5.24.0 reference price is TWD 1,732 each way, TWD 3,464 round trip. Purchase date not yet assigned in V5.26.0 timeline.
-- Active budget model: recommended total TWD 306,274 for two travelers; safety ceiling TWD 380,000; Ambassador renewal USD 250, luxury handbags, jewelry, and watches are separate.
+- USJ transfer: KKday #536220 for both hotel to USJ and USJ to hotel. V5.24.0 reference price is TWD 1,732 each way, TWD 3,464 round trip. Purchase date not yet assigned in V5.26.2 timeline.
+- Active budget model: recommended total TWD 274,510 for two travelers; safety ceiling TWD 380,000; Ambassador renewal USD 250, luxury handbags, jewelry, and watches are separate. Lodging should be estimated net of the lower-price complimentary night, not using the temporary checkout charge peak.
 - Dining: choose good restaurants; do not label the plan as non-Michelin, and do not prioritize Michelin status either way.

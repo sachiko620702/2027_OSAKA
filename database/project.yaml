@@ -1,6 +1,6 @@
 project:
   name: 2027 Osaka Trip
-  version: V5.26.0
+  version: V5.26.2
   source_of_truth: GitHub main
   repository: sachiko620702/2027_OSAKA
   dates:
@@ -50,7 +50,7 @@ project:
         dates: "2027-06-11 to 2027-06-13"
         rate_name: "Ambassador Complimentary Weekend Night"
         total_twd: 65883.49
-      confirmed_total_twd: 115609.84
+      checkout_adjusted_net_total_twd: 83845.73
     insurance_total_twd: 6900
     insurance_planned_purchase_date: 2027-11-05
     internet:
@@ -117,14 +117,14 @@ project:
       michelin_status: neutral
   reservation_purchase_timeline:
     active_database: database/reservation_purchase_timeline.yml
-    version: V5.26.0
+    version: V5.26.2
     known_scheduled_twd_payments_total: 43399
     known_scheduled_usd_payments_total: 250
   budget:
     active_model: database/budget_model.yml
-    version: V5.26.0
-    recommended_total_twd_for_two: 306274
-    recommended_per_person_twd: 153137
+    version: V5.26.2
+    recommended_total_twd_for_two: 274510
+    recommended_per_person_twd: 137255
     safety_ceiling_twd_for_two: 380000
     luxury_shopping: separate
     ambassador_usd_250: tracked_separately_until_exchange_rate_or_actual_charge_confirmed
