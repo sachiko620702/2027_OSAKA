@@ -1,5 +1,23 @@
 # CHANGELOG
 
+## V5.28.0 - 2026-07-07
+
+### Changed
+
+- Added budget chart visualizations to `web/index.html` so the homepage now shows a budget mix bar and a recommended-versus-safety comparison chart.
+- Updated `web/styles.css` with the chart layout, legend, and scenario bar styles.
+- Added version note `docs/13_版本與更新/V5.28.0_Web_Budget_Charts.md`.
+
+### Reason
+
+The user asked to present the trip budget visually on the web page rather than only as a table.
+
+### Impact
+
+- The public homepage now gives a faster visual read of budget composition and headroom.
+- The budget table remains in place for detailed review and reconciliation.
+- No planning values were changed; this is a presentation-only update.
+
 ## V5.27.0 - 2026-07-07
 
 ### Changed

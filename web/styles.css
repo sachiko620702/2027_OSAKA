@@ -419,6 +419,179 @@ tbody tr:hover td {
   margin-bottom: 14px;
 }
 
+.budget-visuals {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-bottom: 14px;
+}
+
+.budget-chart {
+  display: grid;
+  gap: 18px;
+}
+
+.chart-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.chart-kicker {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.chart-head h3 {
+  margin: 0;
+  font-size: 1.18rem;
+  line-height: 1.35;
+}
+
+.chart-head strong {
+  color: var(--accent-2);
+  font-size: 0.98rem;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.stacked-budget {
+  display: flex;
+  overflow: hidden;
+  height: 18px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.stacked-segment {
+  flex: 0 0 var(--share);
+}
+
+.legend-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.legend-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.legend-item strong,
+.scenario-label strong {
+  display: block;
+  color: var(--text);
+  font-size: 0.96rem;
+  line-height: 1.35;
+}
+
+.legend-item span,
+.scenario-label span,
+.chart-note {
+  color: var(--muted);
+}
+
+.legend-item span {
+  display: block;
+  font-size: 0.86rem;
+}
+
+.legend-swatch {
+  flex: 0 0 12px;
+  width: 12px;
+  height: 12px;
+  margin-top: 4px;
+  border-radius: 999px;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.03);
+}
+
+.stacked-budget .transport,
+.legend-swatch.transport {
+  background: linear-gradient(180deg, #8fb4ff, #5f8cf0);
+}
+
+.stacked-budget .lodging,
+.legend-swatch.lodging {
+  background: linear-gradient(180deg, #f2cb85, #d8a84e);
+}
+
+.stacked-budget .shopping,
+.legend-swatch.shopping {
+  background: linear-gradient(180deg, #95d6c2, #59b79b);
+}
+
+.stacked-budget .dining,
+.legend-swatch.dining {
+  background: linear-gradient(180deg, #d8a9ff, #a06ae4);
+}
+
+.stacked-budget .usj,
+.legend-swatch.usj {
+  background: linear-gradient(180deg, #8fe0ff, #3db4d6);
+}
+
+.stacked-budget .other,
+.legend-swatch.other {
+  background: linear-gradient(180deg, #f5a9a9, #dc6f6f);
+}
+
+.scenario-bars {
+  display: grid;
+  gap: 14px;
+}
+
+.scenario-row {
+  display: grid;
+  gap: 10px;
+}
+
+.scenario-label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 0.92rem;
+}
+
+.scenario-track {
+  height: 16px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.scenario-fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.scenario-fill.controlled {
+  background: linear-gradient(90deg, rgba(95, 140, 240, 0.9), rgba(143, 180, 255, 0.95));
+}
+
+.scenario-fill.recommended {
+  background: linear-gradient(90deg, rgba(242, 203, 133, 0.88), rgba(248, 224, 169, 0.96));
+}
+
+.scenario-fill.safety {
+  background: linear-gradient(90deg, rgba(130, 214, 178, 0.82), rgba(95, 195, 153, 0.95));
+}
+
+.chart-note {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
 .summary span {
   display: block;
   color: var(--muted);
