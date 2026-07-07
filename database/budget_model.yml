@@ -21,7 +21,7 @@ trip_scope:
     - "InterContinental Osaka 兩張住宿訂單，合計四晚"
     - "USJ 一天，含 Studio Pass / Express Pass / 園區餐飲與購物"
     - "Day 1 千房梅田周邊店"
-    - "Day 3 木津市場、日本橋動漫模型周邊、飯店酒廊下午茶、大阪市內壽司晚餐"
+    - "Day 3 木津市場、日本橋動漫模型周邊、飯店酒廊下午茶、肉NOASATSU 壽司晚餐"
     - "Day 4 NOKA Roast & Grill"
     - "Pokémon / 動漫 / 大阪百貨伴手禮與一般購物"
   excluded_scope:
@@ -117,8 +117,8 @@ reservation_purchase_timeline:
       amount_twd: 10000
       note: "寶可夢、動漫、模型、日本橋周邊、百貨小物；不含精品包。"
     - category: "飲食"
-      amount_twd: 30782
-      note: "含千房、木津市場、Day 3 大阪市內午餐、Day 3 壽司晚餐（KKday #268366，單人 NT$1,541、兩人 NT$3,082）、Day 4 心齋橋午餐、Day 4 NOKA Roast & Grill 參考價 JPY 38,500／兩人，匯率 0.2 換算為 NT$7,700、Day 5 午餐與飲料緩衝。"
+      amount_twd: 27782
+      note: "含千房（Day 1 由 NT$9,000 下修為 NT$4,000）、木津市場早午餐（上修為 NT$8,000）、Day 3 大阪市內午餐、Day 3 壽司晚餐（KKday #268366，單人 NT$1,541、兩人 NT$3,082）、Day 4 心齋橋午餐、Day 4 NOKA Roast & Grill 參考價 JPY 38,500／兩人，匯率 0.2 換算為 NT$7,700、Day 5 午餐與飲料緩衝。"
     - category: "USJ"
       amount_twd: 25000
       note: "Express Pass 7 以單人 NT$4,365 至 NT$5,754 估算，兩人為 NT$8,730 至 NT$11,508；Studio Pass 以單人 NT$1,840 至 NT$2,800 估算，兩人為 NT$3,680 至 NT$5,600；園區餐飲與購物 NT$7,892。"
@@ -129,13 +129,13 @@ reservation_purchase_timeline:
   budget_scenarios:
   controlled:
     label: "節制版"
-    total_twd: 215594
-    per_person_twd: 107797
+    total_twd: 212594
+    per_person_twd: 106297
     use_case: "購物克制、USJ 票券取區間下緣並以兩人計、住宿有優惠、Day 3 壽司餐廳價格中低時的低壓版本；NOKA 以雙人 JPY 38,500、匯率 0.2 換算為 NT$7,700。"
   recommended:
     label: "建議版"
-    total_twd: 220292
-    per_person_twd: 110146
+    total_twd: 217292
+    per_person_twd: 108646
     use_case: "目前正式行程最適合作為主控預算的版本；USJ 以使用者提供區間上緣並以兩人計算，NOKA 以雙人 JPY 38,500、匯率 0.2 換算為 NT$7,700，另需追蹤 Ambassador 續約 USD 250。"
   safety:
     label: "安全版"
@@ -145,7 +145,7 @@ reservation_purchase_timeline:
 
   revision_notes:
   previous_estimate_twd: 306274
-  corrected_to_recommended_twd: 220292
+  corrected_to_recommended_twd: 217292
   correction_reason:
     - "V5.26.2 使用者提供預約與購買時間軸。"
     - "機票預計 2026/11 購買，EVA Air BR178 / BR129 預算由 TWD 35,000 更新為 TWD 36,000。"
@@ -159,8 +159,9 @@ reservation_purchase_timeline:
     - "Day 4 NOKA 雙人 JPY 38,500 以匯率 0.2 換算後，主預算由 TWD 244,646 調整為 TWD 213,846。"
     - "USJ 票券價格確認為單人報價，需以兩人計算後再加上園區餐飲與購物，主預算由 TWD 213,846 調整為 TWD 222,400。"
     - "USJ 園區餐飲與購物由 TWD 10,000 調整為 TWD 7,892，USJ 類別由 TWD 27,108 調整為 TWD 25,000，主預算由 TWD 222,400 調整為 TWD 220,292。"
+    - "Day 1 千房 梅田周邊店晚餐由 NT$9,000 下修為 NT$4,000，Day 3 木津市場早午餐由 NT$6,000 上修為 NT$8,000，飲食預算由 TWD 30,782 調整為 TWD 27,782，主預算由 TWD 220,292 調整為 TWD 217,292。"
     - "2026/12 續約 InterContinental Ambassador，金額 USD 250，先以外幣獨立追蹤。"
-  budget_positioning: "目前建議以 NT$220,292 作為 TWD 主預算記帳值，NT$380,000 作為安全上限；Ambassador USD 250 與精品購物另計。"
+  budget_positioning: "目前建議以 NT$217,292 作為 TWD 主預算記帳值，NT$380,000 作為安全上限；Ambassador USD 250 與精品購物另計。"
 
 pending_reconfirmation:
   - "EVA Air BR178 / BR129 2027/11 官方班表、票價、行李與訂位狀態。"

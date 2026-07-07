@@ -1,5 +1,23 @@
 # CHANGELOG
 
+# V5.46.0 - 2026-07-07
+
+### Changed
+
+- Reduced the Day 1 Chibo dinner line from NT$9,000 to NT$4,000 and raised the Day 3 Kizu Market brunch from NT$6,000 to NT$8,000, then recalculated the active budget totals accordingly.
+- Recalculated the recommended TWD budget from NT$220,292 to NT$217,292 for two travelers, with the controlled scenario updated to NT$212,594 and the safety version still kept at NT$250,000.
+- Updated `database/budget_model.yml`, `database/customer_facing_travel_plan.yml`, `database/project.yaml`, `database/reservation_purchase_timeline.yml`, `docs/03_預約購買/2027大阪自由行_預約購買時間軸_V5.26.0.md`, `docs/06_預算/2027大阪自由行_預算模型_V5.26.0.md`, `docs/14_自動同步狀態/每日同步狀態.md`, `docs/15_顧客版資料/旅遊規劃三表.md`, `docs/15_顧客版資料/旅遊常用表格總覽.md`, `web/index.html`, `README.md`, and `docs/13_版本與更新/V5.46.0_Day1_Chibo_Budget_Adjustment.md`.
+
+### Reason
+
+The user confirmed Day 1 Chibo at NT$4,000 and Day 3 Kizu Market brunch at NT$8,000.
+
+### Impact
+
+- The active recommended TWD budget is now NT$217,292 for two travelers.
+- The controlled scenario is now NT$212,594 for two travelers.
+- The safety version remains NT$250,000 for two travelers and the hard ceiling remains NT$380,000.
+
 # V5.45.0 - 2026-07-07
 
 ### Changed

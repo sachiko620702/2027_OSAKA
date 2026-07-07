@@ -14,7 +14,7 @@ basis:
   flight_baseline: "使用現行 BR178 / BR129 班表作為 2027 行程暫排基準"
   flight_caveat: "2027/11 官方班表、票價、機型與訂位狀態仍需再次確認"
   day1_lounge_preference: "Day 1 抵達飯店後希望使用 InterContinental Osaka 行政酒廊下午茶；下午茶後先休息，再去梅田 Pokémon Center，晚餐選千房梅田周邊店，之後回飯店。"
-  day3_osaka_city_preference: "Day 3 正式覆蓋為不去京都：木津市場早午餐、難波／日本橋動漫模型周邊採買、回飯店休息與行政酒廊下午茶、大阪市內壽司晚餐。"
+  day3_osaka_city_preference: "Day 3 正式覆蓋為不去京都：木津市場早午餐、難波／日本橋動漫模型周邊採買、回飯店休息與行政酒廊下午茶、肉NOASATSU 壽司晚餐。"
   day4_shinsaibashi_preference: "Day 4 活動範圍以心齋橋為主；午餐後回飯店，在飯店附近活動；晚餐為 NOKA Roast & Grill，預約時確認套餐、主菜與 90 分鐘暢飲。"
 
 hourly_itinerary:
@@ -104,7 +104,7 @@ hourly_itinerary:
         note: "Day 3 改為大阪市內慢旅行，仍建議早休息。"
   - day: "Day 3"
     date: "2027/11/19（五）"
-    theme: "木津市場＋日本橋動漫模型＋飯店酒廊下午茶＋大阪市內壽司晚餐"
+    theme: "木津市場＋日本橋動漫模型＋飯店酒廊下午茶＋肉NOASATSU 壽司晚餐"
     items:
       - time: "08:00–09:30"
         plan: "木津市場早午餐"
@@ -135,7 +135,7 @@ hourly_itinerary:
         status: "formal_luxury_slow_travel_buffer"
         note: "維持 Luxury Slow Travel，不安排中之島或遠距離活動，避免 Day 3 再變長日。"
       - time: "19:00–20:30"
-        plan: "大阪市內壽司晚餐"
+        plan: "肉NOASATSU 壽司晚餐"
         status: "formal_dinner_direction_restaurant_pending"
         note: "使用者指定晚餐吃壽司；餐廳、價位、預約方式、取消政策與交通待確認。"
       - time: "20:30 後"
