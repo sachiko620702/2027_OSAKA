@@ -1,6 +1,6 @@
 project:
   name: 2027 Osaka Trip
-  version: V5.25.0
+  version: V5.26.0
   source_of_truth: GitHub main
   repository: sachiko620702/2027_OSAKA
   dates:
@@ -32,16 +32,26 @@ project:
         route: KIX to TPE
         date: 2027-11-21
         status: needs_official_schedule_confirmation
-      budget_reference_twd_for_two: 35000
+      previous_budget_reference_twd_for_two: 35000
+      budget_reference_twd_for_two: 36000
+      planned_purchase_time: 2026/11
+    ambassador:
+      program: InterContinental Ambassador
+      planned_renewal_time: 2026/12
+      renewal_amount_usd: 250
+      budget_policy: USD tracked separately; do not convert to TWD until an exchange rate or actual card charge is confirmed
     insurance_total_twd: 6900
+    insurance_planned_purchase_date: 2027-11-05
     internet:
       type: phone_roaming
       total_for_two_people_twd: 499
+      planned_application_date: 2027-11-05
     airport_transfer:
       platform: KKday
       selected_product_id: 129909
       reference_price_each_way_twd: 2600
       round_trip_total_twd: 5200
+      planned_purchase_date: 2027-10-10
       price_status: user_provided_reference_needs_2027_confirmation
     usj_transfer:
       platform: KKday
@@ -49,6 +59,22 @@ project:
       reference_price_each_way_twd: 1732
       round_trip_total_twd: 3464
       price_status: user_screenshot_reference_needs_2027_confirmation
+      purchase_date_status: not_assigned_in_v5_26_timeline
+    usj_tickets:
+      express_pass_7:
+        planned_purchase_date: 2027-09-17
+        price_status: pending_official_announcement
+      studio_pass:
+        planned_purchase_date: 2027-10-10
+        price_status: pending_official_announcement
+    pierre_anniversary_dinner:
+      planned_reservation_date: 2027-09-17
+      date: 2027-11-20
+      request:
+        - Anniversary Dinner
+        - Window table / Osaka night-view table request
+        - Anniversary dessert message or small celebration option if available
+      status: pending_booking_window
     breakfast_preference:
       normal_days: hotel_executive_lounge_breakfast
       exception_day: 2027-11-19
@@ -78,11 +104,18 @@ project:
     dining:
       principle: taste_first
       michelin_status: neutral
+  reservation_purchase_timeline:
+    active_database: database/reservation_purchase_timeline.yml
+    version: V5.26.0
+    known_scheduled_twd_payments_total: 43399
+    known_scheduled_usd_payments_total: 250
   budget:
     active_model: database/budget_model.yml
-    version: V5.25.0
-    recommended_total_twd_for_two: 324664
+    version: V5.26.0
+    recommended_total_twd_for_two: 325664
+    recommended_per_person_twd: 162832
     safety_ceiling_twd_for_two: 380000
     luxury_shopping: separate
+    ambassador_usd_250: tracked_separately_until_exchange_rate_or_actual_charge_confirmed
   status: active
-  last_updated: 2026-07-06
+  last_updated: 2026-07-07
