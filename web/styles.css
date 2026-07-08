@@ -288,6 +288,7 @@ code {
 
 .section {
   margin-top: 34px;
+  scroll-margin-top: 96px;
 }
 
 .section-heading {
@@ -390,12 +391,14 @@ code {
 }
 
 .table-panel {
-  overflow: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  min-width: 900px;
 }
 
 thead th {
@@ -877,10 +880,28 @@ tbody tr:hover td {
   .topbar {
     align-items: flex-start;
     flex-direction: column;
+    gap: 16px;
+  }
+
+  .topnav {
+    justify-content: flex-start;
   }
 
   .hero {
     grid-template-columns: 1fr;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .budget-visuals {
+    grid-template-columns: 1fr;
+  }
+
+  .tree-node summary,
+  .tree-leaf-list li {
+    align-items: flex-start;
   }
 
   .footer {
@@ -900,15 +921,130 @@ tbody tr:hover td {
     padding: 20px;
   }
 
+  .hero-actions,
+  .hero-pills {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-actions .button {
+    width: 100%;
+  }
+
   .hero h1 {
     font-size: clamp(2.3rem, 12vw, 3.5rem);
   }
 
-  .table-panel {
-    overflow-x: auto;
+  .topnav {
+    gap: 8px;
+  }
+
+  .topnav a {
+    flex: 1 1 calc(50% - 8px);
+    text-align: center;
+    font-size: 0.84rem;
+    padding: 0.62rem 0.75rem;
+  }
+
+  .section {
+    margin-top: 28px;
+  }
+
+  .info-card,
+  .feature-card,
+  .day-card,
+  .summary,
+  .note,
+  .budget-tree,
+  .calendar-visual,
+  .pending-grid {
+    padding: 18px;
+  }
+
+  .chart-head,
+  .tree-head,
+  .scenario-label {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tree-summary-left,
+  .tree-node summary,
+  .tree-leaf-list li {
+    gap: 10px;
+  }
+
+  .tree-summary-right {
+    min-width: 0;
+    justify-items: start;
+  }
+
+  .tree-leaf-list {
+    padding-left: 20px;
+  }
+
+  .tree-leaf-list li {
+    flex-direction: column;
+  }
+
+  .summary strong {
+    font-size: 1.35rem;
   }
 
   table {
-    min-width: 760px;
+    min-width: 840px;
+    font-size: 0.92rem;
+  }
+
+  thead th,
+  tbody td {
+    padding: 14px 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  .topnav a {
+    flex-basis: 100%;
+  }
+
+  .hero h1 {
+    font-size: clamp(2rem, 13vw, 3rem);
+  }
+
+  .hero-text,
+  .section-note,
+  .info-card p,
+  .feature-card p,
+  .day-card p,
+  .summary p,
+  .note p,
+  .pending-list li {
+    font-size: 0.92rem;
+  }
+
+  .hero-copy,
+  .hero-side,
+  .info-card,
+  .feature-card,
+  .day-card,
+  .summary,
+  .note,
+  .budget-tree,
+  .calendar-visual,
+  .pending-grid {
+    padding: 16px;
+  }
+
+  .hero-actions {
+    gap: 10px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .chart-head strong,
+  .tree-head strong {
+    white-space: normal;
   }
 }
