@@ -1,6 +1,6 @@
 # ROADMAP
 
-Current sync version: V5.52.0 Website Visual Storytelling Refresh.
+Current sync version: V5.53.0 USJ VIP 8h Budget Update.
 
 ## 2026 Q3
 
@@ -9,8 +9,10 @@ Current sync version: V5.52.0 Website Visual Storytelling Refresh.
 - Import current Markdown handbook into docs.
 - Clean YouTube candidate entries.
 - Build Osaka Amazing Pass candidate plan.
-- Maintain V5.51.0 budget model: recommended TWD 199,346 for two travelers, controlled TWD 194,648, safety version TWD 250,000, hard ceiling TWD 280,000, Ambassador renewal USD 250 and luxury shopping separate. Use the lodging net amount TWD 65,900 after the lower-price complimentary night is treated as free.
-- Maintain V5.52.0 public website visual storytelling under `web/` while preserving the V5.51.0 travel data baseline.
+- Maintain V5.53.0 budget model: recommended TWD 272,454 for two travelers, controlled TWD 267,756, safety version TWD 280,000, hard ceiling TWD 280,000, Ambassador renewal USD 250 and luxury shopping separate. Use the lodging net amount TWD 65,900 after the lower-price complimentary night is treated as free.
+- Maintain USJ VIP 8h as the current Day 2 strategy; Express Pass 7 is no longer the active plan unless the user explicitly changes back.
+- Maintain merged shopping model: USJ shopping and ordinary Pokémon / anime / Nipponbashi / department-store small goods are TWD 14,000; do not revive a separate USJ park dining and shopping line.
+- Maintain V5.52.0 public website visual storytelling under `web/`, now synchronized with the V5.53.0 USJ VIP 8h data baseline.
 - Track user-provided transportation references: flight TWD 36,000, airport transfer TWD 2,600 each way, USJ transfer TWD 1,732 each way.
 - Maintain current hourly itinerary using current BR178 / BR129 timetable baseline.
 - Keep homepage `index.md` and `docs/index.md` as lightweight entry points.
@@ -32,28 +34,31 @@ Current sync version: V5.52.0 Website Visual Storytelling Refresh.
 - Track InterContinental Osaka Executive Lounge arrival-day and Day 3 / Day 4 afternoon tea access assumptions.
 - Improve budget model when new official or booking-platform prices appear.
 - Expand taste-first Osaka restaurant candidate database.
+- Maintain Day 2 USJ VIP 8h source status and official reconfirmation list.
 - Maintain Day 3 Osaka city formal itinerary source status: Kizu Market, Nipponbashi anime / models, Executive Lounge afternoon tea, 肉NOASATSU sushi dinner.
 - Maintain Day 4 Shinsaibashi-centered route and NOKA Roast & Grill planning status.
-- Review website visual presentation after GitHub Pages renders the V5.52.0 homepage.
+- Review website visual presentation after GitHub Pages renders the V5.53.0 homepage.
 
 ## 2027 Q1
 
 - Review Osaka restaurant candidates for taste, comfort, location, and reservation feasibility.
 - Review Day 1 Umeda dinner branch after Pokémon Center OSAKA.
+- Review USJ VIP 8h official availability, price, currency, whether Studio Pass is included, and meal scope.
 - Review Day 3 肉NOASATSU final details and backup sushi options only if needed.
 - Review Day 3 Namba / Dotonbori / Shinsaibashi lunch candidates.
 - Review Day 4 Shinsaibashi lunch candidates.
 - Review Day 4 NOKA Roast & Grill booking status and current restaurant details.
-- Update USJ official ticket and pass policy when available.
-- Review shopping targets.
+- Update USJ official ticket, VIP, timed entry, and pass policy when available.
+- Review shopping targets under the merged TWD 14,000 general + USJ shopping model.
 - Recheck the hourly itinerary against any updated BR178 / BR129 public schedules.
-- Recheck whether V5.51.0 budget categories remain realistic after any flight, hotel, USJ, KKday, Day 3 sushi, and NOKA changes.
-- Recheck whether the V5.52.0 website presentation still matches the active itinerary and budget baseline.
+- Recheck whether V5.53.0 budget categories remain realistic after any flight, hotel, USJ VIP, Studio Pass, KKday, Day 3 sushi, and NOKA changes.
+- Recheck whether the website presentation still matches the active itinerary and budget baseline.
 
 ## 2027 Q2
 
 - Confirm EVA Air BR178 and BR129 ticket status if not already purchased in 2026/11.
-- Update USJ Express Pass strategy.
+- Update USJ VIP 8h strategy.
+- Confirm whether Studio Pass is included in USJ VIP 8h; if included, remove the separate Studio Pass budget and recalculate.
 - Update hotel and lounge planning.
 - Recalculate budget from `database/budget_model.yml` only.
 - Confirm KKday airport transfer product #129909 final price, vehicle choice, route, luggage rules, waiting time, and cancellation rules.
@@ -67,7 +72,7 @@ Current sync version: V5.52.0 Website Visual Storytelling Refresh.
 
 - Start reservation preparation.
 - Confirm priority restaurant booking dates.
-- 2027/09/17: attempt to purchase USJ Express Pass 7 if official inventory is available.
+- 2027/09/17: attempt to purchase / reserve USJ VIP 8h if official inventory is available.
 - 2027/09/17: attempt / submit NOKA Roast & Grill reservation with anniversary dinner, buffet package, and 90-minute drinks request.
 - Confirm airport transportation via KKday before the 2027/10/10 purchase target.
 - Confirm hotel-USJ transportation via KKday before the 2027/10/10 purchase target.
@@ -85,17 +90,18 @@ Current sync version: V5.52.0 Website Visual Storytelling Refresh.
 
 - 2027/10/10: buy KKday #129909 airport transfer if date, vehicle, route, luggage, waiting time, and cancellation rules are confirmed.
 - 2027/10/10: buy KKday #536220 hotel-USJ transfer if route, pickup point, 20KM rule, vehicle, luggage, waiting time, and cancellation rules are confirmed.
-- 2027/10/10: buy USJ Studio Pass if official inventory is available.
+- 2027/10/10: buy USJ Studio Pass if official inventory is available and if USJ VIP 8h does not include admission.
 - 2027/11/05: buy travel insurance and confirm policy documents.
 - 2027/11/05: apply for phone roaming and confirm activation / billing rules.
 - Finalize itinerary.
 - Confirm EVA Air BR178 / BR129 official 2027-11 schedule, fare, aircraft, terminal, baggage, and ticketing status.
 - Confirm all reservations.
-- Confirm USJ entry and Express Pass.
+- Confirm USJ VIP 8h and Studio Pass admission rules.
 - Confirm weather, events, and transportation.
 - Confirm travel insurance documents.
 - Final confirmation for Day 1 formal route: afternoon tea, hotel rest, Umeda Pokémon Center, Chibo dinner nearby, return to hotel.
+- Final confirmation for Day 2 formal route: USJ one day with USJ VIP 8h, KKday hotel-USJ transfer, Studio Pass if needed, and no separate USJ dining budget unless official terms require it.
 - Final confirmation for Day 3 formal route: Kizu Market brunch, Namba / Nipponbashi anime models and merch, hotel lounge afternoon tea, 肉NOASATSU sushi dinner.
 - Final confirmation for Day 4 formal route: Shinsaibashi-centered morning/lunch, return to hotel after lunch, Executive Lounge afternoon tea, hotel-nearby activities, NOKA Roast & Grill.
-- Final budget lock: compare confirmed costs against V5.51.0 recommended TWD 199,346, safety version TWD 250,000, and hard ceiling TWD 280,000; handle Ambassador USD 250 separately unless converted later. Lodging should remain net of the lower-price complimentary night.
-- Final website check: confirm V5.52.0 visual homepage still matches the final itinerary, budget, and pending-confirmation wording.
+- Final budget lock: compare confirmed costs against V5.53.0 recommended TWD 272,454, safety version TWD 280,000, and hard ceiling TWD 280,000; handle Ambassador USD 250 separately unless converted later. Lodging should remain net of the lower-price complimentary night.
+- Final website check: confirm V5.53.0 homepage still matches the final itinerary, budget, and pending-confirmation wording.
