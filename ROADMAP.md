@@ -1,6 +1,6 @@
 # ROADMAP
 
-Current sync version: V5.51.0 Repository Consistency Cleanup.
+Current sync version: V5.52.0 Website Visual Storytelling Refresh.
 
 ## 2026 Q3
 
@@ -10,6 +10,7 @@ Current sync version: V5.51.0 Repository Consistency Cleanup.
 - Clean YouTube candidate entries.
 - Build Osaka Amazing Pass candidate plan.
 - Maintain V5.51.0 budget model: recommended TWD 199,346 for two travelers, controlled TWD 194,648, safety version TWD 250,000, hard ceiling TWD 280,000, Ambassador renewal USD 250 and luxury shopping separate. Use the lodging net amount TWD 65,900 after the lower-price complimentary night is treated as free.
+- Maintain V5.52.0 public website visual storytelling under `web/` while preserving the V5.51.0 travel data baseline.
 - Track user-provided transportation references: flight TWD 36,000, airport transfer TWD 2,600 each way, USJ transfer TWD 1,732 each way.
 - Maintain current hourly itinerary using current BR178 / BR129 timetable baseline.
 - Keep homepage `index.md` and `docs/index.md` as lightweight entry points.
@@ -33,6 +34,7 @@ Current sync version: V5.51.0 Repository Consistency Cleanup.
 - Expand taste-first Osaka restaurant candidate database.
 - Maintain Day 3 Osaka city formal itinerary source status: Kizu Market, Nipponbashi anime / models, Executive Lounge afternoon tea, 肉NOASATSU sushi dinner.
 - Maintain Day 4 Shinsaibashi-centered route and NOKA Roast & Grill planning status.
+- Review website visual presentation after GitHub Pages renders the V5.52.0 homepage.
 
 ## 2027 Q1
 
@@ -46,6 +48,7 @@ Current sync version: V5.51.0 Repository Consistency Cleanup.
 - Review shopping targets.
 - Recheck the hourly itinerary against any updated BR178 / BR129 public schedules.
 - Recheck whether V5.51.0 budget categories remain realistic after any flight, hotel, USJ, KKday, Day 3 sushi, and NOKA changes.
+- Recheck whether the V5.52.0 website presentation still matches the active itinerary and budget baseline.
 
 ## 2027 Q2
 
@@ -95,3 +98,4 @@ Current sync version: V5.51.0 Repository Consistency Cleanup.
 - Final confirmation for Day 3 formal route: Kizu Market brunch, Namba / Nipponbashi anime models and merch, hotel lounge afternoon tea, 肉NOASATSU sushi dinner.
 - Final confirmation for Day 4 formal route: Shinsaibashi-centered morning/lunch, return to hotel after lunch, Executive Lounge afternoon tea, hotel-nearby activities, NOKA Roast & Grill.
 - Final budget lock: compare confirmed costs against V5.51.0 recommended TWD 199,346, safety version TWD 250,000, and hard ceiling TWD 280,000; handle Ambassador USD 250 separately unless converted later. Lodging should remain net of the lower-price complimentary night.
+- Final website check: confirm V5.52.0 visual homepage still matches the final itinerary, budget, and pending-confirmation wording.
