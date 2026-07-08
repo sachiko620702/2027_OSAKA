@@ -2,7 +2,7 @@
 
 This repository is the source of truth for the 2027 Osaka travel project.
 
-Current sync version: V5.51.0 Repository Consistency Cleanup.
+Current sync version: V5.52.0 Website Visual Storytelling Refresh.
 
 ## Fixed assumptions
 
@@ -19,6 +19,7 @@ Do not change these without an explicit user request:
 - Day 3 formal itinerary: no Kyoto; Kizu Market brunch, Namba / Nipponbashi anime models and merch, return to InterContinental Osaka for rest and Executive Lounge afternoon tea, and 肉NOASATSU sushi dinner
 - Day 4 formal route: Shinsaibashi-centered activity range until lunch, including Pokemon Center OSAKA DX; return to InterContinental Osaka after lunch; afternoon at / near the hotel; Executive Lounge afternoon tea; Anniversary Dinner at NOKA Roast & Grill inside InterContinental Osaka
 - Day 4 restaurant priority: NOKA Roast & Grill is primary; PIERRE and sushi are fallback-only unless the user explicitly changes back
+- Website presentation: `web/` may use visual storytelling and CSS illustration cards, but it must not create a parallel itinerary or alternate budget outside the repository data baseline
 
 ## Current user-confirmed planning inputs
 
@@ -41,6 +42,7 @@ Do not change these without an explicit user request:
 - Airport transfer: use KKday #129909 both ways between KIX and InterContinental Osaka. Reference price is TWD 2,600 each way, TWD 5,200 round trip. Planned purchase date is 2027/10/10.
 - USJ transfer: use KKday #536220 both ways between InterContinental Osaka and Universal Studios Japan. Reference price is TWD 1,732 each way, TWD 3,464 round trip. Planned purchase date is 2027/10/10.
 - Budget model: use V5.51.0 recommended total TWD 199,346 for two travelers, controlled total TWD 194,648, safety version TWD 250,000, and hard ceiling TWD 280,000. Luxury handbags, jewelry, watches, and Ambassador renewal USD 250 are separate. Estimate lodging net of the lower-price complimentary night rather than the temporary checkout charge peak.
+- Website presentation: V5.52.0 refreshed `web/index.html` and `web/styles.css` into a travel-agency-style visual storytelling page without changing budget or itinerary data.
 - Dining: restaurants should be selected because they are good. Michelin status does not matter either way and should not be used as the main planning label.
 - Customer-facing output: maintain a traveler/customer readable three-table format consisting of itinerary, pre-trip TODO list, and budget summary.
 
