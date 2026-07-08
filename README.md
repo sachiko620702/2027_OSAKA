@@ -1,4 +1,4 @@
-# 2027 大阪自由行 V5.51.0
+# 2027 大阪自由行 V5.52.0
 
 本 repository 是 2027 大阪自由行專案的唯一主資料源，供 ChatGPT、Codex 與 Claude Code 共同維護。
 
@@ -12,9 +12,10 @@
 
 ## 目前主控版本
 
-- Version：V5.51.0 Repository Consistency Cleanup
+- Version：V5.52.0 Website Visual Storytelling Refresh
 - 主控資料源：GitHub main branch
-- 更新目的：修正 V5.50.0 後殘留在主控文件、顧客版統計表與 DECISIONS 的舊預算／舊餐廳決策。
+- 更新目的：將 `web/` 公開網站強化為更接近旅行社宣傳頁的圖文版面，加入首屏海報感、視覺亮點區、圖文式每日行程卡與餐飲視覺卡。
+- 資料基準：正式行程、預算與餐廳決策仍沿用 V5.51.0 Repository Consistency Cleanup。
 - 最新主預算：建議版 NT$199,346／兩人，節制版 NT$194,648／兩人，安全版 NT$250,000／兩人，硬上限 NT$280,000／兩人。
 - Ambassador 續約 USD 250、精品包、珠寶、手錶另計。
 - 住宿以低價那晚免費後的淨額 NT$65,900 估算，不把退房前臨時刷卡高峰值當成主預算。
@@ -38,6 +39,7 @@
 - 早餐原則：平常早餐以飯店行政酒廊為主；Day 3 木津市場日例外，不吃飯店早餐，改吃木津市場早段輕食／早午餐。
 - 餐飲方向：好吃優先，是否米其林不重要。
 - 顧客版輸出：固定維護「行程表、行前提醒／TODO LIST、預算表」三表。
+- 公開網站：`web/` 已於 V5.52.0 改為旅行社宣傳頁風格；目前使用 CSS 視覺卡，不使用外部照片以避免授權與來源問題。
 
 ## Quick access
 
@@ -52,6 +54,7 @@
 - [預算模型資料庫](database/budget_model.yml)
 - [Day 4 NOKA Roast & Grill 資料庫](database/day4_shinsaibashi_hotel_dinner.yml)
 - [每日同步狀態](docs/14_自動同步狀態/每日同步狀態.md)
+- [V5.52.0 網站視覺更新紀錄](docs/13_版本與更新/V5.52.0_Website_Visual_Storytelling_Refresh.md)
 
 ## 維護原則
 
