@@ -2,7 +2,17 @@
 
 Track items that may change before departure.
 
-Current sync version: V5.51.0 Repository Consistency Cleanup.
+Current sync version: V5.52.0 Website Visual Storytelling Refresh.
+
+## Website / GitHub Pages
+
+- V5.52.0 public website presentation under `web/`.
+- `web/index.html` travel-agency-style visual storytelling layout.
+- `web/styles.css` luxury dark visual system, CSS illustration cards, poster-style hero, responsive visual grid, and editorial day cards.
+- Confirm actual GitHub Pages rendering after deployment.
+- Confirm mobile layout readability for hero, visual story cards, itinerary cards, budget tree, and preparation table.
+- If real photos are added later, confirm image licensing, source attribution, file size, and repository storage strategy before use.
+- Keep website wording aligned with V5.51.0 travel data baseline unless the user explicitly changes the itinerary or budget.
 
 ## Reservation / Purchase Timeline
 
@@ -99,84 +109,27 @@ Current sync version: V5.51.0 Repository Consistency Cleanup.
 
 ## Day 3 formal route
 
-- Kizu Market 2027-11-19 business calendar and brunch restaurant candidates
-- Kizu Market queue and best arrival time
-- Kizu Market to Namba / Nipponbashi route by metro or short taxi
-- Nipponbashi / Den Den Town / Ota Road 2027-11-19 store hours, closure notices, events, limited goods, and crowd conditions
-- Namba / Dotonbori / Shinsaibashi lunch candidates that allow returning to InterContinental Osaka after lunch
-- Return route from Namba / Nipponbashi to InterContinental Osaka
-- Executive Lounge afternoon tea 2027-11-19 access rules, timing, and food / beverage offering
-- 肉NOASATSU / KKday #268366 final price, booking window, cancellation policy, location, and transportation
-- Kyoto sweets route, Pokemon Center KYOTO, Kyoto International Manga Museum, 京 鰻和 本店, and 天ぷら 京星 are fallback-only after V5.25.0
+- Osaka Kizu Market 2027-11-19 business calendar and brunch candidates
+- Namba / Nipponbashi / Den Den Town / Ota Road store hours, closure notices, events, limited goods, and crowd conditions
+- Day 3 Namba / Dotonbori / Shinsaibashi lunch candidates
+- InterContinental Osaka Executive Lounge afternoon tea access and timing for 2027-11-19
+- 肉NOASATSU / KKday #268366 final reservation status, cancellation policy, exact location, and transportation
 
 ## Day 4 formal route
 
-- Pokémon Center OSAKA DX 2027-11-20 hours, entry rules, events, campaigns, limited goods, and crowd control
-- Pokémon Cafe OSAKA 2027-11-20 reservation rules if considered, but do not add unless explicitly selected
-- Shinsaibashi / Daimaru Shinsaibashi lunch candidates and whether they fit a post-lunch hotel return
-- Shinsaibashi to InterContinental Osaka return route: Osaka Metro Midosuji Line vs direct taxi depending on shopping volume and fatigue
-- InterContinental Osaka Executive Lounge afternoon tea 2027 hours and eligibility for 2027-11-20
-- Hotel / Grand Front Osaka nearby activity options after returning from Shinsaibashi
-- NOKA Roast & Grill 2027/11/20 booking window, dinner hours, menu, price, service charge, dress code, and cancellation policy
-- NOKA Roast & Grill reservation target: 2027/09/17
-- NOKA Roast & Grill package request rules and whether it can be noted at booking
-- NOKA Roast & Grill anniversary dessert message, small celebration option, and photo support availability
-- Sushi fallback-only status if the user later changes back to sushi dinner for Day 4
-- PIERRE fallback-only status if the user later changes back to PIERRE anniversary dinner
-- ADEE Lounge & Bar availability only if used as optional after-dinner drink / nightcap
-
-## Shopping and anime interests
-
-- Pokemon Center KYOTO only if Kyoto is restored
-- Pokemon Center OSAKA 2027-11-17 hours, closure notices, events, and limited goods
-- Pokemon Center OSAKA DX 2027-11-20 hours, closure notices, events, and limited goods
-- Nipponbashi / Den Den Town / Ota Road 2027-11-19 anime, model, character goods, event, and limited item information
-- Detective Conan Osaka limited-time events, pop-up shops, cafe, exhibitions, and official announcements
-- Department store tax refund rules
-- Luxury boutique appointment policy
-- Seasonal sale dates
-- Shinsaibashi luxury shopping store hours, tax refund rules, and appointment needs
+- Pokémon Center OSAKA DX 2027-11-20 hours, entry rules, events, limited goods, and crowd control
+- Shinsaibashi / Daimaru Shinsaibashi lunch candidates and exact timing
+- Shinsaibashi → InterContinental Osaka return route and whether metro or short taxi is better on the day
+- Executive Lounge afternoon tea 2027-11-20 access and timing
+- NOKA Roast & Grill 2027/11/20 reservation readiness, package terms, anniversary request, and cancellation policy
 
 ## Budget
 
-- JPY/TWD exchange rate
-- USD/TWD exchange rate for Ambassador renewal if the user later wants it included in TWD budget
-- Credit card reward rules
-- Hotel rate changes
-- USJ price changes
-- Active V5.51.0 recommended budget: TWD 199,346 for two travelers
-- Active V5.51.0 controlled budget: TWD 194,648 for two travelers
-- Active V5.51.0 safety version: TWD 250,000 for two travelers
-- Active V5.51.0 hard ceiling: TWD 280,000 for two travelers
-- Luxury handbags, jewelry, and watches are excluded from the base budget and must be budgeted separately
-- InterContinental Ambassador renewal amount USD 250, tracked separately until conversion or actual card charge is known
-- EVA Air BR178 / BR129 fare and payment status; reference TWD 36,000 for two travelers round trip
-- Travel insurance amount TWD 6,900 and payment status; planned purchase date 2027/11/05
-- Phone roaming amount TWD 499 for two people and carrier billing rules; planned application date 2027/11/05
-- KKday product #129909 airport transfer final price and booking rules; reference TWD 2,600 each way, TWD 5,200 round trip; planned purchase date 2027/10/10
-- KKday product #536220 hotel-USJ transfer final price and booking rules; reference TWD 1,732 each way, TWD 3,464 round trip; planned purchase date 2027/10/10
-- Day 1 dinner near Pokémon Center OSAKA budget
-- Day 3 Osaka city transportation actual cost
-- Day 3 肉NOASATSU sushi dinner budget after final reservation confirmation
-- Day 3 lunch budget near Namba / Dotonbori / Shinsaibashi
-- Day 4 Shinsaibashi lunch budget
-- Day 4 Shinsaibashi to InterContinental Osaka return transport cost
-- Day 4 NOKA Roast & Grill budget, service charge, cancellation risk, and optional anniversary add-ons
-- Optional ADEE nightcap budget if added
-- Day 3 Kyoto route budget only if user restores Kyoto
-- Pokemon Center OSAKA / OSAKA DX / Nipponbashi shopping budget
-- Executive Lounge afternoon tea included benefit versus extra charge status
-
-## Ticket Platforms
-
-- KKday 2027/11 Osaka product availability
-- Klook 2027/11 Osaka product availability
-- USJ Studio Pass / Express Pass inventory on KKday and Klook
-- KKday / Klook booking rules for USJ tickets
-- KKday product 129909 KIX to InterContinental Osaka route price, luggage rules, waiting time, and vehicle choice
-- KKday product 536220 InterContinental Osaka to USJ route price, pickup time, pickup point, 20KM rule, vehicle choice, luggage rules, and cancellation policy before 2027/10/10 purchase target
-- KKday product 536220 USJ to InterContinental Osaka return pickup point and route price before 2027/10/10 purchase target
-- KKday product 133661 backup-only availability only if Kyoto or comfort-day route is restored
-- Osaka Amazing Pass 2027 price, valid facilities, and transportation coverage
-- Osaka e-Pass 2027 price and valid facilities
-- Japan eSIM / SIM / Pocket Wi-Fi only as backup; phone roaming is the selected primary plan
+- V5.51.0 recommended budget: TWD 199,346 for two travelers
+- Controlled scenario: TWD 194,648 for two travelers
+- Safety version: TWD 250,000 for two travelers
+- Hard ceiling: TWD 280,000 for two travelers
+- InterContinental Ambassador renewal USD 250 tracked separately
+- Luxury handbags, jewelry, and watches tracked separately
+- Recalculate only from `database/budget_model.yml`
+- Do not revive older totals such as TWD 217,292, TWD 237,896, TWD 244,646, TWD 325,664, or TWD 380,000 as current active totals
