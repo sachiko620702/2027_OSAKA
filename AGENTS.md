@@ -2,9 +2,9 @@
 
 This repository is maintained by ChatGPT, Codex, and Claude Code.
 
-Current sync version: V5.51.0 Repository Consistency Cleanup.
+Current sync version: V5.52.0 Website Visual Storytelling Refresh.
 
-ChatGPT handles travel decisions, prioritization, itinerary fit, budget impact, source reliability, and integration.
+ChatGPT handles travel decisions, prioritization, itinerary fit, budget impact, source reliability, integration, and customer-facing presentation direction.
 
 Codex handles repository maintenance, formatting, duplicate checks, Markdown and YAML cleanup, changelog consistency, and avoiding parallel versions.
 
@@ -18,6 +18,7 @@ Claude Code follows `CLAUDE.md` when assisting repository maintenance.
 4. Keep fixed assumptions unchanged unless the user explicitly changes them.
 5. Record major changes in CHANGELOG and `docs/13_版本與更新/`.
 6. Database first, docs second, changelog last.
+7. Website presentation changes under `web/` must preserve the database and budget baseline instead of creating a parallel plan.
 
 ## Fixed assumptions
 
@@ -54,3 +55,4 @@ Claude Code follows `CLAUDE.md` when assisting repository maintenance.
 - USJ transfer: KKday #536220 for both hotel to USJ and hotel return. Reference price is TWD 1,732 each way, TWD 3,464 round trip. Planned purchase date 2027/10/10.
 - Active budget model: recommended total TWD 199,346 for two travelers; controlled total TWD 194,648; safety version TWD 250,000; hard ceiling TWD 280,000; Ambassador renewal USD 250, luxury handbags, jewelry, and watches are separate. Lodging should be estimated net of the lower-price complimentary night, not using the temporary checkout charge peak.
 - Dining: choose good restaurants; do not label the plan as non-Michelin, and do not prioritize Michelin status either way.
+- Website presentation: V5.52.0 refreshed `web/index.html` and `web/styles.css` into a travel-agency-style visual storytelling page; this must remain presentation-only unless the user explicitly requests itinerary or budget changes.
