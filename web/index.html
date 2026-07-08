@@ -4,42 +4,45 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark light">
-  <title>2027 大阪自由行｜旅遊網站</title>
-  <meta name="description" content="2027 大阪自由行的旅遊社顧客版介紹網站，聚焦行程、提醒、預算與餐飲安排。">
+  <title>2027 大阪自由行｜Luxury Slow Travel</title>
+  <meta name="description" content="2027 大阪自由行旅行社風格宣傳頁，聚焦 InterContinental Osaka、USJ、寶可夢動漫、美食、購物與五天四夜慢旅行節奏。">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <div class="page-bg"></div>
+  <div class="page-bg" aria-hidden="true"></div>
+
   <header class="topbar">
-    <div class="brand">
-      <span class="brand-mark">OSAKA</span>
+    <a class="brand" href="#top" aria-label="回到頁首">
+      <span class="brand-mark">OSAKA 2027</span>
       <span class="brand-sub">Luxury Slow Travel</span>
-    </div>
+    </a>
     <nav class="topnav" aria-label="頁面導覽">
       <a href="#overview">總覽</a>
+      <a href="#visual-story">亮點</a>
       <a href="#itinerary">行程</a>
-      <a href="#hotel-reply">飯店回信</a>
-      <a href="#calendar">準備提醒</a>
+      <a href="#hotel-reply">飯店</a>
+      <a href="#calendar">準備</a>
       <a href="#budget">預算</a>
       <a href="#dining">餐飲</a>
       <a href="#pending">待確認</a>
     </nav>
   </header>
 
-  <main class="shell">
-    <section class="hero">
+  <main id="top" class="shell">
+    <section class="hero hero-showcase">
       <div class="hero-copy panel">
-        <p class="eyebrow">Travel agency presentation</p>
-        <h1>2027 大阪自由行</h1>
+        <p class="eyebrow">Private Osaka Proposal</p>
+        <h1>大阪五天四夜<br>慢旅行提案</h1>
         <p class="hero-text">
-          這是一份給旅客看的正式介紹頁面，重點放在「看得懂、好安排、可以直接標記行事曆」。
-          我們把旅程節奏、準備提醒、預算與餐飲重點整理在同一個頁面，讓整體體驗更像旅行社提案。
+          以 InterContinental Osaka 作為據點，把 USJ、寶可夢／動漫採買、心齋橋購物、
+          木津市場與壽司晚餐安排成一條不趕路的高質感路線。這一頁改成更像旅行社宣傳頁：
+          先看氣氛，再看行程、預算與待確認事項。
         </p>
 
         <div class="hero-actions">
-          <a class="button primary" href="#calendar">看準備提醒</a>
+          <a class="button primary" href="#visual-story">看旅程亮點</a>
           <a class="button" href="#itinerary">看每日行程</a>
-          <a class="button" href="#budget">看預算表</a>
+          <a class="button" href="#budget">看預算結構</a>
         </div>
 
         <div class="hero-pills" aria-label="旅程重點">
@@ -51,150 +54,257 @@
         </div>
       </div>
 
-      <aside class="hero-side panel">
-        <div class="side-card accent">
-          <p class="side-label">Trip style</p>
-          <strong>Luxury Slow Travel</strong>
-          <span>舒適、節奏穩定、以體驗品質為主。</span>
+      <aside class="hero-visual panel" aria-label="旅程視覺摘要">
+        <div class="poster-scene">
+          <div class="poster-copy">
+            <span>OSAKA</span>
+            <strong>Hotel Lounge · USJ · Shopping · Sushi</strong>
+          </div>
         </div>
-        <div class="side-card">
-          <p class="side-label">Budget baseline</p>
-          <strong data-budget-text="hero-recommended-total">由 JS 計算</strong>
-          <span data-budget-text="hero-recommended-note">載入後自動更新</span>
-        </div>
-        <div class="side-card">
-          <p class="side-label">Next key dates</p>
-          <strong>2026/11 · 2026/12 · 2027/09/17 · 2027/10/10 · 2027/11/05</strong>
-          <span>可直接標記在行事曆上。</span>
-        </div>
-        <div class="side-card">
-          <p class="side-label">Planned room</p>
-          <strong>1 King Premium Club Lounge Access</strong>
-          <span>飯店回信表示通常會升等到 Junior Suite with club lounge access。</span>
+        <div class="mini-photo-grid">
+          <div class="mini-photo scene-hotel">
+            <span>Hotel base</span>
+            <strong>InterContinental Osaka</strong>
+          </div>
+          <div class="mini-photo scene-usj">
+            <span>Theme park</span>
+            <strong>USJ One Day</strong>
+          </div>
+          <div class="mini-photo scene-shopping">
+            <span>Shopping</span>
+            <strong>Umeda / Shinsaibashi</strong>
+          </div>
+          <div class="mini-photo scene-dining">
+            <span>Dining</span>
+            <strong>NOKA + Sushi</strong>
+          </div>
         </div>
       </aside>
     </section>
 
     <section id="overview" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">旅遊總覽</p>
-        <h2>一眼看懂這趟旅行</h2>
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">旅遊總覽</p>
+          <h2>這趟旅行主打「住得好、玩得順、吃得舒服」</h2>
+        </div>
+        <p class="section-lead">
+          保留旅行社頁面的視覺感，但所有數字與行程仍以 repository 主資料為準。
+        </p>
       </div>
+
+      <div class="sales-strip panel">
+        <div>
+          <span>Trip dates</span>
+          <strong>2027/11/17 - 11/21</strong>
+        </div>
+        <div>
+          <span>Style</span>
+          <strong>Luxury Slow Travel</strong>
+        </div>
+        <div>
+          <span>Budget</span>
+          <strong data-budget-text="overview-recommended-total">由 JS 計算</strong>
+        </div>
+        <div>
+          <span>Hotel</span>
+          <strong>InterContinental Osaka</strong>
+        </div>
+      </div>
+
       <div class="card-grid six-up">
         <article class="info-card panel">
-          <span>旅行日期</span>
-          <strong>2027/11/17 - 2027/11/21</strong>
-          <p>五天四夜，固定入住 InterContinental Osaka。</p>
+          <span>固定住宿</span>
+          <strong>大阪洲際酒店</strong>
+          <p>四晚固定以 InterContinental Osaka 為據點，方便保留飯店休息與酒廊節奏。</p>
         </article>
         <article class="info-card panel">
-          <span>旅遊風格</span>
-          <strong>Luxury Slow Travel</strong>
-          <p>把節奏放慢，讓移動與用餐都更舒服。</p>
+          <span>玩樂核心</span>
+          <strong>USJ 一整天</strong>
+          <p>不再塞其他遠距離活動，讓園區日專心玩設施、買周邊與吃園區餐。</p>
         </article>
         <article class="info-card panel">
-          <span>固定重點</span>
-          <strong>USJ、購物、寶可夢、動漫</strong>
-          <p>旅程核心是玩得盡興，也買得盡興。</p>
+          <span>興趣導向</span>
+          <strong>寶可夢／動漫／模型</strong>
+          <p>梅田、心齋橋、日本橋都保留採買與逛街時間，符合旅客興趣。</p>
         </article>
         <article class="info-card panel">
-          <span>餐飲原則</span>
-          <strong>Taste-first</strong>
-          <p>好吃優先，Michelin status neutral。</p>
+          <span>美食策略</span>
+          <strong>好吃優先</strong>
+          <p>餐廳不以米其林為主標籤，重點是口味、動線與舒適度。</p>
         </article>
         <article class="info-card panel">
-          <span>早餐原則</span>
-          <strong>行政酒廊為主</strong>
-          <p>Day 3 改吃木津市場早午餐。</p>
+          <span>節奏安排</span>
+          <strong>每日保留休息</strong>
+          <p>多日安排回飯店、行政酒廊下午茶或近飯店活動，避免過度趕行程。</p>
         </article>
         <article class="info-card panel">
-          <span>預算基準</span>
-          <strong data-budget-text="overview-recommended-total">由 JS 計算</strong>
+          <span>預算摘要</span>
+          <strong data-budget-text="hero-recommended-total">由 JS 計算</strong>
           <p data-budget-text="overview-recommended-note">載入後自動更新。</p>
         </article>
       </div>
     </section>
 
-    <section id="itinerary" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">每日節奏</p>
-        <h2>行程不是塞滿，而是排得順</h2>
+    <section id="visual-story" class="section">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">Visual Story</p>
+          <h2>把行程變成一眼有感的旅行畫面</h2>
+        </div>
+        <p class="section-lead">
+          這些是宣傳頁用的視覺卡，不使用外部照片，避免授權與來源問題；後續若要放真照片，可再替換成可授權素材。
+        </p>
       </div>
-      <div class="timeline">
+
+      <div class="visual-grid">
+        <article class="visual-card tall scene-hotel panel">
+          <div class="visual-copy">
+            <span>Stay</span>
+            <h3>飯店作為旅行基地</h3>
+            <p>行政酒廊早餐、下午茶與休息時段，讓五天四夜更像度假。</p>
+          </div>
+        </article>
+        <article class="visual-card scene-usj panel">
+          <div class="visual-copy">
+            <span>Play</span>
+            <h3>USJ 一天完整保留</h3>
+            <p>Express Pass、Studio Pass、接送與園區購物集中管理。</p>
+          </div>
+        </article>
+        <article class="visual-card scene-market panel">
+          <div class="visual-copy">
+            <span>Local Taste</span>
+            <h3>木津市場早午餐</h3>
+            <p>Day 3 不吃飯店早餐，改用市場開啟大阪市內慢旅行。</p>
+          </div>
+        </article>
+        <article class="visual-card scene-anime panel">
+          <div class="visual-copy">
+            <span>Hobby</span>
+            <h3>日本橋動漫模型採買</h3>
+            <p>把興趣安排成正式行程，而不是空檔附加活動。</p>
+          </div>
+        </article>
+        <article class="visual-card scene-shopping panel">
+          <div class="visual-copy">
+            <span>Shopping</span>
+            <h3>心齋橋與百貨周邊</h3>
+            <p>Day 4 午餐後回飯店，避免購物日變成硬撐的長距離移動。</p>
+          </div>
+        </article>
+        <article class="visual-card scene-dining panel">
+          <div class="visual-copy">
+            <span>Dining</span>
+            <h3>壽司與 NOKA 紀念日晚餐</h3>
+            <p>Day 3 肉NOASATSU，Day 4 NOKA Roast & Grill。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="itinerary" class="section">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">每日節奏</p>
+          <h2>五天四夜，每天都有主題</h2>
+        </div>
+        <p class="section-lead">
+          不是把景點塞滿，而是把每天安排成明確、有畫面、可執行的旅行段落。
+        </p>
+      </div>
+
+      <div class="timeline editorial-timeline">
         <article class="day-card panel">
-          <div class="day-head">
+          <div class="day-media scene-arrival">
             <span class="day-chip">Day 1</span>
+          </div>
+          <div class="day-body">
             <h3>抵達大阪，先把節奏放穩</h3>
+            <p>行政酒廊下午茶後先休息，再去梅田 Pokémon Center OSAKA，晚餐選千房梅田周邊店，最後回飯店。</p>
+            <ul>
+              <li>關西機場 → InterContinental Osaka</li>
+              <li>Executive Lounge 下午茶</li>
+              <li>梅田 Pokémon Center OSAKA</li>
+              <li>千房 梅田周邊店晚餐</li>
+            </ul>
           </div>
-          <p>行政酒廊下午茶後先休息，再去梅田 Pokémon Center OSAKA，晚餐選千房梅田周邊店，最後回飯店。</p>
-          <ul>
-            <li>關西機場 → InterContinental Osaka</li>
-            <li>Executive Lounge 下午茶</li>
-            <li>梅田 Pokémon Center OSAKA</li>
-            <li>千房 梅田周邊店晚餐</li>
-          </ul>
         </article>
 
         <article class="day-card panel">
-          <div class="day-head">
+          <div class="day-media scene-usj">
             <span class="day-chip">Day 2</span>
+          </div>
+          <div class="day-body">
             <h3>USJ 一天，專心玩園區</h3>
+            <p>使用 KKday 接送與票券，整天留給 Universal Studios Japan，不另外塞遠距離活動。</p>
+            <ul>
+              <li>USJ Express Pass 7</li>
+              <li>USJ Studio Pass</li>
+              <li>酒店 ↔ USJ 接送</li>
+              <li>園區內用餐與購物</li>
+            </ul>
           </div>
-          <p>使用 KKday 接送與票券，整天留給 Universal Studios Japan，不另外塞遠距離活動。</p>
-          <ul>
-            <li>USJ Express Pass 7</li>
-            <li>USJ Studio Pass</li>
-            <li>酒店 ↔ USJ 接送</li>
-            <li>園區內用餐與購物</li>
-          </ul>
         </article>
 
         <article class="day-card panel">
-          <div class="day-head">
+          <div class="day-media scene-market">
             <span class="day-chip">Day 3</span>
+          </div>
+          <div class="day-body">
             <h3>木津市場、日本橋、壽司晚餐</h3>
+            <p>不去京都，改成大阪市內慢旅行：木津市場早午餐、日本橋動漫模型採買、飯店休息與行政酒廊下午茶，晚餐為肉NOASATSU。</p>
+            <ul>
+              <li>木津市場早午餐</li>
+              <li>難波／日本橋採買</li>
+              <li>飯店休息與下午茶</li>
+              <li>肉NOASATSU 壽司晚餐</li>
+            </ul>
           </div>
-          <p>不去京都，改成大阪市內的慢旅行版本：木津市場早午餐、日本橋動漫模型採買、回飯店休息與行政酒廊下午茶，晚餐為肉NOASATSU，來源是 KKday #268366。</p>
-          <ul>
-            <li>木津市場早午餐</li>
-            <li>難波／日本橋採買</li>
-            <li>肉NOASATSU 壽司晚餐</li>
-            <li>回飯店休息</li>
-          </ul>
         </article>
 
         <article class="day-card panel">
-          <div class="day-head">
+          <div class="day-media scene-shopping">
             <span class="day-chip">Day 4</span>
-            <h3>心齋橋購物後，回飯店吃晚餐</h3>
           </div>
-          <p>上午在心齋橋與大丸心齋橋活動，午餐後回 InterContinental Osaka，下午茶後直接進入 NOKA Roast & Grill 紀念日晚餐。</p>
-          <ul>
-            <li>Pokémon Center OSAKA DX</li>
-            <li>午餐後回飯店</li>
-            <li>行政酒廊下午茶</li>
-            <li>NOKA Roast & Grill</li>
-          </ul>
+          <div class="day-body">
+            <h3>心齋橋購物後，回飯店吃晚餐</h3>
+            <p>上午在心齋橋與大丸心齋橋活動，午餐後回 InterContinental Osaka，下午茶後進入 NOKA Roast & Grill 紀念日晚餐。</p>
+            <ul>
+              <li>Pokémon Center OSAKA DX</li>
+              <li>午餐後回飯店</li>
+              <li>行政酒廊下午茶</li>
+              <li>NOKA Roast & Grill</li>
+            </ul>
+          </div>
         </article>
 
         <article class="day-card panel">
-          <div class="day-head">
+          <div class="day-media scene-departure">
             <span class="day-chip">Day 5</span>
-            <h3>退房返台，留一點彈性</h3>
           </div>
-          <p>保留上午整理與最後採買時間，傍晚搭 BR129 返回台北。</p>
-          <ul>
-            <li>行政酒廊早餐</li>
-            <li>飯店 → KIX 接送</li>
-            <li>BR129 18:30 KIX → 20:30 TPE</li>
-          </ul>
+          <div class="day-body">
+            <h3>退房返台，留一點彈性</h3>
+            <p>保留上午整理與最後採買時間，傍晚搭 BR129 返回台北。</p>
+            <ul>
+              <li>行政酒廊早餐</li>
+              <li>飯店 → KIX 接送</li>
+              <li>BR129 18:30 KIX → 20:30 TPE</li>
+            </ul>
+          </div>
         </article>
       </div>
     </section>
 
     <section id="hotel-reply" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">飯店回信</p>
-        <h2>FAQ / 確認事項 / 飯店政策備忘錄 / 行前待確認清單</h2>
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">飯店回信</p>
+          <h2>把住宿賣點整理成顧客看得懂的卡片</h2>
+        </div>
+        <p class="section-lead">
+          目前房型與升等仍需依飯店最終回覆與房況確認；網站僅呈現已記錄的規劃基準。
+        </p>
       </div>
       <div class="card-grid six-up">
         <article class="info-card panel">
@@ -225,19 +335,21 @@
         <article class="info-card panel">
           <span>預計房型</span>
           <strong>1 King Premium Club Lounge Access</strong>
-          <p>這是目前預計的入住房型，也會是後續拆單連住時的核心比對基準。</p>
+          <p>這是目前預計的入住房型，也是後續拆單連住時的核心比對基準。</p>
         </article>
       </div>
     </section>
 
     <section id="calendar" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">行事曆提醒</p>
-        <h2>哪一天要準備什麼，一次看清楚</h2>
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">行事曆提醒</p>
+          <h2>哪一天要準備什麼，一次看清楚</h2>
+        </div>
+        <p class="section-lead">
+          左邊是時間，右邊是要完成的項目；適合直接轉成手機行事曆提醒。
+        </p>
       </div>
-      <p class="section-note">
-        這一區是「需要你在什麼時間點做什麼事」；左邊日期是時間，右邊是要完成的項目。
-      </p>
       <div class="calendar-visual panel">
         <div class="chart-head">
           <div>
@@ -274,6 +386,7 @@
           </div>
         </div>
       </div>
+
       <div class="table-panel panel">
         <table>
           <thead>
@@ -312,7 +425,7 @@
               <td>NOKA Roast & Grill 訂位</td>
               <td><span class="tag">餐廳</span></td>
               <td>待訂位窗口</td>
-              <td>記得備註 anniversary dinner，並請求 window table / Osaka night view。</td>
+              <td>記得備註 anniversary dinner，並請求紀念日支援；座位需求需以餐廳確認為準。</td>
             </tr>
             <tr>
               <td><strong>2027/10/10</strong></td>
@@ -355,44 +468,59 @@
     </section>
 
     <section id="budget" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">預算管理</p>
-        <h2>把高單價項目先看清楚</h2>
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">預算管理</p>
+          <h2>把高單價項目先看清楚</h2>
+        </div>
+        <p class="section-lead">
+          預算資料由 <code>web/budget.js</code> 自動渲染，避免首頁出現多份手動總額。
+        </p>
       </div>
-      <p class="section-note">
-        先看上方圖表，再點開六大類預算樹狀清單。每一類都先顯示總額，展開後才會看到子項目。
-      </p>
       <div id="budget-app"></div>
     </section>
 
     <section id="dining" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">餐飲亮點</p>
-        <h2>讓顧客一看就知道這趟吃什麼</h2>
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">餐飲亮點</p>
+          <h2>這趟旅行吃什麼，也要有畫面</h2>
+        </div>
+        <p class="section-lead">
+          餐飲以 taste-first 為原則；米其林狀態不是主標籤，也不作為主要選擇理由。
+        </p>
       </div>
       <div class="card-grid three-up">
         <article class="feature-card panel">
+          <div class="feature-photo scene-okonomi"></div>
           <span class="feature-kicker">Day 1</span>
           <h3>千房 梅田周邊店</h3>
           <p>抵達日的正式晚餐方向，安排在梅田動線內，重點是穩定、好走、吃得舒服。</p>
         </article>
         <article class="feature-card panel">
+          <div class="feature-photo scene-sushi"></div>
           <span class="feature-kicker">Day 3</span>
           <h3>肉NOASATSU 壽司晚餐</h3>
-          <p>保留一餐壽司作為當天的收尾，店名為肉NOASATSU，來源是 KKday #268366，單人 NT$1,541、兩人 NT$3,082，取消政策仍待確認。</p>
+          <p>保留一餐壽司作為當天收尾，來源是 KKday #268366，單人 NT$1,541、兩人 NT$3,082，取消政策仍待確認。</p>
         </article>
         <article class="feature-card panel">
+          <div class="feature-photo scene-noka"></div>
           <span class="feature-kicker">Day 4</span>
-              <h3>NOKA Roast & Grill</h3>
-          <p>紀念日晚餐改為 NOKA Roast & Grill；套餐包含開胃菜自助餐、主菜（選）、甜點自助餐與咖啡或茶，飲品 90 分鐘暢飲，並留意特價菜單日不適用。</p>
+          <h3>NOKA Roast & Grill</h3>
+          <p>紀念日晚餐改為 NOKA Roast & Grill；PIERRE 與壽司保留為 fallback-only。</p>
         </article>
       </div>
     </section>
 
     <section id="pending" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">待確認清單</p>
-        <h2>留在出發前逐項確認的內容</h2>
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">待確認清單</p>
+          <h2>出發前逐項確認的內容</h2>
+        </div>
+        <p class="section-lead">
+          宣傳頁可以好看，但未公布的 2027 資訊仍必須明確標示待確認。
+        </p>
       </div>
       <div class="pending-grid panel">
         <ul class="pending-list">
@@ -410,20 +538,19 @@
 
     <section class="section">
       <div class="note panel">
-        <p class="eyebrow">設計語言</p>
+        <p class="eyebrow">Design language</p>
         <h2>像旅行社提案，而不是像內部備忘錄</h2>
         <p>
-          這份網站把資訊分層成「總覽」、「提醒」、「預算」、「餐飲」與「待確認」，
-          方便直接給顧客看，也方便日後持續更新。
+          V5.52.0 只強化網站視覺與敘事：首屏更像旅遊海報、加入圖像感亮點卡、
+          行程卡改成圖文版，並保留預算 JS 自動計算。正式行程與預算仍沿用 V5.51.0 主控資料。
         </p>
       </div>
     </section>
-
   </main>
 
   <footer class="footer">
     <span>Source of truth: repository database</span>
-    <span>Public site files are concentrated under <code>./web</code></span>
+    <span>Website refresh: V5.52.0 Visual Storytelling</span>
   </footer>
   <script defer src="./budget.js"></script>
 </body>
