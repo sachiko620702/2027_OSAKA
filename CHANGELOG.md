@@ -1,5 +1,23 @@
 # CHANGELOG
 
+# V5.50.0 - 2026-07-08
+
+### Changed
+
+- Updated the planned room type to `1 King Premium Club Lounge Access` and revised the two hotel booking prices to NT$37,400 and NT$28,500, with the net lodging total now recorded as NT$65,900.
+- Recalculated the active budget baseline to NT$199,346 for two travelers and updated the controlled scenario to NT$194,648.
+- Synchronized `database/project.yaml`, `database/budget_model.yml`, `database/customer_facing_travel_plan.yml`, `database/reservations.yaml`, `database/hotel_lounge.yml`, `docs/03_預約購買/2027大阪自由行_預約購買時間軸_V5.26.0.md`, `docs/06_預算/2027大阪自由行_預算模型_V5.26.0.md`, `docs/14_自動同步狀態/每日同步狀態.md`, `docs/15_顧客版資料/旅遊規劃三表.md`, `docs/15_顧客版資料/旅遊常用表格總覽.md`, `web/index.html`, `web/budget.js`, and `README.md`.
+
+### Reason
+
+The user changed the lodging room type and the two booking prices, and asked to keep the web version and the repository documentation aligned.
+
+### Impact
+
+- The active plan now reflects the new room type without the `City View` qualifier.
+- The website and travel notes now display the updated lodging totals and the revised main budget baseline.
+- The hotel reply remains partially confirmed, but the stored reservation and planning references are now consistent with the latest numbers.
+
 # V5.49.0 - 2026-07-07
 
 ### Changed

@@ -23,7 +23,7 @@ hotel_reply:
   reply_status: "PARTIALLY_CONFIRMED"
   reservation_open_timing: "通常約入住前 10 個月開放；2027/11 預訂可先於 2027/02 左右留意。"
   planned_room_type:
-    requested: "1 King Premium Club Lounge Access City View"
+    requested: "1 King Premium Club Lounge Access"
     usual_upgrade: "1 King Junior Suite with club lounge access"
     note: "飯店表示通常會升等到 Junior Suite with club lounge access，但仍以當下房況為準。"
   consecutive_reservations:
@@ -88,4 +88,4 @@ watch_items:
   - "Whether Day 1 arrival time can realistically connect to afternoon tea after KIX transfer."
   - "Dinner candidates near Pokémon Center OSAKA in Umeda."
   - "Day 4 Executive Lounge afternoon tea hours and eligibility after returning from Shinsaibashi."
-  - "Day 4 hotel dinner candidates: PIERRE / NOKA Roast & Grill reservation availability, menu, price, service charge and cancellation policy."
+  - "Day 4 hotel dinner candidate: NOKA Roast & Grill reservation availability, menu, price, service charge and cancellation policy."

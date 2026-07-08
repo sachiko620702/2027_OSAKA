@@ -3,8 +3,8 @@
     travelers: 2,
     hardLimitTwd: 280000,
     scenarios: {
-      controlled: 212594,
-      recommended: 217292,
+      controlled: 194648,
+      recommended: 199346,
       safety: 250000,
     },
     scheduled: {
@@ -32,10 +32,10 @@
         key: "lodging",
         label: "住宿",
         description: "兩張住宿單，合計四晚與行政酒廊節奏",
-        note: "第二筆住宿在退房時更新金額，低價那晚視為免費後再計算；飯店回信表示 1 King Premium Club Lounge Access City View 通常升等為 1 King Junior Suite with club lounge access，同房型兩筆連住可盡量安排同房；12:00 提早入住可視房況加價保證；Ambassador 續約 USD 250 另以外幣獨立追蹤。",
+        note: "第二筆住宿在退房時更新金額，低價那晚視為免費後再計算；飯店回信表示 1 King Premium Club Lounge Access 通常升等為 1 King Junior Suite with club lounge access，同房型兩筆連住可盡量安排同房；12:00 提早入住可視房況加價保證；Ambassador 續約 USD 250 另以外幣獨立追蹤。",
         items: [
-          { label: "Preferred Partner Rate 20% Off", amount: 49726.35, detail: "Jun 9 - Jun 11, 2027" },
-          { label: "Ambassador Complimentary Weekend Night", amount: 34119.38, detail: "Jun 11 - Jun 13, 2027" },
+          { label: "Preferred Partner Rate 20% Off", amount: 37400, detail: "Jun 9 - Jun 11, 2027" },
+          { label: "Ambassador Complimentary Weekend Night", amount: 28500, detail: "Jun 11 - Jun 13, 2027" },
         ],
       },
       {

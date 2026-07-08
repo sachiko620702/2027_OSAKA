@@ -6,7 +6,7 @@ reservations:
     name: InterContinental Osaka
     confirmation_status: PARTIALLY_CONFIRMED_BY_HOTEL_REPLY
     planned_room_type:
-      requested: 1 King Premium Club Lounge Access City View
+      requested: 1 King Premium Club Lounge Access
       usual_upgrade: 1 King Junior Suite with club lounge access
       note: Hotel replied that this booking usually upgrades to a Junior Suite with club lounge access, subject to availability.
     hotel_reply:

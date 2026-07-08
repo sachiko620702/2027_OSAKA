@@ -45,14 +45,14 @@ project:
       booking_1:
         dates: "2027-06-09 to 2027-06-11"
         rate_name: "Preferred Partner Rate 20% Off"
-        total_twd: 49726.35
+        total_twd: 37400
       booking_2:
         dates: "2027-06-11 to 2027-06-13"
         rate_name: "Ambassador Complimentary Weekend Night"
-        total_twd: 65883.49
-      checkout_adjusted_net_total_twd: 83845.73
+        total_twd: 28500
+      checkout_adjusted_net_total_twd: 65900
       planned_room_type:
-        requested: "1 King Premium Club Lounge Access City View"
+        requested: "1 King Premium Club Lounge Access"
         usual_upgrade: "1 King Junior Suite with club lounge access"
         note: "飯店回信表示通常會升等到 Junior Suite with club lounge access，但仍視房況而定。"
       hotel_reply:
@@ -139,8 +139,8 @@ project:
   budget:
     active_model: database/budget_model.yml
     version: V5.26.2
-    recommended_total_twd_for_two: 217292
-    recommended_per_person_twd: 108646
+    recommended_total_twd_for_two: 199346
+    recommended_per_person_twd: 99673
     safety_ceiling_twd_for_two: 280000
     luxury_shopping: separate
     ambassador_usd_250: tracked_separately_until_exchange_rate_or_actual_charge_confirmed
