@@ -1,9 +1,9 @@
 project:
   name: 2027 Osaka Trip
-  version: V5.51.0
+  version: V5.53.0
   source_of_truth: GitHub main
   repository: sachiko620702/2027_OSAKA
-  current_sync_reason: Repository consistency cleanup after V5.50.0
+  current_sync_reason: USJ VIP 8h budget update and USJ shopping merge
   dates:
     start: 2027-11-17
     end: 2027-11-21
@@ -25,6 +25,7 @@ project:
     - Breakfast normally at hotel Executive Lounge except Kizu Market day
     - Day 3 formal route is Osaka city route, not Kyoto
     - Day 4 formal dinner is NOKA Roast & Grill; PIERRE is fallback-only
+    - USJ Express Pass 7 is superseded by USJ VIP 8h in V5.53.0
 
   user_confirmed_inputs:
     flights:
@@ -99,19 +100,36 @@ project:
 
     usj_tickets:
       express_pass_7:
-        planned_purchase_date: 2027-09-17
-        price_status: pending_official_announcement
-        reference_price_twd_range:
-          low: 4365
-          high: 5754
+        status: superseded_by_usj_vip_8h
+        previous_planned_purchase_date: 2027-09-17
+        note: "V5.53.0 依使用者指示改為 USJ VIP 8 小時。"
+      vip_8h:
+        planned_purchase_or_reservation_date: 2027-09-17
+        reference_amount_twd: 87000
+        amount_source: "使用者提供 87,000；本版先以 TWD 估算。"
+        status: selected_user_confirmed_reference_needs_official_reconfirmation
+        includes:
+          - lunch
+          - dinner
+          - in_park_dining
+        reconfirmation:
+          - 2027 availability
+          - currency and final official price
+          - whether Studio Pass is included
+          - booking window and cancellation policy
+          - meal scope
       studio_pass:
         planned_purchase_date: 2027-10-10
         price_status: pending_official_announcement
         reference_price_twd_range:
           low: 1840
           high: 2800
-      park_dining_and_shopping_twd: 7892
-      budget_reference_twd: 25000
+        budget_reference_twd_for_two: 7108
+        reconfirmation: "需確認 VIP 8 小時是否仍須另購 Studio Pass。"
+      park_dining_and_shopping_twd: 0
+      park_dining_and_shopping_status: removed_as_separate_budget_line
+      general_and_usj_shopping_merged_budget_twd: 14000
+      budget_reference_twd: 94108
 
     breakfast_preference:
       normal_days: hotel_executive_lounge_breakfast
@@ -133,6 +151,23 @@ project:
         - exact Chibo branch
         - arrival-day lounge access rules
         - 2027 flight and hotel policy confirmation
+
+    day2_usj_formal_route:
+      date: 2027-11-18
+      status: formal_active
+      route:
+        - hotel Executive Lounge breakfast
+        - KKday #536220 InterContinental Osaka to USJ transfer
+        - Universal Studios Japan one day
+        - USJ VIP 8h instead of Express Pass 7
+        - USJ Studio Pass still pending official purchase
+        - KKday #536220 USJ to InterContinental Osaka transfer
+      meal_policy: "VIP 8 小時視為包含午餐、晚餐與園內餐飲；不再另列 USJ 園區餐飲預算。"
+      shopping_policy: "USJ 周邊購物與一般 Pokémon / 動漫 / 日本橋 / 百貨小物合併為 TWD 14,000。"
+      pending:
+        - VIP 8h official 2027 terms, currency, final price, and meal scope
+        - whether Studio Pass is included in VIP 8h
+        - Studio Pass official price and purchase route
 
     day3_formal_route:
       date: 2027-11-19
@@ -193,19 +228,22 @@ project:
 
   reservation_purchase_timeline:
     active_database: database/reservation_purchase_timeline.yml
-    version: V5.51.0
-    known_scheduled_twd_payments_total: 43399
+    version: V5.53.0
+    known_scheduled_twd_payments_total: 130399
     known_scheduled_usd_payments_total: 250
 
   budget:
     active_model: database/budget_model.yml
-    version: V5.51.0
-    controlled_total_twd_for_two: 194648
-    recommended_total_twd_for_two: 199346
-    recommended_per_person_twd: 99673
-    safety_budget_twd_for_two: 250000
-    safety_per_person_twd: 125000
+    version: V5.53.0
+    controlled_total_twd_for_two: 267756
+    recommended_total_twd_for_two: 272454
+    recommended_per_person_twd: 136227
+    safety_budget_twd_for_two: 280000
+    safety_per_person_twd: 140000
     hard_ceiling_twd_for_two: 280000
     lodging_net_total_twd: 65900
+    usj_vip_8h_twd: 87000
+    usj_budget_twd: 94108
+    merged_general_and_usj_shopping_twd: 14000
     luxury_shopping: separate
     ambassador_usd_250: tracked_separately_until_exchange_rate_or_actual_charge_confirmed
