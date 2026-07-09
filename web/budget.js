@@ -23,9 +23,9 @@
           { label: "InterContinental Osaka → KIX（KKday #129909）", amount: 2600 },
           { label: "InterContinental Osaka → USJ（大阪環狀線 + JR 夢咲線）", amount: 80, detail: "" },
           { label: "USJ → InterContinental Osaka（包車）", amount: 1800, detail: "" },
-          { label: "Day 3 大阪市內地鐵／步行（西瓜卡）", amount: 3000 },
+          { label: "Day 3 大阪市內地鐵／步行（西瓜卡）", amount: 2000 },
           { label: "Day 4 心齋橋 → 飯店地鐵（西瓜卡）", amount: 2000 },
-          { label: "市區交通／地鐵與短程計程車備援", amount: 6000 },
+          { label: "市區交通／地鐵與短程計程車備援", amount: 3000 },
         ],
       },
       {
@@ -55,7 +55,7 @@
         items: [
           { label: "Day 1 千房 梅田周邊店", amount: 4000 },
           { label: "Day 3 木津市場早午餐", amount: 8000 },
-          { label: "Day 3 肉NOASATSU 壽司晚餐（KKday #268366）", amount: 3082 },
+          { label: "Day 3 肉NOASATSU 壽司晚餐", amount: 3082 },
           { label: "Day 4 NOKA Roast & Grill", amount: 7700 },
           { label: "Day 5 飲料／午餐緩衝", amount: 5000 },
         ],
@@ -65,8 +65,8 @@
         label: "USJ",
         description: "VIP 5 小時與 Studio Pass",
         items: [
-          { label: "USJ VIP 5 小時", amount: 60000, detail: "使用者提供；幣別與官方條件待確認" },
-          { label: "USJ Studio Pass", amount: 7108, detail: "兩人暫估，待官方公布；需確認 VIP 是否包含" },
+          { label: "USJ VIP 5 小時", amount: 60000, detail: "參考金額；幣別與官方條件待確認" },
+          { label: "USJ Studio Pass", amount: 7108, detail: "兩人暫估；需確認 VIP 是否包含" },
         ],
       },
       {
@@ -135,9 +135,9 @@
   function updateBudgetText() {
     const textMap = {
       "hero-recommended-total": `${formatTwd(recommendedTotal)} / ${budgetData.travelers}人`,
-      "hero-recommended-note": `已排程固定支出 ${formatTwd(scheduledTotal)} + USD ${budgetData.scheduled.usd}；硬上限 ${formatTwd(budgetData.hardLimitTwd)}。`,
+      "hero-recommended-note": `固定支出 ${formatTwd(scheduledTotal)} + USD ${budgetData.scheduled.usd} 已先整理好；高單價項目先鎖住，後面的節奏就能慢慢展開。`,
       "overview-recommended-total": `${formatTwd(recommendedTotal)} / ${budgetData.travelers}人`,
-      "overview-recommended-note": `精品購物與 Ambassador 續約另計；USJ VIP 5 小時、Hello Kitty HARUKA 到飯店、USJ 回程包車與大阪環狀線 + JR 夢咲線已納入，已排程固定支出 ${formatTwd(scheduledTotal)} + USD ${budgetData.scheduled.usd}。`,
+      "overview-recommended-note": `精品購物與 Ambassador 續約另計；USJ VIP 5 小時、Hello Kitty HARUKA 到飯店、USJ 回程包車與大阪環狀線 + JR 夢咲線已納入，讓交通與體驗都維持在同一種從容感裡。`,
     };
 
     elements.budgetTextNodes.forEach((node) => {
@@ -238,7 +238,7 @@
         <article class="summary panel">
           <span>建議版主預算</span>
           <strong>${formatTwd(recommendedTotal)}</strong>
-          <p>兩人基本旅費的主控值，已納入 USJ VIP 5 小時。</p>
+          <p>兩人基本旅費的主控值，已把這趟旅行最重要的節奏先排好。</p>
         </article>
         <article class="summary panel">
           <span>安全版／硬上限</span>
@@ -246,9 +246,9 @@
           <p>目前安全版等於硬上限，剩餘緩衝約 ${formatTwd(budgetData.hardLimitTwd - recommendedTotal)}。</p>
         </article>
         <article class="summary panel">
-          <span>已排程且已有確定金額</span>
+          <span>已確認支出</span>
           <strong>${formatTwd(scheduledTotal)} + USD ${budgetData.scheduled.usd}</strong>
-          <p>含機票、USJ VIP 5 小時、保險與漫遊；USD 250 另追蹤。</p>
+          <p>含機票、USJ VIP 5 小時、保險與漫遊；USD 250 先獨立保留，之後再和正式匯率對齊。</p>
         </article>
       </div>
 
@@ -257,7 +257,7 @@
           <div class="chart-head">
             <div>
               <p class="chart-kicker">Budget mix</p>
-              <h3>建議版主預算結構</h3>
+              <h3>把花費分段看，旅行節奏也會更清楚</h3>
             </div>
             <strong>${formatTwd(recommendedTotal)}</strong>
           </div>
@@ -273,14 +273,14 @@
           <div class="chart-head">
             <div>
               <p class="chart-kicker">Budget range</p>
-              <h3>主預算與安全上限比較</h3>
+              <h3>主預算與安全上限的距離</h3>
             </div>
             <strong>上限 ${formatTwd(budgetData.hardLimitTwd)}</strong>
           </div>
           <div class="scenario-bars" aria-label="節制版、建議版與安全版的預算比較">
             ${scenarioRows}
           </div>
-          <p class="chart-note">USJ VIP 5 小時後，建議版距離硬上限約 ${formatTwd(budgetData.hardLimitTwd - recommendedTotal)}；若 VIP 幣別、Studio Pass 或官方價格與目前假設不同，需再次重算。</p>
+          <p class="chart-note">USJ VIP 5 小時後，建議版距離硬上限約 ${formatTwd(budgetData.hardLimitTwd - recommendedTotal)}；若 VIP 幣別、Studio Pass 或官方價格和目前假設不同，這份故事就要重新校正一次。</p>
         </article>
       </div>
 
@@ -288,11 +288,11 @@
         <div class="tree-head">
           <div>
             <p class="chart-kicker">Budget tree</p>
-            <h3>六大類預算樹狀清單</h3>
+            <h3>六大類花費，對應整趟旅程的不同段落</h3>
           </div>
           <strong>點開看細項</strong>
         </div>
-        <p class="tree-note">USD 250 的 InterContinental Ambassador 續約先獨立追蹤，不併入 TWD 主預算總額。USJ 園區餐飲不再單獨列出，已視為包含在 VIP 5 小時內。</p>
+        <p class="tree-note">USD 250 的 InterContinental Ambassador 續約先獨立追蹤，不併入 TWD 主預算總額。USJ 園區餐飲不再單獨列出，已視為包含在 VIP 5 小時內，讓預算看起來更像旅程本身，而不是一串零碎帳目。</p>
         <div class="tree-list">
           ${treeNodes}
         </div>

@@ -431,9 +431,65 @@ code {
 
 .scene-okonomi {
   background:
-    linear-gradient(135deg, rgba(243, 200, 121, 0.56), rgba(52, 25, 18, 0.2)),
-    radial-gradient(circle at 74% 25%, rgba(240, 160, 184, 0.42), transparent 22%),
-    #2a1b17;
+    linear-gradient(180deg, rgba(4, 10, 18, 0.14), rgba(4, 10, 18, 0.34)),
+    url("./assets/day-1-okonomiyaki-umeda.png") center center / cover no-repeat;
+}
+
+.scene-sushi {
+  background:
+    linear-gradient(180deg, rgba(4, 10, 18, 0.14), rgba(4, 10, 18, 0.34)),
+    url("./assets/day-3-sushi-omakase.png") center center / cover no-repeat;
+}
+
+.scene-noka {
+  background:
+    linear-gradient(180deg, rgba(4, 10, 18, 0.14), rgba(4, 10, 18, 0.34)),
+    url("./assets/day-4-noka-dining.png") center center / cover no-repeat;
+}
+
+.image-arrival {
+  background:
+    linear-gradient(135deg, rgba(4, 10, 18, 0.18), rgba(4, 10, 18, 0.28)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.1)),
+    url("./assets/osaka-arrival-lounge.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image-market {
+  background:
+    linear-gradient(135deg, rgba(4, 10, 18, 0.16), rgba(4, 10, 18, 0.3)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.1)),
+    url("./assets/osaka-dining-market.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image-shopping {
+  background:
+    linear-gradient(135deg, rgba(4, 10, 18, 0.18), rgba(4, 10, 18, 0.3)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.12)),
+    url("./assets/osaka-shopping-night.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image-hobby {
+  background:
+    linear-gradient(135deg, rgba(4, 10, 18, 0.16), rgba(4, 10, 18, 0.3)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.1)),
+    url("./assets/day-3-hobby-nipponbashi.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image-dining {
+  background:
+    linear-gradient(135deg, rgba(4, 10, 18, 0.16), rgba(4, 10, 18, 0.3)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.1)),
+    url("./assets/osaka-dining-market.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .section {
@@ -587,26 +643,94 @@ code {
   gap: 14px;
 }
 
+.proposal-strip {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  padding: 14px;
+  margin-bottom: 16px;
+}
+
+.proposal-item {
+  padding: 16px;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.proposal-item span {
+  display: inline-block;
+  color: var(--gold);
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.proposal-item strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.proposal-item p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
 .editorial-timeline {
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-template-columns: 1fr;
 }
 
 .day-card {
   display: grid;
-  grid-template-rows: 190px 1fr;
+  grid-template-columns: minmax(280px, 0.92fr) minmax(0, 1.08fr);
   padding: 0;
+  overflow: hidden;
 }
 
 .day-media {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  min-height: 190px;
-  padding: 16px;
+  min-height: 100%;
+  padding: 18px;
 }
 
 .day-body {
-  padding: 20px;
+  padding: 28px;
+}
+
+.day-image-1 {
+  background:
+    linear-gradient(180deg, rgba(5, 12, 22, 0.15), rgba(5, 12, 22, 0.42)),
+    url("./assets/day-1-arrival-lounge.png") center center / cover no-repeat;
+}
+
+.day-image-2 {
+  background:
+    linear-gradient(180deg, rgba(6, 10, 24, 0.12), rgba(6, 10, 24, 0.44)),
+    url("./assets/day-2-usj-vip.png") center center / cover no-repeat;
+}
+
+.day-image-3 {
+  background:
+    linear-gradient(180deg, rgba(12, 10, 4, 0.1), rgba(12, 10, 4, 0.42)),
+    url("./assets/day-3-kizu-market-sushi.png") center center / cover no-repeat;
+}
+
+.day-image-4 {
+  background:
+    linear-gradient(180deg, rgba(9, 11, 18, 0.14), rgba(9, 11, 18, 0.44)),
+    url("./assets/day-4-shinsaibashi-shopping.png") center center / cover no-repeat;
+}
+
+.day-image-5 {
+  background:
+    linear-gradient(180deg, rgba(8, 12, 20, 0.16), rgba(8, 12, 20, 0.46)),
+    url("./assets/day-5-departure-suite.png") center center / cover no-repeat;
 }
 
 .day-body h3 {
@@ -1141,6 +1265,18 @@ tbody tr:hover td {
   .visual-card.tall {
     grid-row: span 1;
   }
+
+  .proposal-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .day-card {
+    grid-template-columns: 1fr;
+  }
+
+  .day-media {
+    min-height: 260px;
+  }
 }
 
 @media (max-width: 960px) {
@@ -1206,6 +1342,10 @@ tbody tr:hover td {
   .mini-photo-grid,
   .visual-grid,
   .sales-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .proposal-strip {
     grid-template-columns: 1fr;
   }
 
