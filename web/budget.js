@@ -32,10 +32,10 @@
         key: "lodging",
         label: "住宿",
         description: "兩張住宿單，合計四晚與行政酒廊節奏",
-        note: "第二筆住宿在退房時更新金額，低價那晚視為免費後再計算；飯店回信表示 1 King Premium Club Lounge Access 通常升等為 1 King Junior Suite with club lounge access，同房型兩筆連住可盡量安排同房；12:00 提早入住可視房況加價保證；Ambassador 續約 USD 250 另以外幣獨立追蹤。",
+        note: "住宿採兩筆連住安排，飯店回覆顯示可依房況盡量安排同房；預計房型為 1 King Premium Club Lounge Access，通常可升等為 1 King Junior Suite with club lounge access。若希望 12:00 提早入住，可再依當日房況確認。",
         items: [
           { label: "Preferred Partner Rate 20% Off", amount: 37400, detail: "Jun 9 - Jun 11, 2027" },
-          { label: "Ambassador Complimentary Weekend Night", amount: 28500, detail: "Jun 11 - Jun 13, 2027" },
+          { label: "Complimentary Weekend Night", amount: 28500, detail: "Jun 11 - Jun 13, 2027" },
         ],
       },
       {
@@ -65,7 +65,7 @@
         label: "USJ",
         description: "VIP 5 小時與 Studio Pass",
         items: [
-          { label: "USJ VIP 5 小時", amount: 60000, detail: "參考金額；幣別與官方條件待確認" },
+          { label: "USJ VIP 5 小時", amount: 60000, detail: "預估金額；幣別與官方條件待確認" },
           { label: "USJ Studio Pass", amount: 7108, detail: "兩人暫估；需確認 VIP 是否包含" },
         ],
       },
@@ -135,9 +135,9 @@
   function updateBudgetText() {
     const textMap = {
       "hero-recommended-total": `${formatTwd(recommendedTotal)} / ${budgetData.travelers}人`,
-      "hero-recommended-note": `固定支出 ${formatTwd(scheduledTotal)} + USD ${budgetData.scheduled.usd} 已先整理好；高單價項目也先納入規劃，整體節奏會更從容。`,
+      "hero-recommended-note": `固定支出 ${formatTwd(scheduledTotal)} 已先整理好；高單價項目也先納入規劃，整體節奏會更從容。`,
       "overview-recommended-total": `${formatTwd(recommendedTotal)} / ${budgetData.travelers}人`,
-      "overview-recommended-note": `精品購物與 Ambassador 續約另計；USJ VIP 5 小時、Hello Kitty HARUKA 到飯店、USJ 回程包車與大阪環狀線 + JR 夢咲線都已列入總預算。`,
+      "overview-recommended-note": `精品購物不含在基本旅費內；USJ VIP 5 小時、Hello Kitty HARUKA 到飯店、USJ 回程包車與大阪環狀線 + JR 夢咲線都已列入總預算。`,
     };
 
     elements.budgetTextNodes.forEach((node) => {
@@ -247,8 +247,8 @@
         </article>
         <article class="summary panel">
           <span>已確認支出</span>
-          <strong>${formatTwd(scheduledTotal)} + USD ${budgetData.scheduled.usd}</strong>
-          <p>目前已確認的金額包含機票、USJ VIP 5 小時、保險與漫遊；USD 250 的 Ambassador 續約則另外追蹤。</p>
+          <strong>${formatTwd(scheduledTotal)}</strong>
+          <p>目前已確認的金額包含機票、USJ VIP 5 小時、保險與漫遊。</p>
         </article>
       </div>
 
@@ -280,7 +280,7 @@
           <div class="scenario-bars" aria-label="節制版、建議版與安全版的預算比較">
             ${scenarioRows}
           </div>
-          <p class="chart-note">目前建議版距離上限約 ${formatTwd(budgetData.hardLimitTwd - recommendedTotal)}；若 VIP、Studio Pass 或官方價格與現行假設不同，總額仍可再調整。</p>
+          <p class="chart-note">目前整體預算仍保留約 ${formatTwd(budgetData.hardLimitTwd - recommendedTotal)} 的彈性空間；若 USJ VIP、Studio Pass 或正式售價更新，總額也會同步調整。</p>
         </article>
       </div>
 
@@ -292,7 +292,7 @@
           </div>
           <strong>點開看細項</strong>
         </div>
-        <p class="tree-note">USD 250 的 InterContinental Ambassador 續約先獨立追蹤，不併入 TWD 主預算總額。USJ 園區餐飲也已包含在 VIP 5 小時估算內。</p>
+        <p class="tree-note">USJ 園區餐飲已包含在 VIP 5 小時估算內。</p>
         <div class="tree-list">
           ${treeNodes}
         </div>
