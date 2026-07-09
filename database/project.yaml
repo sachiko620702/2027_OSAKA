@@ -1,9 +1,9 @@
 project:
   name: 2027 Osaka Trip
-  version: V5.54.0
+  version: V5.57.0
   source_of_truth: GitHub main
   repository: sachiko620702/2027_OSAKA
-  current_sync_reason: USJ VIP 5h budget update and USJ shopping merge
+  current_sync_reason: USJ VIP 5h budget update, airport transfer split, USJ shopping merge, and USJ return charter update
   dates:
     start: 2027-11-17
     end: 2027-11-21
@@ -20,12 +20,12 @@ project:
     - Luxury shopping
     - Phone roaming for two people
     - EVA Air BR178 outbound and BR129 return
-    - KKday product 129909 for KIX hotel transfer
-    - KKday product 536220 for hotel USJ transfer
+    - Hello Kitty HARUKA for KIX to hotel transfer
+    - Osaka Loop Line plus JR Yumesaki Line outbound to USJ and return charter from USJ
     - Breakfast normally at hotel Executive Lounge except Kizu Market day
     - Day 3 formal route is Osaka city route, not Kyoto
     - Day 4 formal dinner is NOKA Roast & Grill; PIERRE is fallback-only
-    - USJ Express Pass 7 is superseded by USJ VIP 5h in V5.54.0
+    - USJ Express Pass 7 is superseded by USJ VIP 5h in V5.57.0
 
   user_confirmed_inputs:
     flights:
@@ -82,21 +82,27 @@ project:
       planned_application_date: 2027-11-05
 
     airport_transfer:
-      platform: KKday
-      selected_product_id: 129909
-      reference_price_each_way_twd: 2600
-      round_trip_total_twd: 5200
-      planned_purchase_date: 2027-10-10
-      price_status: user_provided_reference_needs_2027_confirmation
+      arrival:
+        platform: JR
+        route: Hello Kitty HARUKA
+        reference_price_twd: 800
+        planned_purchase_date: not_applicable
+        price_status: user_provided_reference_needs_timetable_confirmation
+      return:
+        platform: KKday
+        selected_product_id: 129909
+        reference_price_twd: 2600
+        planned_purchase_date: 2027-10-10
+        price_status: user_provided_reference_needs_2027_confirmation
 
     usj_transfer:
-      platform: KKday
-      selected_product_id: 536220
-      reference_price_each_way_twd: 1732
-      round_trip_total_twd: 3464
+      outbound_route: Osaka Loop Line + JR Yumesaki Line
+      outbound_reference_price_each_way_jpy: 400
+      outbound_reference_price_each_way_twd: 80
+      return_route: private charter
+      return_reference_price_twd: 1800
       planned_purchase_date: 2027-10-10
-      price_status: user_screenshot_reference_needs_2027_confirmation
-      purchase_date_status: assigned_in_v5_51_timeline
+      price_status: mixed_public_transport_and_charter_reference_needs_confirmation
 
     usj_tickets:
       express_pass_7:
@@ -141,7 +147,7 @@ project:
       status: formal_active
       route:
         - arrival at KIX by BR178 current timetable baseline
-        - KKday #129909 KIX to InterContinental Osaka transfer
+        - Hello Kitty HARUKA KIX to InterContinental Osaka transfer
         - InterContinental Osaka Executive Lounge afternoon tea target
         - hotel rest
         - Pokemon Center OSAKA in Umeda
@@ -157,17 +163,18 @@ project:
       status: formal_active
       route:
         - hotel Executive Lounge breakfast
-        - KKday #536220 InterContinental Osaka to USJ transfer
+        - Osaka Loop Line + JR Yumesaki Line to USJ
         - Universal Studios Japan one day
         - USJ VIP 5h instead of Express Pass 7
         - USJ Studio Pass still pending official purchase
-        - KKday #536220 USJ to InterContinental Osaka transfer
+        - USJ return charter back to InterContinental Osaka
       meal_policy: "VIP 5 小時視為包含午餐、晚餐與園內餐飲；不再另列 USJ 園區餐飲預算。"
       shopping_policy: "USJ 周邊購物與一般 Pokémon / 動漫 / 日本橋 / 百貨小物合併為 TWD 14,000。"
       pending:
         - VIP 5h official 2027 terms, currency, final price, and meal scope
         - whether Studio Pass is included in VIP 5h
         - Studio Pass official price and purchase route
+        - return charter pickup point, vehicle type, cancellation policy, and booking channel
 
     day3_formal_route:
       date: 2027-11-19
@@ -228,16 +235,16 @@ project:
 
   reservation_purchase_timeline:
     active_database: database/reservation_purchase_timeline.yml
-    version: V5.54.0
-    known_scheduled_twd_payments_total: 103399
+    version: V5.57.0
+    known_scheduled_twd_payments_total: 105199
     known_scheduled_usd_payments_total: 250
 
   budget:
     active_model: database/budget_model.yml
-    version: V5.54.0
-    controlled_total_twd_for_two: 240756
-    recommended_total_twd_for_two: 245454
-    recommended_per_person_twd: 122727
+    version: V5.57.0
+    controlled_total_twd_for_two: 237372
+    recommended_total_twd_for_two: 242070
+    recommended_per_person_twd: 121035
     safety_budget_twd_for_two: 280000
     safety_per_person_twd: 140000
     hard_ceiling_twd_for_two: 280000

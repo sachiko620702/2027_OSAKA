@@ -1,6 +1,6 @@
 transportation:
-  version: V5.14.0
-  last_updated: 2026-07-06
+  version: V5.17.0
+  last_updated: 2026-07-09
   flights:
     airline: EVA Air
     status: selected_needs_official_schedule_confirmation
@@ -15,44 +15,50 @@ transportation:
       route: KIX to TPE
       status: user_selected_needs_official_schedule_confirmation
   airport_transfer:
-    status: selected_product_price_pending
-    platform: KKday
-    selected_product:
-      product_id: 129909
-      title: KIX private transfer
-      url: https://www.kkday.com/zh-tw/product/129909-japan-kansai-international-airport-private-transfer-to-osaka-kyoto-nara-kobe-nagoya
-      price_status: dynamic_price_needs_manual_confirmation
-    routes:
-      outbound:
-        date: 2027-11-17
-        from: Kansai International Airport KIX
-        to: InterContinental Osaka
-        status: selected_pending_booking
-      return:
-        date: 2027-11-21
-        from: InterContinental Osaka
-        to: Kansai International Airport KIX
-        status: selected_pending_booking
+    status: mixed_arrival_public_transport_and_return_private_transfer
+    arrival:
+      platform: JR
+      route_name: Hello Kitty HARUKA
+      estimated_one_way_twd: 800
+      estimated_one_way_jpy: NEEDS_RECONFIRMATION
+      date: 2027-11-17
+      from: Kansai International Airport KIX
+      to: InterContinental Osaka
+      status: selected_public_transport_pending_timetable_confirmation
+      note: Hello Kitty HARUKA
+    return:
+      platform: KKday
+      selected_product:
+        product_id: 129909
+        title: KIX private transfer
+        url: https://www.kkday.com/zh-tw/product/129909-japan-kansai-international-airport-private-transfer-to-osaka-kyoto-nara-kobe-nagoya
+        price_status: dynamic_price_needs_manual_confirmation
+      date: 2027-11-21
+      from: InterContinental Osaka
+      to: Kansai International Airport KIX
+      status: selected_pending_booking
   usj_transfer:
-    status: selected_product_price_pending
-    platform: KKday
-    selected_product:
-      product_id: 536220
-      title: Osaka city to Universal Studios Japan private transfer
-      url: https://www.kkday.com/zh-tw/product/536220
-      visible_starting_price_twd: 600
-      price_status: visible_from_twd_600_dynamic_price_needs_manual_confirmation
+    status: mixed_outbound_public_rail_and_return_private_charter
     routes:
       outbound:
+        platform: JR
+        route_name: Osaka Loop Line + JR Yumesaki Line
+        estimated_one_way_jpy: 400
+        estimated_one_way_twd: 80
         date: 2027-11-18
         from: InterContinental Osaka
         to: Universal Studios Japan
-        status: selected_pending_booking
+        status: selected_public_rail_pending_timetable_confirmation
+        note: Osaka Loop Line + JR Yumesaki Line
       return:
+        platform: private_charter
+        route_name: USJ to InterContinental Osaka charter
+        estimated_one_way_twd: 1800
         date: 2027-11-18
         from: Universal Studios Japan
         to: InterContinental Osaka
-        status: selected_pending_booking
+        status: selected_private_charter_pending_booking_confirmation
+        note: User requested a charter for the return leg.
   day3_transport_candidate:
     date: 2027-11-19
     status: candidate_not_formal
@@ -89,8 +95,8 @@ transportation:
   local:
     airport_to_hotel: KKday product 129909 selected
     hotel_to_airport: KKday product 129909 selected
-    hotel_to_usj: KKday product 536220 selected
-    usj_to_hotel: KKday product 536220 selected
+    hotel_to_usj: Osaka Loop Line + JR Yumesaki Line selected
+    usj_to_hotel: private charter selected
     day3_no_charter: recommended candidate
     day3_charter: backup candidate
     city_rail: primary for Day 3

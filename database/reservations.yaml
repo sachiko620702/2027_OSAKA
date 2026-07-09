@@ -1,6 +1,6 @@
 reservations:
-  version: V5.11.0
-  last_updated: 2026-07-07
+  version: V5.13.0
+  last_updated: 2026-07-09
   hotel:
     status: fixed
     name: InterContinental Osaka
@@ -18,6 +18,7 @@ reservations:
     studio_pass: pending_official_announcement
     express_pass: pending_official_announcement
     vip: pending_official_announcement
+    transfer: public_rail_selected
   restaurants:
     status: tracking
     planning_principle: taste_first
@@ -46,48 +47,63 @@ reservations:
       route: KIX to TPE
       status: selected_pending_booking
   airport_transfer:
-    platform: KKday
-    selected_product_id: 129909
-    product_url: https://www.kkday.com/zh-tw/product/129909-japan-kansai-international-airport-private-transfer-to-osaka-kyoto-nara-kobe-nagoya
-    service_type: airport_charter_transfer
-    status: selected_product_price_pending
-    recommended_vehicle: luxury_7_seater
-    fallback_vehicle: comfort_10_seater
-    routes:
-      - date: 2027-11-17
-        from: KIX
-        to: InterContinental Osaka
-        status: pending_date_route_price
-      - date: 2027-11-21
-        from: InterContinental Osaka
-        to: KIX
-        status: pending_date_route_price
+    status: mixed_arrival_public_transport_and_return_private_transfer
+    arrival:
+      platform: JR
+      route_name: Hello Kitty HARUKA
+      service_type: reserved_seat_rail_transfer
+      status: public_transport_selected
+      estimated_one_way_twd: 800
+      date: 2027-11-17
+      from: KIX
+      to: InterContinental Osaka
+      required_confirmation:
+        - 2027 timetable and reserved-seat rules
+        - ticket type
+        - luggage restrictions
+    return:
+      platform: KKday
+      selected_product_id: 129909
+      product_url: https://www.kkday.com/zh-tw/product/129909-japan-kansai-international-airport-private-transfer-to-osaka-kyoto-nara-kobe-nagoya
+      service_type: airport_charter_transfer
+      status: selected_product_price_pending
+      recommended_vehicle: luxury_7_seater
+      fallback_vehicle: comfort_10_seater
+      routes:
+        - date: 2027-11-21
+          from: InterContinental Osaka
+          to: KIX
+          status: pending_date_route_price
   usj_transfer:
-    platform: KKday
-    selected_product_id: 536220
-    product_url: https://www.kkday.com/zh-tw/product/536220
-    service_type: osaka_city_usj_point_to_point_transfer
-    status: selected_product_price_pending
-    recommended_vehicle: luxury_7_seater
-    fallback_vehicle: comfort_10_seater
-    visible_starting_price_twd: 600
-    routes:
-      - date: 2027-11-18
-        from: InterContinental Osaka
-        to: Universal Studios Japan
-        status: pending_date_route_price
-      - date: 2027-11-18
-        from: Universal Studios Japan
-        to: InterContinental Osaka
-        status: pending_date_route_price
-    required_confirmation:
-      - 2027 route availability
-      - final price after selecting date and route
-      - vehicle type 7-seater or 10-seater
-      - pickup time
-      - pickup point
-      - return pickup point
-      - booking rules
+    status: mixed_outbound_public_rail_and_return_private_charter
+    outbound:
+      platform: JR
+      route_name: Osaka Loop Line + JR Yumesaki Line
+      service_type: public_transport_transfer
+      status: public_transport_selected
+      estimated_one_way_jpy: 400
+      estimated_one_way_twd: 80
+      date: 2027-11-18
+      from: InterContinental Osaka
+      to: Universal Studios Japan
+      required_confirmation:
+        - 2027 JR timetable and transfer timing
+        - Osaka Loop Line and JR Yumesaki Line fare
+        - walking time from hotel to Osaka Station
+    return:
+      platform: private_charter
+      route_name: USJ to InterContinental Osaka charter
+      service_type: private_charter_transfer
+      status: selected_pending_booking_confirmation
+      estimated_one_way_twd: 1800
+      date: 2027-11-18
+      from: Universal Studios Japan
+      to: InterContinental Osaka
+      required_confirmation:
+        - pickup point near USJ
+        - vehicle type
+        - cancellation policy
+        - final booking channel
   insurance:
     amount_twd: 6900
     status: amount_recorded_payment_status_needs_confirmation

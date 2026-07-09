@@ -1,6 +1,6 @@
 # KKday / Klook 票券平台候補與已選方案
 
-Version: V5.11.0  
+Version: V5.12.0  
 Last updated: 2026-07-06  
 Status: Mixed / 已選方案 + 候補方案  
 Scope: 2027/11/17–2027/11/21 Osaka Luxury Slow Travel
@@ -11,12 +11,16 @@ Scope: 2027/11/17–2027/11/21 Osaka Luxury Slow Travel
 
 | 用途 | 商品 | 狀態 | 價格狀態 |
 |---|---|---|---|
-| KIX ↔ InterContinental Osaka | KKday #129909 | 已選候選商品 | 需選日期、路線、車型後確認 |
-| InterContinental Osaka ↔ USJ | KKday #536220 | 已選候選商品 | 頁面顯示 TWD 600 起，實際路線價需選日期、路線、車型後確認 |
+| KIX → InterContinental Osaka | Hello Kitty HARUKA | 已選正式方案 | 約 TWD 800；需確認時刻、指定席規則與行李限制 |
+| InterContinental Osaka → KIX | KKday #129909 | 已選候補商品 | 需選日期、路線、車型後確認 |
+| InterContinental Osaka → USJ | 大阪環狀線 + JR 夢咲線 | 已改為正式方案 | 約 JPY 400／程 |
+| USJ → InterContinental Osaka | 包車 | 已選正式方案 | 約 NT$1,800；車型與可訂狀態待確認 |
 
 ---
 
-## 2. KKday #536220 飯店 ↔ USJ 接送查詢結果
+## 2. KKday #536220 飯店 ↔ USJ 接送歷史查詢結果
+
+正式方案已改為「去程大阪環狀線 + JR 夢咲線、回程包車」。本節僅保留 KKday #536220 的歷史查詢記錄。
 
 商品：大阪市內/關西機場 ⇔ 大阪環球影城單程私人接送  
 商品編號：536220  
@@ -48,8 +52,8 @@ Scope: 2027/11/17–2027/11/21 Osaka Luxury Slow Travel
 
 | 日期 | 路線 | 商品 | 推薦車型 | 狀態 |
 |---|---|---|---|---|
-| 2027/11/18 | InterContinental Osaka → USJ | KKday #536220 | 豪華 7 座 | 已選商品，實際路線價格待確認 |
-| 2027/11/18 | USJ → InterContinental Osaka | KKday #536220 | 豪華 7 座 | 已選商品，實際路線價格待確認 |
+| 2027/11/18 | InterContinental Osaka → USJ | 大阪環狀線 + JR 夢咲線 | 無需預約 | 依班次與轉乘動線確認 |
+| 2027/11/18 | USJ → InterContinental Osaka | 包車 | 需預約 | 約 NT$1,800，車型與可訂狀態待確認 |
 
 ---
 
@@ -69,16 +73,14 @@ Scope: 2027/11/17–2027/11/21 Osaka Luxury Slow Travel
 
 ## 6. 專案結論
 
-目前先選：**KKday #536220 豪華 7 座**。  
-條件：2 人、一般 USJ 日來回。  
-若想更寬敞或有較多行李，改選：**舒適 10 座**。
+目前正式方案：**去程大阪環狀線 + JR 夢咲線、回程包車**。  
+KKday #536220 只保留作為歷史備查。
 
 ## 7. 待確認
 
 | 優先 | 項目 | 原因 |
 |---|---|---|
 | 高 | 2027/11/18 是否可選 | 目前 2027 日期尚早 |
-| 高 | InterContinental Osaka → USJ 實際路線價格 | TWD 600 起不等於正式路線價 |
-| 高 | USJ → InterContinental Osaka 實際路線價格 | 回程可能因時間或上車點不同而變動 |
-| 高 | USJ 回程上車點 | 需配合閉園後集合位置 |
-| 中 | 是否會超過 20 公里限制 | 若被判定超距需另收 JPY 300 / 公里 |
+| 高 | 大阪環狀線 + JR 夢咲線實際班次 | 需對應 2027/11/18 行程時間 |
+| 高 | USJ 回程包車價格與車型 | 需確認乘車地點、車型與取消政策 |
+| 中 | 轉乘動線與月台 | 需確認從酒店到大阪站、再到 USJ 的步行與轉車時間 |

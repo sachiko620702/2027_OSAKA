@@ -3,12 +3,12 @@
     travelers: 2,
     hardLimitTwd: 280000,
     scenarios: {
-      controlled: 240756,
-      recommended: 245454,
+      controlled: 237372,
+      recommended: 242070,
       safety: 280000,
     },
     scheduled: {
-      twd: 103399,
+      twd: 105199,
       usd: 250,
     },
     categories: [
@@ -19,10 +19,10 @@
         open: true,
         items: [
           { label: "長榮 TPE ↔ KIX 兩人來回", amount: 36000 },
-          { label: "KIX → InterContinental Osaka", amount: 2600 },
-          { label: "InterContinental Osaka → KIX", amount: 2600 },
-          { label: "InterContinental Osaka → USJ", amount: 1732 },
-          { label: "USJ → InterContinental Osaka", amount: 1732 },
+          { label: "KIX → InterContinental Osaka（Hello Kitty HARUKA）", amount: 800, detail: "約 NT$800" },
+          { label: "InterContinental Osaka → KIX（KKday #129909）", amount: 2600 },
+          { label: "InterContinental Osaka → USJ（大阪環狀線 + JR 夢咲線）", amount: 80, detail: "約 JPY 400" },
+          { label: "USJ → InterContinental Osaka（包車）", amount: 1800, detail: "約 NT$1,800" },
           { label: "Day 3 大阪市內地鐵／步行（西瓜卡）", amount: 3000 },
           { label: "Day 4 心齋橋 → 飯店地鐵（西瓜卡）", amount: 2000 },
           { label: "市區交通／地鐵與短程計程車備援", amount: 6000 },
@@ -137,7 +137,7 @@
       "hero-recommended-total": `${formatTwd(recommendedTotal)} / ${budgetData.travelers}人`,
       "hero-recommended-note": `已排程固定支出 ${formatTwd(scheduledTotal)} + USD ${budgetData.scheduled.usd}；硬上限 ${formatTwd(budgetData.hardLimitTwd)}。`,
       "overview-recommended-total": `${formatTwd(recommendedTotal)} / ${budgetData.travelers}人`,
-      "overview-recommended-note": `精品購物與 Ambassador 續約另計；USJ VIP 5 小時已納入，已排程固定支出 ${formatTwd(scheduledTotal)} + USD ${budgetData.scheduled.usd}。`,
+      "overview-recommended-note": `精品購物與 Ambassador 續約另計；USJ VIP 5 小時、Hello Kitty HARUKA 到飯店、USJ 回程包車與大阪環狀線 + JR 夢咲線已納入，已排程固定支出 ${formatTwd(scheduledTotal)} + USD ${budgetData.scheduled.usd}。`,
     };
 
     elements.budgetTextNodes.forEach((node) => {

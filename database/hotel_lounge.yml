@@ -40,7 +40,7 @@ planned_lounge_uses:
     purpose: "抵達日行政酒廊下午茶"
     planning_time: "15:00–16:00"
     status: "preferred_target_pending_hotel_policy"
-    note: "使用者希望第一天用到下午茶。依 BR178 10:10 抵達與 KIX 接送暫排，若 13:30–14:30 抵達飯店且 lounge access 可用，優先安排行政酒廊下午茶；下午茶後先在飯店休息，再去梅田 Pokémon Center OSAKA，並在 Pokémon Center 附近吃晚餐後回飯店。"
+    note: "使用者希望第一天用到下午茶。依 BR178 10:10 抵達與 Hello Kitty HARUKA 暫排，若 13:30–14:30 抵達飯店且 lounge access 可用，優先安排行政酒廊下午茶；下午茶後先在飯店休息，再去梅田 Pokémon Center OSAKA，並在 Pokémon Center 附近吃晚餐後回飯店。"
   - date: "2027/11/20（六）"
     day: "Day 4"
     purpose: "行政酒廊下午茶"
@@ -50,7 +50,7 @@ planned_lounge_uses:
 
 day1_sequence:
   - "BR178 抵達 KIX"
-  - "KKday #129909 前往 InterContinental Osaka"
+  - "Hello Kitty HARUKA 前往 InterContinental Osaka"
   - "寄放行李／辦理入住／短暫整理"
   - "行政酒廊下午茶"
   - "飯店休息一下"

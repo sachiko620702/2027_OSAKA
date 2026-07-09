@@ -1,5 +1,5 @@
 itinerary:
-  version: V5.15.0
+  version: V5.16.0
   status: planning
   breakfast_policy:
     normal_days: InterContinental Osaka Executive Lounge breakfast
@@ -14,7 +14,7 @@ itinerary:
         dinner: pending
       fixed_transport:
         flight: BR178
-        airport_transfer: KKday product 129909 KIX to InterContinental Osaka
+        airport_transfer: Hello Kitty HARUKA KIX to InterContinental Osaka
     - date: 2027-11-18
       day: day2
       status: draft
@@ -24,8 +24,8 @@ itinerary:
         lunch: USJ_pending
         dinner: USJ_or_hotel_pending
       fixed_transport:
-        outbound: KKday product 536220 InterContinental Osaka to USJ
-        return: KKday product 536220 USJ to InterContinental Osaka
+        outbound: Osaka Loop Line + JR Yumesaki Line InterContinental Osaka to USJ
+        return: USJ to InterContinental Osaka private charter
     - date: 2027-11-19
       day: day3
       status: candidate_not_formal
@@ -102,5 +102,5 @@ itinerary:
     usj_days: 1
     outbound_flight: BR178
     return_flight: BR129
-    airport_transfer: KKday product 129909 round trip
-    usj_transfer: KKday product 536220 round trip
+    airport_transfer: Hello Kitty HARUKA to hotel + KKday product 129909 return
+    usj_transfer: Osaka Loop Line + JR Yumesaki Line outbound + USJ return private charter

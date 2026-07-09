@@ -1,8 +1,8 @@
 metadata:
   id: customer_facing_travel_plan
   title: "顧客版旅遊規劃三表"
-  version: "V5.54.0"
-  status: "active_customer_facing_summary_after_usj_vip_5h_budget_update"
+  version: "V5.57.0"
+  status: "active_customer_facing_summary_after_usj_return_charter_update"
   last_updated: "2026-07-09"
   maintained_by: "ChatGPT"
   audience: "旅客／顧客"
@@ -17,9 +17,9 @@ trip_overview:
   planned_room_type: "1 King Premium Club Lounge Access（預計升等為 1 King Junior Suite with club lounge access）"
   style: "Luxury Slow Travel"
   flight_baseline: "去程 EVA Air BR178 暫採現行班表 06:30 TPE → 10:10 KIX；回程 EVA Air BR129 暫採現行班表 18:30 KIX → 20:30 TPE。2027/11 官方班表、票價與訂位狀態仍需確認。"
-  budget_baseline: "V5.54.0 建議版主預算 NT$245,454／兩人；節制版 NT$240,756／兩人；安全版 NT$280,000／兩人；硬上限 NT$280,000／兩人；Ambassador 續約 USD 250 與精品購物另計。USJ Express Pass 7 已改為 USJ VIP 5 小時，暫以 TWD 60,000 估算；VIP 方案視為包含午餐、晚餐與園內餐飲；USJ 周邊購物與普通購物合併為 NT$14,000。"
+  budget_baseline: "V5.57.0 建議版主預算 NT$242,070／兩人；節制版 NT$237,372／兩人；安全版 NT$280,000／兩人；硬上限 NT$280,000／兩人；Ambassador 續約 USD 250 與精品購物另計。USJ Express Pass 7 已改為 USJ VIP 5 小時，暫以 TWD 60,000 估算；VIP 方案視為包含午餐、晚餐與園內餐飲；KIX→飯店改為 Hello Kitty HARUKA，約 NT$800；飯店→KIX 仍先以 KKday #129909 參考；USJ 去程保留大阪環狀線 + JR 夢咲線，回程改為包車約 NT$1,800；USJ 周邊購物與普通購物合併為 NT$14,000。"
   confirmed_scope:
-    - "USJ 一天，V5.54.0 改採 USJ VIP 5 小時，不再使用 Express Pass 7 作為主方案"
+    - "USJ 一天，V5.57.0 改採 USJ VIP 5 小時，不再使用 Express Pass 7 作為主方案"
     - "好吃優先餐飲"
     - "精品購物另計"
     - "Day 1 正式確認：行政酒廊下午茶、飯店休息、梅田 Pokémon Center OSAKA、千房梅田周邊店晚餐、回飯店"
@@ -28,7 +28,7 @@ trip_overview:
     - "Day 3 京都版、京 鰻和 本店與天ぷら 京星降為備案／歷史版本"
     - "Day 4 正式確認：心齋橋為主；Pokémon Center OSAKA DX；午餐後回 InterContinental Osaka；下午在飯店附近活動；NOKA Roast & Grill"
     - "Day 4 PIERRE 與壽司皆為 fallback-only，不是目前正式晚餐"
-    - "V5.54.0 將主控預算更新到 NT$245,454／兩人。"
+    - "V5.57.0 將主控預算更新到 NT$242,070／兩人。"
 
 hotel_reply_summary:
   received_date: "2026-07-07"
@@ -51,15 +51,15 @@ itinerary_table:
   - date: "Day 1｜2027/11/17（三）"
     focus: "抵達大阪、行政酒廊下午茶、飯店休息、梅田 Pokémon Center、千房晚餐"
     main_places: "台北桃園機場、關西機場、InterContinental Osaka、梅田、Pokémon Center OSAKA、千房梅田周邊店"
-    transportation: "EVA Air BR178 06:30–10:10；KKday #129909 機場接送至飯店；梅田步行／計程車"
+    transportation: "EVA Air BR178 06:30–10:10；Hello Kitty HARUKA 至飯店；梅田步行／計程車"
     meals: "行政酒廊下午茶；晚餐：千房 梅田周邊店"
     notes: "千房已由候補升級為 Day 1 正式晚餐方向；實際梅田周邊分店、訂位、營業時間、價格與從 Pokémon Center OSAKA 的動線仍需確認。"
   - date: "Day 2｜2027/11/18（四）"
     focus: "USJ 一日遊，改採 USJ VIP 5 小時"
     main_places: "Universal Studios Japan"
-    transportation: "KKday #536220 飯店 ↔ USJ 來回接送；V5.24.0 暫估單程 NT$1,732、來回 NT$3,464"
+    transportation: "去程大阪環狀線 + JR 夢咲線；回程包車；去程約 JPY 400／程"
     meals: "行政酒廊早餐；USJ VIP 5 小時視為包含午餐、晚餐與園內餐飲"
-    notes: "V5.54.0 將 Express Pass 7 改為 USJ VIP 5 小時，暫以 TWD 60,000 估算；2027/10/10 仍保留 Studio Pass 與 KKday #536220 飯店 ↔ USJ 接送購買目標。需確認 VIP 是否含 Studio Pass。"
+    notes: "V5.57.0 將 Express Pass 7 改為 USJ VIP 5 小時，暫以 TWD 60,000 估算；USJ 去程改採大阪環狀線 + JR 夢咲線、回程改為包車。需確認 VIP 是否含 Studio Pass。"
   - date: "Day 3｜2027/11/19（五）"
     focus: "木津市場、日本橋動漫模型、飯店酒廊下午茶、肉NOASATSU 壽司晚餐"
     main_places: "木津市場、難波、日本橋、Den Den Town、Ota Road、InterContinental Osaka Executive Lounge、肉NOASATSU"
@@ -96,14 +96,10 @@ todo_table:
     suggested_time: "2027/09/17"
     status: "已排程，待訂位窗口"
     reminder: "訂位時備註 anniversary dinner，確認套餐、主菜、90 分鐘暢飲與特價菜單日不適用條件。"
-  - item: "2027/10/10 買 KKday 機場接送"
+  - item: "2027/10/10 買 KKday 飯店→KIX 回程接送"
     suggested_time: "2027/10/10"
     status: "已排程，價格待確認"
-    reminder: "對應 KKday #129909，確認 KIX ↔ InterContinental Osaka 日期、車型、行李限制、等待時間與取消政策。"
-  - item: "2027/10/10 買 KKday USJ 接送"
-    suggested_time: "2027/10/10"
-    status: "已排程，價格待確認"
-    reminder: "對應 KKday #536220；V5.24.0 參考來回 TWD 3,464，需確認 2027 日期、路線、車型、20KM 範圍、pickup point、行李與取消規則。"
+    reminder: "對應 KKday #129909，確認飯店 ↔ KIX 日期、車型、行李限制、等待時間與取消政策；KIX→飯店改搭 Hello Kitty HARUKA。"
   - item: "2027/10/10 買 USJ Studio Pass"
     suggested_time: "2027/10/10"
     status: "已排程，待官方公布"
@@ -119,10 +115,10 @@ todo_table:
 
 budget_table:
   - category: "交通"
-    description: "機票、KKday 機場接送、KKday USJ 接送、Day 3 大阪市內交通、Day 4 心齋橋午餐後回飯店交通"
-    estimated_cost: "NT$55,664"
+    description: "機票、Hello Kitty HARUKA 到飯店、KKday 回程接送、USJ 去程公共交通＋回程包車、Day 3 大阪市內交通、Day 4 心齋橋午餐後回飯店交通"
+    estimated_cost: "NT$52,280"
     paid: "NT$0（付款未確認）"
-    notes: "機票由 NT$35,000 更新為 NT$36,000；KKday #536220 已排入 2027/10/10 購買批次，但 2027 最終價格仍需確認。"
+    notes: "機票由 NT$35,000 更新為 NT$36,000；KIX→飯店改搭 Hello Kitty HARUKA，約 NT$800；飯店→KIX 仍先以 KKday #129909 參考；USJ 去程改採大阪環狀線 + JR 夢咲線，回程改包車 NT$1,800。"
   - category: "住宿"
     description: "InterContinental Osaka 房費、行政酒廊早餐、Day 1／Day 3／Day 4 行政酒廊下午茶"
     estimated_cost: "NT$65,900"
@@ -137,7 +133,7 @@ budget_table:
     description: "Day 1 千房晚餐、木津市場早午餐、Day 3 大阪市內午餐、Day 3 壽司晚餐、Day 4 心齋橋午餐與 NOKA Roast & Grill"
     estimated_cost: "NT$27,782"
     paid: "NT$0（付款未確認）"
-    notes: "Day 1 千房 NT$4,000；Day 3 木津市場早午餐 NT$8,000；Day 3 肉NOASATSU／KKday #268366 兩人 NT$3,082；NOKA 兩人 JPY 38,500，按匯率 0.2 換算為 NT$7,700。Day 2 USJ 午餐、晚餐與園內餐飲視為包含在 VIP 5 小時內。"
+    notes: "Day 1 千房 NT$4,000；Day 3 木津市場早午餐 NT$8,000；Day 3 肉NOASATSU／KKday #268366 兩人 NT$3,082；NOKA 兩人 JPY 38,500，按匯率 0.2 換算為 NT$7,700。Day 2 USJ 午餐、晚餐與園內餐飲視為包含在 VIP 5 小時內，USJ 去程採大阪環狀線 + JR 夢咲線，回程改包車。"
   - category: "USJ"
     description: "USJ VIP 5 小時、Studio Pass"
     estimated_cost: "NT$67,108"
@@ -150,30 +146,32 @@ budget_table:
     notes: "含保險 TWD 6,900、漫遊 TWD 499。"
 
 budget_summary:
-  controlled_total_twd: 240756
-  controlled_per_person_twd: 120378
-  recommended_total_twd: 245454
-  recommended_per_person_twd: 122727
+  controlled_total_twd: 237372
+  controlled_per_person_twd: 118686
+  recommended_total_twd: 242070
+  recommended_per_person_twd: 121035
   safety_total_twd: 280000
   safety_per_person_twd: 140000
   hard_ceiling_twd: 280000
-  known_scheduled_twd_payments_total: 103399
+  known_scheduled_twd_payments_total: 105199
   known_scheduled_usd_payments_total: 250
   reference_price_items:
-    - "KKday #129909 機場接送：V5.24.0 參考來回 TWD 5,200，2027 最終價格待確認。"
-    - "KKday #536220 飯店 ↔ USJ 接送：V5.24.0 參考來回 TWD 3,464，2027 最終價格待確認。"
+    - "飯店→KIX：KKday #129909，V5.24.0 參考單程 TWD 2,600，2027 最終價格待確認。"
+    - "KIX→飯店：Hello Kitty HARUKA，使用者提供 TWD 800，2027 時刻與票種待確認。"
+    - "USJ→飯店：包車，使用者提供 TWD 1,800，車型與可訂狀態待確認。"
     - "USJ Studio Pass：目前預算暫抓兩人 TWD 7,108，2027 官方價格待公布。"
   luxury_shopping_policy: "精品包、珠寶、手錶另計，不混入基本旅費。"
   ambassador_policy: "Ambassador 續約 USD 250 另計，待匯率確認後再決定是否併入 TWD 預算。"
-  safety_note: "USJ VIP 5 小時後，建議版 NT$245,454 距離硬上限 NT$280,000 約 NT$34,546；若官方 VIP 或 Studio Pass 價格提高，需重新決定是否上修硬上限。"
+  safety_note: "USJ VIP 5 小時與 USJ 回程包車後，建議版 NT$242,070 距離硬上限 NT$280,000 約 NT$37,930；若官方 VIP、包車或 Studio Pass 價格提高，需重新決定是否上修硬上限。"
 
 pending_items:
   - "USJ VIP 5 小時 2027/11 商品名稱、幣別、是否含 Studio Pass、餐飲包含範圍、可訂日、取消政策與庫存。"
   - "USJ Studio Pass 2027/11 價格、入園規則、平台庫存與取消政策。"
   - "EVA Air BR178 / BR129 2027/11 官方班表、票價、機型、航廈、行李與訂位狀態。"
   - "InterContinental Ambassador 續約費、BOGO 使用規則與會員禮遇。"
-  - "KKday #129909 2027/11 機場接送價格、車型、行李限制、等待時間與可訂狀態。"
-  - "KKday #536220 2027/11 飯店 ↔ USJ 接送價格、20KM 範圍、接送點、行李限制、等待時間與可訂狀態。"
+  - "Hello Kitty HARUKA KIX→飯店 2027/11 時刻、指定席規則、票種與行李限制。"
+  - "KKday #129909 2027/11 回程接送價格、車型、行李限制、等待時間與可訂狀態。"
+  - "USJ→飯店包車的車型、乘車地點、可訂狀態與取消政策。"
   - "Day 1 千房梅田周邊店實際分店、營業、訂位、價格、評分與動線。"
   - "Day 3 日本橋、Den Den Town、Ota Road 2027/11/19 營業時間、活動與採買動線。"
   - "Day 3 難波／道頓堀／心齋橋午餐候選。"

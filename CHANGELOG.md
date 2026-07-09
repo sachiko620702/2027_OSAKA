@@ -1,5 +1,69 @@
 # CHANGELOG
 
+# V5.57.0 - 2026-07-09
+
+### Changed
+
+- Switched the USJ return leg to a private charter at NT$1,800 while keeping the outbound leg on Osaka Loop Line + JR Yumesaki Line.
+- Updated the active transport budget, recommended budget, controlled budget, and USJ-specific totals to reflect the charter return.
+- Updated the reservation timeline, customer-facing docs, website copy, and budget JS to reflect the new USJ return transport.
+- Added version note `docs/13_版本與更新/V5.57.0_USJ_Return_Charter_Update.md`.
+
+### Reason
+
+The user explicitly requested `USJ → InterContinental Osaka` as a charter at NT$1,800, so the repository needed to stop presenting the return leg as public rail or any old private-transfer placeholder.
+
+### Impact
+
+- Day 2 now uses public rail to USJ and a private charter back to the hotel.
+- The active recommended TWD budget is now NT$242,070 for two travelers.
+- The controlled scenario is now NT$237,372.
+- The remaining buffer between the recommended budget and the hard ceiling is about NT$37,930.
+- Public-facing documents and the website now match the updated USJ return transport.
+
+# V5.56.0 - 2026-07-09
+
+### Changed
+
+- Split the airport transfer plan into `KIX → InterContinental Osaka` via Hello Kitty HARUKA and `InterContinental Osaka → KIX` via KKday #129909.
+- Updated the arrival transfer budget to NT$800 and reduced the recommended and controlled totals accordingly.
+- Updated the active reservation timeline, project baseline, customer-facing docs, website copy, and budget JS to reflect the split airport transfer.
+- Added version note `docs/13_版本與更新/V5.56.0_Airport_Transfer_Split_Update.md`.
+
+### Reason
+
+The user changed only the arrival leg from KIX to InterContinental Osaka, so the repository needed to stop treating the airport transfer as a single round-trip product and preserve the return leg separately.
+
+### Impact
+
+- Day 1 arrival now uses Hello Kitty HARUKA instead of KKday #129909.
+- The return leg to KIX remains KKday #129909.
+- The active recommended TWD budget is now NT$240,350 for two travelers.
+- The controlled scenario is now NT$235,652.
+- Public-facing documents and the website now match the split airport-transfer plan.
+
+# V5.55.0 - 2026-07-09
+
+### Changed
+
+- Replaced the Day 2 USJ hotel transfer with Osaka Loop Line + JR Yumesaki Line public rail.
+- Removed the KKday #536220 hotel-USJ purchase target from the active reservation timeline.
+- Updated the active transport budget to use JPY 400 per one-way rail leg, lowering the recommended budget to NT$242,150 for two travelers and the controlled scenario to NT$237,452.
+- Updated the customer-facing tables, hourly itinerary, website copy, and budget JS to reflect the rail route.
+- Added version note `docs/13_版本與更新/V5.55.0_USJ_Rail_Transport_Update.md`.
+
+### Reason
+
+The user explicitly changed both directions between InterContinental Osaka and USJ to Osaka Loop Line + JR Yumesaki Line, with a JPY 400 fare. The repository needed to stop presenting KKday #536220 as the active USJ transport plan.
+
+### Impact
+
+- Day 2 USJ now uses public rail instead of private transfer.
+- The USJ transport purchase batch no longer includes KKday #536220.
+- The active recommended TWD budget is now NT$242,150 for two travelers.
+- The remaining buffer between the recommended budget and the hard ceiling is about NT$37,850.
+- Public-facing documents and the website now match the rail-based route.
+
 # V5.54.0 - 2026-07-09
 
 ### Changed

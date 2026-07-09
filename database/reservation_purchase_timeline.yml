@@ -1,12 +1,12 @@
 metadata:
   id: reservation_purchase_timeline
   title: "2027 大阪自由行預約與購買時間軸"
-  version: "V5.54.0"
-  status: "active_reservation_purchase_baseline_after_usj_vip_5h_update"
+  version: "V5.57.0"
+  status: "active_reservation_purchase_baseline_after_usj_return_charter_update"
   last_updated: "2026-07-09"
   maintained_by: "ChatGPT"
   language: "zh-Hant"
-  source_instruction: "使用者指定以月份／日期排序，列出每一項需要購買、續約、搶票、訂位或申請的事項；V5.54.0 將 USJ Express Pass 7 改為 USJ VIP 5 小時，暫以 TWD 60,000 估算，並保留 Studio Pass 於 2027/10/10 待官方公布。"
+  source_instruction: "使用者指定以月份／日期排序，列出每一項需要購買、續約、搶票、訂位或申請的事項；V5.57.0 將 USJ Express Pass 7 改為 USJ VIP 5 小時，暫以 TWD 60,000 估算，並將 KIX→飯店改為 Hello Kitty HARUKA、飯店→KIX 保留 KKday #129909，USJ 去程保留大阪環狀線 + JR 夢咲線、回程改為包車。"
 
 scope:
   trip_dates: "2027/11/17（三）～2027/11/21（日）"
@@ -16,8 +16,8 @@ scope:
   note: "本時間軸只記錄使用者確認的購買／預約節點；2027 官方未公布票券、價格或訂位窗口者標示待官方公布或待確認。"
 
 budget_impact:
-  current_recommended_budget_twd_for_two: 245454
-  current_controlled_budget_twd_for_two: 240756
+  current_recommended_budget_twd_for_two: 242070
+  current_controlled_budget_twd_for_two: 237372
   current_safety_budget_twd_for_two: 280000
   current_hard_ceiling_twd_for_two: 280000
   usj_vip_5h:
@@ -32,26 +32,27 @@ budget_impact:
   flight_reference_twd_for_two:
     previous_amount_twd: 35000
     updated_amount_twd: 36000
-    impact: "交通預算 +TWD 1,000；目前主預算為 TWD 245,454／兩人。"
+    impact: "交通預算 +TWD 1,000；目前主預算為 TWD 242,070／兩人。"
   ambassador_renewal:
     amount_usd: 250
     budget_policy: "以 USD 獨立追蹤；未指定匯率前不硬轉 TWD，不併入 TWD 主預算。"
   scheduled_twd_payments_with_confirmed_amounts:
-    total_twd: 103399
+    total_twd: 105199
     includes:
       - "EVA Air BR178 / BR129 機票 TWD 36,000"
       - "USJ VIP 5 小時 TWD 60,000（使用者提供；幣別與官方條件需確認）"
       - "旅遊保險 TWD 6,900"
       - "手機漫遊 TWD 499"
-    note: "不含 KKday #129909 / #536220，因 2027 最終價格仍待確認；不含 Studio Pass，因 2027 官方價格仍待公布。"
+    note: "不含 KIX→飯店的 Hello Kitty HARUKA 與飯店→KIX 的 KKday #129909，因 2027 最終價格與時刻仍待確認；不含 Studio Pass，因 2027 官方價格仍待公布。USJ 回程包車已列入 2027/10/10 預約節點。"
   reference_only_scheduled_items:
-    - "KKday #129909 機場接送：V5.24.0 參考來回 TWD 5,200，2027 最終價格待確認。"
-    - "KKday #536220 飯店 ↔ USJ 接送：V5.24.0 參考來回 TWD 3,464，2027 最終價格待確認。"
+    - "飯店→KIX：KKday #129909，V5.24.0 參考單程 TWD 2,600，2027 最終價格待確認。"
+    - "KIX→飯店：Hello Kitty HARUKA，使用者提供 TWD 800，2027 時刻與票種待確認。"
     - "USJ Studio Pass：目前預算內暫抓兩人 TWD 7,108，2027 官方價格待公布。"
   unknown_amount_items:
     - "NOKA Roast & Grill 2027 最終價格"
-    - "KKday 機場接送最終價"
-    - "KKday 飯店 ↔ USJ 接送最終價"
+    - "Hello Kitty HARUKA 2027 時刻與票種"
+    - "KKday 飯店→KIX 接送最終價"
+    - "USJ 回程包車的車型、乘車地點、可訂狀態與取消政策"
     - "USJ Studio Pass 2027 官方價格"
 
 timeline:
@@ -129,40 +130,19 @@ timeline:
   - sort_key: "2027-10-10"
     display_date: "2027/10/10"
     action_type: "purchase"
-    item: "買 KKday 機場接送"
-    target: "KKday #129909｜KIX ↔ InterContinental Osaka"
+    item: "買 USJ 回程包車"
+    target: "Universal Studios Japan → InterContinental Osaka"
     amount:
-      value: null
+      value: 1800
       currency: "TWD"
-      display: "待確認"
-    status: "planned_user_confirmed_date"
-    related_trip_day:
-      - "Day 1｜2027/11/17"
-      - "Day 5｜2027/11/21"
-    reference_price:
-      one_way_twd: 2600
-      round_trip_twd: 5200
-      status: "V5.24.0 使用者提供參考；2027 最終價格待確認"
-    reconfirmation: "2027/11 日期、車型、行李限制、等待時間、取消政策與可訂狀態需確認。"
-    budget_category: "交通"
-
-  - sort_key: "2027-10-10"
-    display_date: "2027/10/10"
-    action_type: "purchase"
-    item: "買 KKday USJ 接送"
-    target: "KKday #536220｜InterContinental Osaka ↔ USJ"
-    amount:
-      value: null
-      currency: "TWD"
-      display: "待確認（V5.24.0 參考 3,464 TWD）"
-    status: "planned_user_confirmed_date"
+      display: "1,800 TWD"
+    status: "planned_user_confirmed_price_needs_confirmation"
     related_trip_day:
       - "Day 2｜2027/11/18"
     reference_price:
-      one_way_twd: 1732
-      round_trip_twd: 3464
-      status: "V5.24.0 使用者截圖參考；2027 最終價格、20KM 範圍與 pickup point 待確認"
-    reconfirmation: "2027/11 日期、飯店與 USJ 實際路線、車型、20KM 範圍、行李限制、等待時間、pickup point 與取消政策需確認。"
+      one_way_twd: 1800
+      status: "使用者提供參考；車型與可訂狀態仍待確認"
+    reconfirmation: "2027/11 USJ→飯店包車的車型、乘車地點、可訂狀態與取消政策需確認。去程仍採大阪環狀線 + JR 夢咲線。"
     budget_category: "交通"
 
   - sort_key: "2027-10-10"
@@ -214,10 +194,11 @@ timeline:
     budget_category: "其他"
 
 maintenance_notes:
-  - "本檔為 V5.54.0 預約／購買主控時間軸。"
+  - "本檔為 V5.57.0 預約／購買主控時間軸。"
   - "USJ Express Pass 7 已被 USJ VIP 5 小時取代。"
   - "USJ VIP 5 小時暫以 TWD 60,000 納入 2027/09/17 購買／預約節點。"
-  - "KKday #536220 飯店 ↔ USJ 接送仍維持 2027/10/10 購買批次。"
-  - "主預算更新為 NT$245,454／兩人；安全版 NT$280,000；硬上限 NT$280,000。"
+  - "KIX→飯店已改為 Hello Kitty HARUKA，飯店→KIX 仍以 KKday #129909 作回程參考。"
+  - "USJ 去程保留大阪環狀線 + JR 夢咲線，回程改為包車，並將回程包車列入 2027/10/10 預約節點。"
+  - "主預算更新為 NT$242,070／兩人；安全版 NT$280,000；硬上限 NT$280,000。"
   - "不再單獨列 USJ 園區餐飲與購物；USJ 周邊購物與普通購物合併為 NT$14,000。"
   - "如未來使用者調整日期或金額，先更新本 database，再同步 docs、預算模型與 CHANGELOG。"

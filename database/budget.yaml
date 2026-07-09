@@ -1,7 +1,7 @@
 budget:
   status: active
-  version: V5.13.0
-  last_updated: 2026-07-06
+  version: V5.15.0
+  last_updated: 2026-07-09
   currency_assumptions:
     primary_currency: TWD
     jpy_twd_rate: NEEDS_RECONFIRMATION
@@ -53,64 +53,62 @@ budget:
       payment_method: NEEDS_RECONFIRMATION
       price_type: pending_query_price
       note: User selected outbound BR178 and return BR129. Official schedule, fare, baggage, and ticket rules still need confirmation.
-    - id: kkday_airport_transfer_129909_luxury_7_seater_roundtrip
+    - id: hello_kitty_haruka_kix_to_hotel_oneway
       category: transportation
-      item: KKday product 129909 KIX hotel round trip luxury 7-seater candidate
-      amount: NEEDS_MANUAL_KKDAY_DATE_ROUTE_PRICE
-      currency: NEEDS_RECONFIRMATION
-      people: 2
-      quantity: 2
-      subtotal_twd: NEEDS_RECONFIRMATION
-      payment_status: NOT_PAID_OR_NEEDS_CONFIRMATION
-      paid: NEEDS_RECONFIRMATION
-      payment_method: KKday_checkout_NEEDS_RECONFIRMATION
-      price_type: dynamic_query_price_pending
-      recommendation: recommended_if_luggage_under_3_checked_bags
-      note: Product 129909 airport transfer candidate. Base route price must be checked after selecting date and route.
-    - id: kkday_airport_transfer_129909_comfort_10_seater_roundtrip
-      category: transportation
-      item: KKday product 129909 KIX hotel round trip comfort 10-seater backup
-      amount: NEEDS_MANUAL_KKDAY_DATE_ROUTE_PRICE
-      currency: NEEDS_RECONFIRMATION
-      people: 2
-      quantity: 2
-      subtotal_twd: NEEDS_RECONFIRMATION
-      payment_status: NOT_PAID_OR_NEEDS_CONFIRMATION
-      paid: NEEDS_RECONFIRMATION
-      payment_method: KKday_checkout_NEEDS_RECONFIRMATION
-      price_type: dynamic_query_price_pending
-      recommendation: backup_if_luggage_over_3_checked_bags_or_more_space_needed
-      note: Product 129909 airport transfer backup option.
-    - id: kkday_hotel_usj_transfer_536220_luxury_7_seater_roundtrip
-      category: transportation
-      item: KKday product 536220 hotel USJ round trip luxury 7-seater candidate
-      amount: NEEDS_MANUAL_KKDAY_DATE_ROUTE_PRICE
-      visible_starting_price_twd: 600
+      item: Hello Kitty HARUKA KIX to InterContinental Osaka
+      amount: 800
       currency: TWD
       people: 2
-      quantity: 2
-      subtotal_twd: NEEDS_RECONFIRMATION
+      quantity: 1
+      subtotal_twd: 800
+      payment_status: NOT_PAID_OR_NEEDS_CONFIRMATION
+      paid: NEEDS_RECONFIRMATION
+      payment_method: JR_ticket_or_reserved_seat_NEEDS_RECONFIRMATION
+      price_type: user_provided_amount
+      recommendation: recommended_for_arrival_transfer
+      note: User requested KIX → InterContinental Osaka to change to Hello Kitty HARUKA. Seat/timetable rules still need confirmation.
+    - id: kkday_airport_transfer_129909_return_oneway
+      category: transportation
+      item: KKday product 129909 InterContinental Osaka to KIX
+      amount: 2600
+      currency: TWD
+      people: 2
+      quantity: 1
+      subtotal_twd: 2600
       payment_status: NOT_PAID_OR_NEEDS_CONFIRMATION
       paid: NEEDS_RECONFIRMATION
       payment_method: KKday_checkout_NEEDS_RECONFIRMATION
-      price_type: visible_from_price_dynamic_query_pending
+      price_type: user_provided_amount
+      recommendation: recommended_for_return_transfer
+      note: Return leg still uses KKday #129909; keep as the departure transfer reference.
+    - id: jr_osaka_loop_yumesaki_line_usj_outbound
+      category: transportation
+      item: Osaka Loop Line + JR Yumesaki Line to USJ
+      amount: 400
+      currency: JPY
+      people: 2
+      quantity: 1
+      subtotal_twd: 80
+      payment_status: NOT_PAID_OR_NEEDS_CONFIRMATION
+      paid: NEEDS_RECONFIRMATION
+      payment_method: IC_card_or_station_ticket_NEEDS_RECONFIRMATION
+      price_type: public_transport_reference
       recommendation: recommended_for_two_travelers
-      note: Product page shows TWD 600 from price, but actual InterContinental Osaka to USJ and return route prices must be confirmed after selecting date, route, and vehicle.
-    - id: kkday_hotel_usj_transfer_536220_comfort_10_seater_roundtrip
+      note: Outbound leg only. Estimated at JPY 400 one way, rough TWD 80 using the current assumption.
+    - id: usj_private_charter_return_oneway
       category: transportation
-      item: KKday product 536220 hotel USJ round trip comfort 10-seater backup
-      amount: NEEDS_MANUAL_KKDAY_DATE_ROUTE_PRICE
-      visible_starting_price_twd: 600
+      item: USJ to InterContinental Osaka private charter
+      amount: 1800
       currency: TWD
       people: 2
-      quantity: 2
-      subtotal_twd: NEEDS_RECONFIRMATION
+      quantity: 1
+      subtotal_twd: 1800
       payment_status: NOT_PAID_OR_NEEDS_CONFIRMATION
       paid: NEEDS_RECONFIRMATION
-      payment_method: KKday_checkout_NEEDS_RECONFIRMATION
-      price_type: visible_from_price_dynamic_query_pending
-      recommendation: backup_if_more_space_or_luggage_needed
-      note: Product 536220 backup option if more space or luggage capacity is preferred.
+      payment_method: charter_booking_NEEDS_RECONFIRMATION
+      price_type: user_provided_amount
+      recommendation: recommended_for_return_transfer
+      note: User requested USJ → InterContinental Osaka to change to charter.
     - id: kkday_day3_charter_133661_luxury_7_seater
       category: transportation
       item: KKday product 133661 10-hour Osaka Kyoto private charter luxury 7-seater candidate
@@ -140,7 +138,7 @@ budget:
       recommendation: backup_if_more_space_or_shopping_luggage_needed
       note: Backup only. Do not select unless comfort or shopping load justifies larger vehicle.
   budget_model_notes:
-    transportation: Includes flights, KKday airport product 129909, KKday hotel-USJ product 536220, Day 3 KKday product 133661 charter candidate, local rail backup, taxi, and luggage-related movement.
+    transportation: Includes flights, Hello Kitty HARUKA arrival transfer, KKday airport product 129909 return transfer, Osaka Loop Line + JR Yumesaki Line outbound to USJ, USJ return private charter, Day 3 KKday product 133661 charter candidate, taxi, and luggage-related movement.
     lodging: Includes InterContinental Osaka room cost, taxes, breakfast or lounge add-ons, early check-in, late check-out, and upgrade fees.
     shopping: Includes department stores, luxury boutiques, drugstores, apparel, electronics, character goods, souvenirs, and tax-free shopping.
     dining: Taste-first planning. Michelin status is neutral and should not be used as the budget label.
