@@ -19,10 +19,10 @@
         open: true,
         items: [
           { label: "長榮 TPE ↔ KIX 兩人來回", amount: 36000 },
-          { label: "KIX → InterContinental Osaka（Hello Kitty HARUKA）", amount: 800, detail: "約 NT$800" },
+          { label: "KIX → InterContinental Osaka（Hello Kitty HARUKA）", amount: 800, detail: "" },
           { label: "InterContinental Osaka → KIX（KKday #129909）", amount: 2600 },
-          { label: "InterContinental Osaka → USJ（大阪環狀線 + JR 夢咲線）", amount: 80, detail: "約 JPY 400" },
-          { label: "USJ → InterContinental Osaka（包車）", amount: 1800, detail: "約 NT$1,800" },
+          { label: "InterContinental Osaka → USJ（大阪環狀線 + JR 夢咲線）", amount: 80, detail: "" },
+          { label: "USJ → InterContinental Osaka（包車）", amount: 1800, detail: "" },
           { label: "Day 3 大阪市內地鐵／步行（西瓜卡）", amount: 3000 },
           { label: "Day 4 心齋橋 → 飯店地鐵（西瓜卡）", amount: 2000 },
           { label: "市區交通／地鐵與短程計程車備援", amount: 6000 },
