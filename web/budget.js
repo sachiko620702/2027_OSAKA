@@ -51,7 +51,7 @@
         key: "dining",
         label: "飲食",
         description: "千房、木津市場、壽司、NOKA",
-        note: "Day 2 USJ 午餐、晚餐與園內餐飲視為包含在 VIP 5 小時內，不再單獨列。",
+        note: "Day 2 USJ VIP 5 小時目前僅視為包含晚餐，午餐與園內餐飲另行確認。",
         items: [
           { label: "Day 1 千房 梅田周邊店", amount: 4000 },
           { label: "Day 3 木津市場早午餐", amount: 8000 },

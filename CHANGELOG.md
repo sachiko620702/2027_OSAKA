@@ -7,6 +7,7 @@
 - Switched the USJ return leg to a private charter at NT$1,800 while keeping the outbound leg on Osaka Loop Line + JR Yumesaki Line.
 - Updated the active transport budget, recommended budget, controlled budget, and USJ-specific totals to reflect the charter return.
 - Updated the reservation timeline, customer-facing docs, website copy, and budget JS to reflect the new USJ return transport.
+- Clarified that the USJ VIP 5h reference should be treated as dinner-only for the included meal scope, with lunch and in-park dining left for separate confirmation.
 - Added version note `docs/13_版本與更新/V5.57.0_USJ_Return_Charter_Update.md`.
 
 ### Reason
@@ -20,6 +21,7 @@ The user explicitly requested `USJ → InterContinental Osaka` as a charter at N
 - The controlled scenario is now NT$237,372.
 - The remaining buffer between the recommended budget and the hard ceiling is about NT$37,930.
 - Public-facing documents and the website now match the updated USJ return transport.
+- The active wording now treats USJ VIP 5h as dinner-only rather than lunch-plus-dinner.
 
 # V5.56.0 - 2026-07-09
 

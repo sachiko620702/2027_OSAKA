@@ -7,7 +7,7 @@ metadata:
   maintained_by: "ChatGPT"
   currency: "TWD"
   travelers: 2
-  caveat: "本模型為 2026/07 依使用者提供價格與目前正式行程建立的暫估模型；2027 官方價格、航班票價、KKday 商品價格、USJ 票券、飯店房價與餐廳菜單仍需再次確認。V5.57.0 依使用者指示將 USJ Express Pass 7 改為 USJ VIP 5 小時，暫以 TWD 60,000 納入主預算；因 VIP 方案包含午餐、晚餐與園內餐飲，不再單獨列 USJ 園區餐飲與購物；KIX→飯店改為 Hello Kitty HARUKA，約 TWD 800；飯店→KIX 仍先以 KKday #129909 參考。USJ 去程維持大阪環狀線 + JR 夢咲線，回程改為包車約 TWD 1,800。"
+  caveat: "本模型為 2026/07 依使用者提供價格與目前正式行程建立的暫估模型；2027 官方價格、航班票價、KKday 商品價格、USJ 票券、飯店房價與餐廳菜單仍需再次確認。V5.57.0 依使用者指示將 USJ Express Pass 7 改為 USJ VIP 5 小時，暫以 TWD 60,000 納入主預算；目前僅將 VIP 餐飲範圍視為晚餐，午餐與園內餐飲另行確認；KIX→飯店改為 Hello Kitty HARUKA，約 TWD 800；飯店→KIX 仍先以 KKday #129909 參考。USJ 去程維持大阪環狀線 + JR 夢咲線，回程改為包車約 TWD 1,800。"
 
 trip_scope:
   dates: "2027/11/17（三）～2027/11/21（日）"
@@ -21,7 +21,7 @@ trip_scope:
     - "大阪環狀線 + JR 夢咲線去程 USJ，USJ→飯店包車（約 TWD 1,800）"
     - "InterContinental Osaka 兩張住宿訂單，合計四晚"
     - "USJ 一天，改採 USJ VIP 5 小時；Studio Pass 仍需另購並待官方公布"
-    - "USJ VIP 5 小時暫以使用者提供 TWD 60,000 估算，並視為包含午餐、晚餐與園內餐飲"
+    - "USJ VIP 5 小時暫以使用者提供 TWD 60,000 估算，並僅視為包含晚餐；午餐與園內餐飲另行確認"
     - "USJ 周邊購物與一般 Pokémon / 動漫 / 日本橋 / 百貨小物合併為購物預算 TWD 14,000"
     - "Day 1 千房梅田周邊店"
     - "Day 3 木津市場、日本橋動漫模型周邊、飯店酒廊下午茶、肉NOASATSU 壽司晚餐"
@@ -72,10 +72,8 @@ user_provided_reference_prices:
     amount_source: "使用者提供 60000；本版先按 TWD 納入主預算。"
     planned_purchase_date: "2027/09/17"
     includes:
-      - "午餐"
       - "晚餐"
-      - "園內餐飲"
-    reconfirmation: "2027/11 USJ VIP 5 小時實際商品名稱、幣別、包含內容、是否含 Studio Pass、可訂日期、取消政策與官方庫存仍需確認。"
+    reconfirmation: "2027/11 USJ VIP 5 小時實際商品名稱、幣別、包含內容、是否含 Studio Pass、晚餐範圍、午餐與園內餐飲是否另計、可訂日期、取消政策與官方庫存仍需確認。"
   usj_studio_pass:
     planned_purchase_date: "2027/10/10"
     reference_total_for_two_twd: 7108
@@ -125,7 +123,7 @@ recommended_budget:
   title: "建議版主預算"
   total_twd: 242070
   per_person_twd: 121035
-  note: "不含精品包、珠寶、手錶；不含尚未換算的 InterContinental Ambassador 續約 USD 250；住宿以 NT$65,900 淨額估算；USJ Express Pass 7 已改為 USJ VIP 5 小時 TWD 60,000；USJ VIP 方案視為包含午餐、晚餐與園內餐飲；Studio Pass 仍保留兩人暫估 NT$7,108；KIX→飯店改為 Hello Kitty HARUKA 約 NT$800，飯店→KIX 仍先以 KKday #129909 估算；USJ 去程維持大阪環狀線 + JR 夢咲線，回程改為包車約 TWD 1,800；USJ 周邊購物與一般購物合併為 NT$14,000。"
+  note: "不含精品包、珠寶、手錶；不含尚未換算的 InterContinental Ambassador 續約 USD 250；住宿以 NT$65,900 淨額估算；USJ Express Pass 7 已改為 USJ VIP 5 小時 TWD 60,000；USJ VIP 方案目前僅視為包含晚餐，午餐與園內餐飲另行確認；Studio Pass 仍保留兩人暫估 NT$7,108；KIX→飯店改為 Hello Kitty HARUKA 約 NT$800，飯店→KIX 仍先以 KKday #129909 估算；USJ 去程維持大阪環狀線 + JR 夢咲線，回程改為包車約 TWD 1,800；USJ 周邊購物與一般購物合併為 NT$14,000。"
   categories:
     - category: "交通"
       amount_twd: 52280
@@ -157,7 +155,7 @@ recommended_budget:
       note: "USJ 周邊購物與一般 Pokémon、動漫、模型、日本橋周邊、百貨小物合併；不含精品包、珠寶、手錶。"
     - category: "飲食"
       amount_twd: 27782
-      note: "含 Day 1 千房 NT$4,000、Day 3 木津市場 NT$8,000、Day 3 肉NOASATSU 兩人 NT$3,082、Day 4 NOKA 兩人 NT$7,700、Day 5 餐飲與飲料緩衝。Day 2 USJ 午餐、晚餐與園內餐飲已視為包含在 VIP 5 小時，不另列。"
+      note: "含 Day 1 千房 NT$4,000、Day 3 木津市場 NT$8,000、Day 3 肉NOASATSU 兩人 NT$3,082、Day 4 NOKA 兩人 NT$7,700、Day 5 餐飲與飲料緩衝。Day 2 USJ VIP 5 小時目前僅視為包含晚餐，午餐與園內餐飲另行確認。"
     - category: "USJ"
       amount_twd: 94108
       note: "USJ VIP 5 小時 TWD 60,000 + Studio Pass 兩人暫估 TWD 7,108。Express Pass 7 已移除；不再單獨列園區餐飲與購物。"
@@ -200,7 +198,7 @@ revision_notes:
     hard_ceiling_twd: 280000
   change_reason:
     - "使用者指定將 USJ Express Pass 7 改為 USJ VIP 5 小時，金額 60,000；本版先以 TWD 60,000 納入主預算。"
-    - "使用者指出 VIP 方案包含午餐、晚餐與園內餐飲，因此不再單獨列 USJ 園區餐飲與購物。"
+    - "使用者補充 VIP 方案的餐飲範圍僅以晚餐為準，午餐與園內餐飲另行確認。"
     - "使用者指定 USJ 去程維持大阪環狀線 + JR 夢咲線，回程改為包車約 TWD 1,800。"
     - "使用者指定 KIX→飯店改搭 Hello Kitty HARUKA，約 TWD 800；飯店→KIX 仍先以 KKday #129909 參考。"
     - "使用者指定 USJ 周邊購物與普通購物合併為 NT$14,000。"
@@ -208,7 +206,7 @@ revision_notes:
   budget_positioning: "目前建議以 NT$242,070 作為 TWD 主預算記帳值，NT$280,000 作為安全版與硬上限；Ambassador USD 250 與精品購物另計。"
 
 pending_reconfirmation:
-  - "USJ VIP 5 小時 2027/11 實際商品名稱、幣別、是否含 Studio Pass、午餐晚餐與園內餐飲包含範圍、可訂日、取消政策與官方庫存。"
+  - "USJ VIP 5 小時 2027/11 實際商品名稱、幣別、是否含 Studio Pass、晚餐範圍、午餐與園內餐飲是否另計、可訂日、取消政策與官方庫存。"
   - "USJ Studio Pass 2027/11 票價、入園規則、平台庫存與取消政策。"
   - "EVA Air BR178 / BR129 2027/11 官方班表、票價、機型、行李與訂位狀態。"
   - "InterContinental Ambassador 續約費、BOGO 使用規則與 2027 住宿方案；12:00 提早入住加價方案與實際費用。"

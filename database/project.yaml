@@ -115,9 +115,7 @@ project:
         amount_source: "使用者提供 60000；本版先以 TWD 估算。"
         status: selected_user_confirmed_reference_needs_official_reconfirmation
         includes:
-          - lunch
           - dinner
-          - in_park_dining
         reconfirmation:
           - 2027 availability
           - currency and final official price
@@ -168,7 +166,7 @@ project:
         - USJ VIP 5h instead of Express Pass 7
         - USJ Studio Pass still pending official purchase
         - USJ return charter back to InterContinental Osaka
-      meal_policy: "VIP 5 小時視為包含午餐、晚餐與園內餐飲；不再另列 USJ 園區餐飲預算。"
+      meal_policy: "VIP 5 小時目前僅視為包含晚餐；午餐與園內餐飲另行確認。"
       shopping_policy: "USJ 周邊購物與一般 Pokémon / 動漫 / 日本橋 / 百貨小物合併為 TWD 14,000。"
       pending:
         - VIP 5h official 2027 terms, currency, final price, and meal scope

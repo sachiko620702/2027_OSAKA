@@ -17,16 +17,14 @@ usj:
     reference_amount_twd: 60000
     amount_source: "使用者提供 60000；本檔先以 TWD 估算。"
     includes:
-      - lunch
       - dinner
-      - in_park_dining
     pending_reconfirmation:
       - official_2027_availability
       - currency_and_final_price
       - whether_studio_pass_is_included
       - booking_window
       - cancellation_policy
-      - meal_scope
+      - lunch_and_in_park_dining_scope
       - route_and_facility_scope
   vip_group:
     status: candidate_or_related_option
@@ -37,4 +35,4 @@ usj:
   donkey_kong_area: priority
   park_dining_and_shopping:
     status: removed_as_separate_budget_line
-    reason: "USJ VIP 5 小時包含午餐、晚餐與園內餐飲；USJ 周邊購物與普通購物合併為 TWD 14,000."
+    reason: "USJ VIP 5 小時目前僅視為包含晚餐；午餐與園內餐飲另行確認。USJ 周邊購物與普通購物合併為 TWD 14,000."
