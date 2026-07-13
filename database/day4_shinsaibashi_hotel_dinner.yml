@@ -104,7 +104,7 @@ fallbacks:
     restaurant_english: "PIERRE"
     role: "館內非主方案備案"
     status: "FALLBACK_ONLY"
-    note: "若 NOKA 無法預約或套餐／飲品條件不符合需求，可再比較 PIERRE，但不作目前主方案。"
+    note: "若 NOKA 無法預約或套餐／飲品條件不符合需求，可再比較 PIERRE，但不作目前主方案。Pierre 位於洲際 20 樓，連續 10 年榮獲米其林一星；需 Smart Casual，且不接待 12 歲以下孩童。"
   adee:
     restaurant_japanese: "アディ ラウンジ＆バー"
     restaurant_english: "ADEE Lounge & Bar"

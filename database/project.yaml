@@ -23,9 +23,10 @@ project:
     - Hello Kitty HARUKA for KIX to hotel transfer
     - Osaka Loop Line plus JR Yumesaki Line outbound to USJ and return charter from USJ
     - Breakfast normally at hotel Executive Lounge except Kizu Market day
+    - Day 1 and Day 2 may use the hotel 4F Japanese Bathhouse and steam / dry sauna after the day ends
     - Day 3 formal route is Osaka city route, not Kyoto
-    - Day 4 formal dinner is NOKA Roast & Grill; PIERRE is fallback-only
-    - USJ Express Pass 7 is superseded by USJ VIP 5h in V5.57.0
+    - Day 4 formal dinner is NOKA Roast & Grill; PIERRE is fallback-only and keeps the Smart Casual / no-children-under-12 rule
+    - USJ Express Pass 7 is superseded by USJ VIP 5h in V5.57.0; Studio Pass must be bought separately
 
   user_confirmed_inputs:
     flights:
@@ -115,13 +116,11 @@ project:
         amount_source: "使用者提供 60000；本版先以 TWD 估算。"
         status: selected_user_confirmed_reference_needs_official_reconfirmation
         includes:
-          - dinner
+          - one meal at Luminant
         reconfirmation:
           - 2027 availability
           - currency and final official price
-          - whether Studio Pass is included
           - booking window and cancellation policy
-          - meal scope
       studio_pass:
         planned_purchase_date: 2027-10-10
         price_status: pending_official_announcement
@@ -129,7 +128,7 @@ project:
           low: 1840
           high: 2800
         budget_reference_twd_for_two: 7108
-        reconfirmation: "需確認 VIP 5 小時是否仍須另購 Studio Pass。"
+        reconfirmation: "確認需另外購買；需確認 2027 官方價格、入園規則與平台庫存。"
       park_dining_and_shopping_twd: 0
       park_dining_and_shopping_status: removed_as_separate_budget_line
       general_and_usj_shopping_merged_budget_twd: 14000
@@ -150,6 +149,7 @@ project:
         - hotel rest
         - Pokemon Center OSAKA in Umeda
         - Chibo Umeda-area dinner
+        - hotel 4F Japanese Bathhouse and steam / dry sauna after dinner
         - return to hotel
       pending:
         - exact Chibo branch
@@ -164,13 +164,12 @@ project:
         - Osaka Loop Line + JR Yumesaki Line to USJ
         - Universal Studios Japan one day
         - USJ VIP 5h instead of Express Pass 7
-        - USJ Studio Pass still pending official purchase
+        - USJ Studio Pass must be purchased separately and still waits for official price
         - USJ return charter back to InterContinental Osaka
-      meal_policy: "VIP 5 小時目前僅視為包含晚餐；午餐與園內餐飲另行確認。"
+      meal_policy: "VIP 5 小時包含 1 餐，預訂時選定午餐或晚餐，並於 Luminant 用餐。"
       shopping_policy: "USJ 周邊購物與一般 Pokémon / 動漫 / 日本橋 / 百貨小物合併為 TWD 14,000。"
       pending:
-        - VIP 5h official 2027 terms, currency, final price, and meal scope
-        - whether Studio Pass is included in VIP 5h
+        - VIP 5h official 2027 terms, currency, final price, and booking window
         - Studio Pass official price and purchase route
         - return charter pickup point, vehicle type, cancellation policy, and booking channel
 
@@ -187,6 +186,7 @@ project:
         - 14:00-15:00 Return to InterContinental Osaka, rest, organize shopping items
         - 15:00-16:30 InterContinental Osaka Executive Lounge afternoon tea
         - 16:30-18:30 Hotel rest or light Umeda walk
+        - Japanese tax-free specialty stores and coupons should be ready, including 10% tax-free plus extra 8% discounts where applicable
         - 19:00-20:30 肉NOASATSU sushi dinner
       dinner_direction: sushi
       sushi_restaurant_status: selected_price_reference_pending_final_terms
@@ -223,7 +223,7 @@ project:
           - optional anniversary dessert message or small celebration support if available
         seating_status: request_only_not_guaranteed
       fallbacks:
-        pierre: fallback_only
+        pierre: fallback_only, smart casual required, no children under 12
         sushi: fallback_only
         adee: optional_nightcap_only
 

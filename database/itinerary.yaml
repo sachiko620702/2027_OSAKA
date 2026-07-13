@@ -15,17 +15,21 @@ itinerary:
       fixed_transport:
         flight: BR178
         airport_transfer: Hello Kitty HARUKA KIX to InterContinental Osaka
+      hotel_recovery:
+        post_dinner: Hotel 4F Japanese Bathhouse and steam / dry sauna
     - date: 2027-11-18
       day: day2
       status: draft
       focus: USJ one day
       meals:
         breakfast: hotel_executive_lounge
-        lunch: USJ_pending
+        lunch: VIP_Luminant_selected_meal
         dinner: USJ_or_hotel_pending
       fixed_transport:
         outbound: Osaka Loop Line + JR Yumesaki Line InterContinental Osaka to USJ
         return: USJ to InterContinental Osaka private charter
+      hotel_recovery:
+        post_return: Hotel 4F Japanese Bathhouse and steam / dry sauna
     - date: 2027-11-19
       day: day3
       status: candidate_not_formal
@@ -80,6 +84,7 @@ itinerary:
         - skip Kyoto International Manga Museum if sweets shopping and photo spots need more time
         - use KKday charter if the user wants door-to-door comfort
         - end at hotel if tired after USJ day
+      shopping_note: Japanese tax-free specialty stores and coupons should be ready, including 10% tax-free plus extra 8% discounts where applicable
     - date: 2027-11-20
       day: day4
       status: draft
@@ -88,6 +93,8 @@ itinerary:
         breakfast: hotel_executive_lounge
         lunch: pending
         dinner: pending
+      fallback_dinner:
+        pierre: smart_casual_required_no_children_under_12
     - date: 2027-11-21
       day: day5
       status: draft

@@ -6,7 +6,7 @@ usj:
     planned_purchase_date: 2027-10-10
     price_status: pending_official_announcement
     budget_reference_twd_for_two: 7108
-    note: "仍需確認 USJ VIP 5 小時是否包含 Studio Pass；V5.54.0 先保留 Studio Pass 另購預算。"
+    note: "USJ VIP 5 小時不包含大門票，Studio Pass 確認需另外購買；V5.57.0 仍先保留兩人預算。"
   express_pass_7:
     status: superseded_by_usj_vip_5h
     previous_planned_purchase_date: 2027-09-17
@@ -17,14 +17,12 @@ usj:
     reference_amount_twd: 60000
     amount_source: "使用者提供 60000；本檔先以 TWD 估算。"
     includes:
-      - dinner
+      - one_meal_at_luminant
     pending_reconfirmation:
       - official_2027_availability
       - currency_and_final_price
-      - whether_studio_pass_is_included
       - booking_window
       - cancellation_policy
-      - lunch_and_in_park_dining_scope
       - route_and_facility_scope
   vip_group:
     status: candidate_or_related_option
@@ -35,4 +33,4 @@ usj:
   donkey_kong_area: priority
   park_dining_and_shopping:
     status: removed_as_separate_budget_line
-    reason: "USJ VIP 5 小時目前僅視為包含晚餐；午餐與園內餐飲另行確認。USJ 周邊購物與普通購物合併為 TWD 14,000."
+    reason: "USJ VIP 5 小時包含 1 餐並於 Luminant 用餐；USJ 周邊購物與普通購物合併為 TWD 14,000."

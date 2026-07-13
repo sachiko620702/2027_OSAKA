@@ -2,7 +2,7 @@
 
 This repository is the source of truth for the 2027 Osaka travel project.
 
-Current sync version: V5.53.0 USJ VIP 8h Budget Update.
+Current sync version: V5.57.0 USJ Return Charter Update.
 
 ## Fixed assumptions
 
@@ -15,11 +15,11 @@ Do not change these without an explicit user request:
 - One USJ day
 - Taste-first dining; Michelin status neutral
 - Luxury shopping
-- Day 1 formal sequence: arrival at InterContinental Osaka, target Executive Lounge afternoon tea, rest at the hotel, Pokemon Center OSAKA in Umeda, dinner at 千房 梅田周邊店 / Chibo Umeda-area branch, then return to the hotel
-- Day 2 USJ strategy: USJ Express Pass 7 is superseded by USJ VIP 8h; VIP 8h is treated as including lunch, dinner, and in-park dining; Studio Pass remains a pending 2027/10/10 purchase target until official rules confirm whether VIP includes admission
+- Day 1 formal sequence: arrival at InterContinental Osaka, target Executive Lounge afternoon tea, rest at the hotel, Pokemon Center OSAKA in Umeda, dinner at 千房 梅田周邊店 / Chibo Umeda-area branch, hotel 4F Japanese Bathhouse and steam / dry sauna, then return to the hotel
+- Day 2 USJ strategy: USJ Express Pass 7 is superseded by USJ VIP 5h; VIP 5h is treated as including 1 meal selected at booking and served at Luminant; Studio Pass is a separate purchase and remains a 2027/10/10 purchase target for official price confirmation
 - Day 3 formal itinerary: no Kyoto; Kizu Market brunch, Namba / Nipponbashi anime models and merch, return to InterContinental Osaka for rest and Executive Lounge afternoon tea, and 肉NOASATSU sushi dinner
 - Day 4 formal route: Shinsaibashi-centered activity range until lunch, including Pokemon Center OSAKA DX; return to InterContinental Osaka after lunch; afternoon at / near the hotel; Executive Lounge afternoon tea; Anniversary Dinner at NOKA Roast & Grill inside InterContinental Osaka
-- Day 4 restaurant priority: NOKA Roast & Grill is primary; PIERRE and sushi are fallback-only unless the user explicitly changes back
+- Day 4 restaurant priority: NOKA Roast & Grill is primary; PIERRE and sushi are fallback-only unless the user explicitly changes back, and PIERRE requires Smart Casual and does not accept children under 12
 - Website presentation: `web/` may use visual storytelling and CSS illustration cards, but it must not create a parallel itinerary or alternate budget outside the repository data baseline
 
 ## Current user-confirmed planning inputs
@@ -29,10 +29,10 @@ Do not change these without an explicit user request:
 - Flight budget reference: TWD 36,000 for two travelers round trip; planned purchase time is 2026/11; final ticket price still needs confirmation.
 - InterContinental Ambassador renewal: planned for 2026/12, USD 250, tracked separately from the TWD base budget until exchange rate or actual charge is confirmed.
 - Reservation / purchase timeline: use `database/reservation_purchase_timeline.yml` as the active source.
-- USJ VIP 8h purchase / reservation target: 2027/09/17; user-provided reference amount TWD 87,000; official availability, currency, final price, whether Studio Pass is included, meal scope, and cancellation policy pending.
-- USJ Studio Pass purchase target: 2027/10/10; official 2027 price and inventory still need confirmation; must verify whether VIP 8h already includes admission.
+- USJ VIP 5h purchase / reservation target: 2027/09/17; user-provided reference amount TWD 60,000; official availability, currency, final price, whether Studio Pass is included, meal scope, and cancellation policy pending.
+- USJ Studio Pass purchase target: 2027/10/10; official 2027 price and inventory still need confirmation; Studio Pass is a separate purchase.
 - NOKA Roast & Grill reservation target: 2027/09/17; reservation notes should request an anniversary dinner, buffet package, 90-minute drinks, and optional anniversary dessert message or small celebration support if available. Seating is not guaranteed until confirmed by the restaurant.
-- Day 1 arrival sequence: use afternoon tea at the hotel, rest a bit, go to Umeda Pokémon Center, eat dinner at 千房 梅田周邊店 / Chibo Umeda-area branch, and return to the hotel. Exact Chibo branch still needs confirmation.
+- Day 1 arrival sequence: use afternoon tea at the hotel, rest a bit, go to Umeda Pokémon Center, eat dinner at 千房 梅田周邊店 / Chibo Umeda-area branch, use the 4F Japanese Bathhouse and steam / dry sauna, and return to the hotel. Exact Chibo branch still needs confirmation.
 - Day 3 sequence: Kizu Market brunch, move to Namba / Nipponbashi, anime / model / merch shopping in Nipponbashi, Namba / Dotonbori / Shinsaibashi lunch, return to InterContinental Osaka, Executive Lounge afternoon tea, and 肉NOASATSU sushi dinner.
 - Day 3 dinner: 肉NOASATSU / KKday #268366 is the current formal sushi dinner source. Price reference is TWD 1,541 per person, TWD 3,082 for two people; reservation method, cancellation policy, final price, location, and transportation still need confirmation.
 - Day 3 superseded route: Kyoto sweets route, 京 鰻和 本店 lunch, 天ぷら 京星 dinner, Pokemon Center KYOTO, Kyoto International Manga Museum, and TABLEALL Reservation Request for Kyoboshi are fallback / historical only.
@@ -42,9 +42,9 @@ Do not change these without an explicit user request:
 - Internet: phone roaming for two people. Amount is TWD 499; planned application date is 2027/11/05.
 - Airport transfer: use KKday #129909 both ways between KIX and InterContinental Osaka. Reference price is TWD 2,600 each way, TWD 5,200 round trip. Planned purchase date is 2027/10/10.
 - USJ transfer: use KKday #536220 both ways between InterContinental Osaka and Universal Studios Japan. Reference price is TWD 1,732 each way, TWD 3,464 round trip. Planned purchase date is 2027/10/10.
-- Budget model: use V5.53.0 recommended total TWD 272,454 for two travelers, controlled total TWD 267,756, safety version TWD 280,000, and hard ceiling TWD 280,000. Luxury handbags, jewelry, watches, and Ambassador renewal USD 250 are separate. Estimate lodging net of the lower-price complimentary night rather than the temporary checkout charge peak.
+- Budget model: use V5.57.0 recommended total TWD 242,070 for two travelers, controlled total TWD 237,372, safety version TWD 280,000, and hard ceiling TWD 280,000. Luxury handbags, jewelry, watches, and Ambassador renewal USD 250 are separate. Estimate lodging net of the lower-price complimentary night rather than the temporary checkout charge peak.
 - Shopping model: USJ shopping and ordinary Pokémon / anime / Nipponbashi / department-store small goods are merged into TWD 14,000; do not separately list USJ park dining and shopping.
-- Website presentation: V5.53.0 refreshed `web/index.html` and `web/budget.js` to match the USJ VIP 8h budget while preserving V5.52.0 visual storytelling.
+- Website presentation: V5.57.0 refreshed `web/index.html` and `web/budget.js` to match the USJ VIP 5h budget while preserving V5.52.0 visual storytelling.
 - Dining: restaurants should be selected because they are good. Michelin status does not matter either way and should not be used as the main planning label.
 - Customer-facing output: maintain a traveler/customer readable three-table format consisting of itinerary, pre-trip TODO list, and budget summary.
 

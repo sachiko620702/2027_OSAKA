@@ -24,8 +24,8 @@ budget_impact:
     replaces: "USJ Express Pass 7"
     amount_twd: 60000
     purchase_target_date: "2027/09/17"
-    note: "使用者指定 60000；本版先按 TWD 60,000 納入主預算。VIP 方案目前僅視為包含晚餐，午餐與園內餐飲另行確認。"
-    reconfirmation: "需確認 2027 官方商品名稱、幣別、是否含 Studio Pass、晚餐範圍、午餐與園內餐飲是否另計、可訂日與取消政策。"
+    note: "使用者指定 60000；本版先按 TWD 60,000 納入主預算。VIP 方案包含 1 餐，預訂時選定午餐或晚餐，並於 VIP 專屬湖景餐廳 Luminant 用餐。"
+    reconfirmation: "需確認 2027 官方商品名稱、幣別、可訂日與取消政策；Studio Pass 確認需另外購買。"
   shopping_policy:
     merged_general_and_usj_shopping_twd: 14000
     note: "USJ 周邊購物與普通 Pokémon / 動漫 / 日本橋 / 百貨小物合併為 NT$14,000，不再單獨列 USJ 園區餐飲與購物。"
@@ -47,7 +47,7 @@ budget_impact:
   reference_only_scheduled_items:
     - "飯店→KIX：KKday #129909，V5.24.0 參考單程 TWD 2,600，2027 最終價格待確認。"
     - "KIX→飯店：Hello Kitty HARUKA，使用者提供 TWD 800，2027 時刻與票種待確認。"
-    - "USJ Studio Pass：目前預算內暫抓兩人 TWD 7,108，2027 官方價格待公布。"
+    - "USJ Studio Pass：目前預算內暫抓兩人 TWD 7,108，確認需另外購買，2027 官方價格待公布。"
   unknown_amount_items:
     - "NOKA Roast & Grill 2027 最終價格"
     - "Hello Kitty HARUKA 2027 時刻與票種"
@@ -103,7 +103,7 @@ timeline:
     replaces: "USJ Express Pass 7"
     includes:
       - "晚餐"
-    reconfirmation: "2027/11 USJ VIP 5 小時商品名稱、幣別、是否含 Studio Pass、餐飲包含範圍、可訂日期、取消政策與庫存需確認。"
+    reconfirmation: "2027/11 USJ VIP 5 小時商品名稱、幣別、可訂日期、取消政策與庫存需確認；Studio Pass 確認需另外購買。"
     budget_category: "USJ"
 
   - sort_key: "2027-09-17"

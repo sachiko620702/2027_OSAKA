@@ -18,6 +18,15 @@ lounge_policy:
   confirmation_status: "PARTIALLY_CONFIRMED_BY_HOTEL_REPLY"
   caveat: "飯店已回覆預訂開放時間、房型升等與 12:00 提早入住可付費保證的方向；2027 行政酒廊開放時段、入住日是否可於正式入住前使用、同行者資格與餐飲內容仍需向飯店再次確認。"
 
+spa_and_bathhouse:
+  location: "4F 健身中心"
+  access: "飯店住客可免費使用"
+  features:
+    - "Japanese Bathhouse"
+    - "steam sauna"
+    - "dry sauna"
+  note: "可安排在 Day 1 晚餐後或 Day 2 USJ 回飯店後，作為首日搭機與暴走後的放鬆恢復。"
+
 hotel_reply:
   received_date: "2026-07-07"
   reply_status: "PARTIALLY_CONFIRMED"
@@ -56,6 +65,7 @@ day1_sequence:
   - "飯店休息一下"
   - "梅田 Pokémon Center OSAKA"
   - "Pokémon Center 附近晚餐"
+  - "前往 4F 健身中心的 Japanese Bathhouse 與蒸汽／乾式三溫暖泡湯"
   - "回 InterContinental Osaka 休息"
 
 day4_sequence:

@@ -1,4 +1,5 @@
 (() => {
+  // Modified: budget data now follows the confirmed USJ meal scope and separate Studio Pass rule.
   const budgetData = {
     travelers: 2,
     hardLimitTwd: 280000,
@@ -51,7 +52,7 @@
         key: "dining",
         label: "飲食",
         description: "千房、木津市場、壽司、NOKA",
-        note: "Day 2 USJ VIP 5 小時目前僅視為包含晚餐，午餐與園內餐飲另行確認。",
+        note: "Day 2 USJ VIP 5 小時包含 1 餐，預訂時選定午餐或晚餐，並於 VIP 專屬湖景餐廳 Luminant 用餐；Studio Pass 確認需另外購買。",
         items: [
           { label: "Day 1 千房 梅田周邊店", amount: 4000 },
           { label: "Day 3 木津市場早午餐", amount: 8000 },
@@ -65,8 +66,8 @@
         label: "USJ",
         description: "VIP 5 小時與 Studio Pass",
         items: [
-          { label: "USJ VIP 5 小時", amount: 60000, detail: "預估金額；幣別與官方條件待確認" },
-          { label: "USJ Studio Pass", amount: 7108, detail: "兩人暫估；需確認 VIP 是否包含" },
+          { label: "USJ VIP 5 小時", amount: 60000, detail: "包含 1 餐；預訂時選定午餐或晚餐，Luminant 用餐" },
+          { label: "USJ Studio Pass", amount: 7108, detail: "兩人暫估；確認需另外購買" },
         ],
       },
       {
@@ -137,7 +138,7 @@
       "hero-recommended-total": `${formatTwd(recommendedTotal)} / ${budgetData.travelers}人`,
       "hero-recommended-note": `固定支出 ${formatTwd(scheduledTotal)} 已先整理好；高單價項目也先納入規劃，整體節奏會更從容。`,
       "overview-recommended-total": `${formatTwd(recommendedTotal)} / ${budgetData.travelers}人`,
-      "overview-recommended-note": `精品購物不含在基本旅費內；USJ VIP 5 小時、Hello Kitty HARUKA 到飯店、USJ 回程包車與大阪環狀線 + JR 夢咲線都已列入總預算。`,
+      "overview-recommended-note": `精品購物不含在基本旅費內；USJ VIP 5 小時含 Luminant 1 餐、Studio Pass 確認需另外購買，Hello Kitty HARUKA 到飯店、USJ 回程包車與大阪環狀線 + JR 夢咲線都已列入總預算。`,
     };
 
     elements.budgetTextNodes.forEach((node) => {
@@ -292,7 +293,8 @@
           </div>
           <strong>點開看細項</strong>
         </div>
-        <p class="tree-note">USJ 園區餐飲已包含在 VIP 5 小時估算內。</p>
+        <!-- Modified: USJ budget tree now reflects Luminant meal scope and separate Studio Pass -->
+        <p class="tree-note">USJ VIP 5 小時包含 1 餐並於 Luminant 用餐；Studio Pass 確認需另外購買。</p>
         <div class="tree-list">
           ${treeNodes}
         </div>

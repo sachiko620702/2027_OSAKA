@@ -7,7 +7,10 @@
 - Switched the USJ return leg to a private charter at NT$1,800 while keeping the outbound leg on Osaka Loop Line + JR Yumesaki Line.
 - Updated the active transport budget, recommended budget, controlled budget, and USJ-specific totals to reflect the charter return.
 - Updated the reservation timeline, customer-facing docs, website copy, and budget JS to reflect the new USJ return transport.
-- Clarified that the USJ VIP 5h reference should be treated as dinner-only for the included meal scope, with lunch and in-park dining left for separate confirmation.
+- Clarified that the USJ VIP 5h reference includes 1 meal at the VIP lake-view restaurant Luminant, with the meal chosen as lunch or dinner at booking time.
+- Confirmed that USJ Studio Pass is a separate purchase and is not included in the VIP private tour fee.
+- Added the Day 1 and Day 2 hotel bathhouse recovery notes, the Day 2 first-car boarding tip, the Day 3 tax-free coupon reminder, and the Day 4 Pierre smart-casual / under-12 fallback note across the website and supporting docs.
+- Added the USJ VIP booking warning callout that recommends KKday or Klook web booking and pre-filling the Traveler Info Form because the official site is prone to overseas card authorization errors.
 - Added version note `docs/13_版本與更新/V5.57.0_USJ_Return_Charter_Update.md`.
 
 ### Reason
@@ -21,7 +24,7 @@ The user explicitly requested `USJ → InterContinental Osaka` as a charter at N
 - The controlled scenario is now NT$237,372.
 - The remaining buffer between the recommended budget and the hard ceiling is about NT$37,930.
 - Public-facing documents and the website now match the updated USJ return transport.
-- The active wording now treats USJ VIP 5h as dinner-only rather than lunch-plus-dinner.
+- The active wording now treats USJ VIP 5h as including 1 meal at Luminant, with Studio Pass as a separate purchase.
 
 # V5.56.0 - 2026-07-09
 

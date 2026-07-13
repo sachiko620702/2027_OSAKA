@@ -15,9 +15,15 @@ reservations:
       lounge_access_policy: "If both consecutive bookings are made with Club Lounge Access room types, lounge access can continue during the stay."
       early_check_in: "12:00 early check-in can be offered for an additional charge after booking, depending on availability."
   usj:
-    studio_pass: pending_official_announcement
-    express_pass: pending_official_announcement
-    vip: pending_official_announcement
+    studio_pass:
+      status: separate_purchase_required
+      note: "USJ VIP 5 小時不包含大門票，Studio Pass 確認需另外購買。"
+    express_pass: superseded_by_usj_vip_5h
+    vip:
+      status: confirmed_with_one_meal_at_luminant
+      meal_choice: "預訂時選定午餐或晚餐"
+      dining_location: "VIP 專屬湖景餐廳 Luminant"
+      note: "USJ VIP 5 小時包含 1 餐，且不包含 Studio Pass。"
     transfer: public_rail_selected
   restaurants:
     status: tracking
