@@ -4,40 +4,36 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark light">
-  <title>2027 大阪自由行｜Luxury Slow Travel</title>
-  <meta name="description" content="2027 大阪自由行的敘事型旅遊簡介，聚焦 InterContinental Osaka、Hello Kitty HARUKA、USJ VIP 5 小時、包車回程、寶可夢動漫、美食、購物與五天四夜慢旅行節奏。">
+  <title>2027 大阪自由行｜Travel Atlas</title>
+  <meta name="description" content="2027 大阪自由行的多頁式旅遊網站入口，保留 InterContinental Osaka、USJ VIP 5 小時、木津市場、日本橋、心齋橋與預算基準。">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <div class="page-bg" aria-hidden="true"></div>
 
   <header class="topbar">
-    <a class="brand" href="#top" aria-label="回到頁首">
+    <a class="brand" href="./index.html" aria-label="回到首頁">
       <span class="brand-mark">OSAKA 2027</span>
-      <span class="brand-sub">Luxury Slow Travel</span>
+      <span class="brand-sub">Travel Atlas</span>
     </a>
     <nav class="topnav" aria-label="頁面導覽">
-      <a href="#index">目次</a>
-      <a href="#overview">總覽</a>
-      <a href="#visual-story">亮點</a>
-      <a href="#itinerary">行程</a>
-        <a href="#hotel-reply">飯店</a>
-        <a href="#calendar">準備</a>
-        <a href="#budget">預算</a>
-      <a href="#dining">餐飲</a>
-      <a href="#pending">待確認</a>
+      <a href="./index.html" aria-current="page">首頁</a>
+      <a href="./itinerary.html">行程</a>
+      <a href="./budget.html">預算</a>
+      <a href="./prep.html">行前</a>
+      <a href="./dining.html">餐飲</a>
     </nav>
   </header>
 
   <main id="top" class="shell">
-    <section class="hero hero-cover">
+    <section class="hero hero-cover home-cover">
       <div class="hero-copy panel dark">
         <p class="eyebrow">DEMO · OSAKA 2027</p>
         <h1>大阪慢旅</h1>
-        <p class="hero-subtitle">五天四夜 · InterContinental Osaka · Luxury Slow Travel</p>
+        <p class="hero-subtitle">五天四夜 · InterContinental Osaka · 多頁式旅行冊</p>
         <p class="hero-text">
-          參考你提供的 Threads 影片，我把首頁改成更像一本旅行小冊子：先是深色封面、再接白底目錄，讓大阪這趟旅程的節奏一眼就看得懂。
-          內容仍然維持原本的旅遊規劃主線，包含 USJ VIP 5 小時、行政酒廊下午茶、木津市場、日本橋、心齋橋與 NOKA Roast &amp; Grill。
+          這一版不再把所有內容塞在同一頁，而是改成能翻頁的旅遊網站。
+          封面保留 Threads 影片那種深色海報感，接下來的行程、預算、行前與餐飲都拆成獨立章節，閱讀起來更像一本正式提案。
         </p>
 
         <div class="hero-status" aria-label="旅程重點">
@@ -69,546 +65,186 @@
             <strong>Taste-first</strong>
           </div>
           <div>
-            <span>購物</span>
-            <strong>寶可夢 / 動漫 / 精品</strong>
+            <span>預算</span>
+            <strong data-budget-text="hero-recommended-total">由 JS 計算</strong>
           </div>
+        </div>
+
+        <div class="cover-cue">
+          <span>Scroll down</span>
+          <strong>Cover → Chapters → Summary</strong>
         </div>
       </div>
 
-      <aside class="hero-visual panel dark" aria-label="旅程視覺摘要">
+      <aside class="hero-visual panel dark" aria-label="網站章節預覽">
         <div class="poster-scene image-arrival" role="img" aria-label="大阪抵達與飯店行政酒廊的插圖">
           <div class="poster-copy">
             <span>OSAKA · STORY</span>
-            <strong>Hotel Lounge · USJ VIP · Shopping · Sushi</strong>
+            <strong>封面 / 章節 / 目錄 / 旅程冊</strong>
           </div>
         </div>
         <div class="mini-photo-grid">
-          <div class="mini-photo scene-hotel image-arrival">
-            <span>Hotel base</span>
-            <strong>InterContinental Osaka</strong>
-          </div>
-          <div class="mini-photo day-image-2">
-            <span>Theme park</span>
-            <strong>USJ VIP 5h</strong>
-          </div>
-          <div class="mini-photo scene-shopping image-shopping">
-            <span>Shopping</span>
-            <strong>Umeda / Shinsaibashi</strong>
-          </div>
-          <div class="mini-photo scene-dining image-market">
-            <span>Dining</span>
-            <strong>NOKA + 肉NOASATSU</strong>
-          </div>
+          <a class="mini-photo scene-hotel image-arrival" href="./itinerary.html">
+            <span>Chapter 01</span>
+            <strong>行程</strong>
+          </a>
+          <a class="mini-photo scene-shopping image-shopping" href="./budget.html">
+            <span>Chapter 02</span>
+            <strong>預算</strong>
+          </a>
+          <a class="mini-photo scene-market image-market" href="./prep.html">
+            <span>Chapter 03</span>
+            <strong>行前</strong>
+          </a>
+          <a class="mini-photo scene-dining scene-sushi" href="./dining.html">
+            <span>Chapter 04</span>
+            <strong>餐飲</strong>
+          </a>
+        </div>
+        <div class="chapter-spine" aria-label="章節脊椎">
+          <span><strong>01</strong><em>行程</em></span>
+          <span><strong>02</strong><em>預算</em></span>
+          <span><strong>03</strong><em>行前</em></span>
+          <span><strong>04</strong><em>餐飲</em></span>
         </div>
       </aside>
     </section>
 
-    <section id="index" class="section">
-      <div class="index-sheet panel paper">
-        <div class="section-heading split-heading">
+    <section class="section story-beat">
+      <div class="sequence-grid">
+        <article class="sequence-card panel dark">
+          <span class="sequence-no">01</span>
           <div>
-            <p class="eyebrow">目次 · INDEX</p>
-            <h2>把大阪這一頁，排成一本小冊子的導覽</h2>
+            <p class="eyebrow">Opening frame</p>
+            <h2>先用封面把情緒定住</h2>
+            <p>首頁的第一格不是資訊密度，而是旅行的氣氛與節奏。</p>
           </div>
-          <p class="section-lead">
-            這一段是參考素材裡最有識別度的部分，所以我把它轉成旅遊版的章節目錄，讓使用者先看見整體節奏，再往下看細節。
-          </p>
-        </div>
-
-        <div class="index-strip" aria-label="旅程摘要">
-          <span>住宿 / InterContinental Osaka</span>
-          <span>USJ / VIP 5 小時</span>
-          <span>餐飲 / 好吃優先</span>
-          <span>購物 / 寶可夢與精品</span>
-          <span>回程 / 包車</span>
-        </div>
-
-        <div class="index-list">
-          <a class="index-row" href="#itinerary">
-            <span class="index-no">01</span>
-            <div class="index-main">
-              <strong>行程</strong>
-              <span>ITINERARY · 5 天 4 夜</span>
-            </div>
-            <span class="index-arrow">→</span>
-          </a>
-          <a class="index-row" href="#visual-story">
-            <span class="index-no">02</span>
-            <div class="index-main">
-              <strong>亮點</strong>
-              <span>VISUAL STORY · 6 個畫面</span>
-            </div>
-            <span class="index-arrow">→</span>
-          </a>
-          <a class="index-row" href="#hotel-reply">
-            <span class="index-no">03</span>
-            <div class="index-main">
-              <strong>飯店</strong>
-              <span>HOTEL · 升等與 Lounge</span>
-            </div>
-            <span class="index-arrow">→</span>
-          </a>
-          <a class="index-row" href="#calendar">
-            <span class="index-no">04</span>
-            <div class="index-main">
-              <strong>準備</strong>
-              <span>CALENDAR · 4 個關鍵日期</span>
-            </div>
-            <span class="index-arrow">→</span>
-          </a>
-          <a class="index-row" href="#budget">
-            <span class="index-no">05</span>
-            <div class="index-main">
-              <strong>預算</strong>
-              <span>BUDGET · 6 大類別</span>
-            </div>
-            <span class="index-arrow">→</span>
-          </a>
-          <a class="index-row" href="#dining">
-            <span class="index-no">06</span>
-            <div class="index-main">
-              <strong>餐飲</strong>
-              <span>DINING · 3 個正式晚餐</span>
-            </div>
-            <span class="index-arrow">→</span>
-          </a>
-          <a class="index-row" href="#pending">
-            <span class="index-no">07</span>
-            <div class="index-main">
-              <strong>備註</strong>
-              <span>NOTES · 待確認事項</span>
-            </div>
-            <span class="index-arrow">→</span>
-          </a>
-        </div>
+        </article>
+        <article class="sequence-card panel">
+          <span class="sequence-no">02</span>
+          <div>
+            <p class="eyebrow">Chapter flow</p>
+            <h2>再往下翻，才進入各章節</h2>
+            <p>行程、預算、行前與餐飲各自獨立，像影片裡的分鏡一樣往前推。</p>
+          </div>
+        </article>
+        <article class="sequence-card panel dark">
+          <span class="sequence-no">03</span>
+          <div>
+            <p class="eyebrow">Editorial finish</p>
+            <h2>最後留下的是提案感，不只是清單</h2>
+            <p>這樣打開網站時，會先感受到一趟旅程，而不是一份資料表。</p>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section id="gallery" class="section">
+    <section class="section">
       <div class="section-heading split-heading">
         <div>
-          <p class="eyebrow">旅程圖輯</p>
-          <h2>讓每一段行程，都有自己的畫面</h2>
+          <p class="eyebrow">目錄</p>
+          <h2>把旅遊網站拆成四個章節，閱讀會更有呼吸感</h2>
         </div>
         <p class="section-lead">
-          以抵達飯店、木津市場與夜晚購物三個場景，留下更鮮明的旅行畫面。
+          這個入口頁只做導覽與總覽，真正的細節分散到各自的頁面裡。
         </p>
       </div>
 
-      <div class="card-grid three-up">
-        <article class="feature-card panel">
-          <div class="feature-photo image-arrival" role="img" aria-label="大阪抵達與飯店行政酒廊插圖"></div>
-          <span class="feature-kicker">Arrival</span>
-          <h3>抵達大阪後，先把節奏放進飯店</h3>
-          <p>從行政酒廊到窗外夜色，讓第一晚就先有度假的樣子。</p>
-        </article>
-        <article class="feature-card panel">
-          <div class="feature-photo image-market" role="img" aria-label="大阪市場與壽司餐桌插圖"></div>
-          <span class="feature-kicker">Dining</span>
-          <h3>木津市場與餐桌畫面，都是旅程的一部分</h3>
-          <p>早午餐、壽司與季節食材，把大阪的味道寫得更具體。</p>
-        </article>
-        <article class="feature-card panel">
-          <div class="feature-photo image-shopping" role="img" aria-label="大阪夜晚購物街與精品櫥窗插圖"></div>
-          <span class="feature-kicker">Shopping</span>
-          <h3>夜色、櫥窗與散步感，剛好構成心齋橋段落</h3>
-          <p>購物不只是採買，也是慢旅行裡很重要的一種散步。</p>
-        </article>
+      <div class="card-grid four-up">
+        <a class="feature-card panel link-card" href="./itinerary.html">
+          <div class="feature-photo day-image-1" role="img" aria-label="行程封面插圖"></div>
+          <span class="feature-kicker">01 · Itinerary</span>
+          <h3>行程頁</h3>
+          <p>Day 1 到 Day 5 的正式節奏、固定假設與重點畫面都在這一頁。</p>
+        </a>
+        <a class="feature-card panel link-card" href="./budget.html">
+          <div class="feature-photo scene-shopping image-shopping" role="img" aria-label="預算封面插圖"></div>
+          <span class="feature-kicker">02 · Budget</span>
+          <h3>預算頁</h3>
+          <p>建議版、節制版、安全版與各大分類的花費，分開整理得更清楚。</p>
+        </a>
+        <a class="feature-card panel link-card" href="./prep.html">
+          <div class="feature-photo image-market" role="img" aria-label="行前封面插圖"></div>
+          <span class="feature-kicker">03 · Prep</span>
+          <h3>行前頁</h3>
+          <p>行李、文件、天氣與關鍵日期集中在同一處，出發前比較好查。</p>
+        </a>
+        <a class="feature-card panel link-card" href="./dining.html">
+          <div class="feature-photo scene-noka" role="img" aria-label="餐飲封面插圖"></div>
+          <span class="feature-kicker">04 · Dining</span>
+          <h3>餐飲頁</h3>
+          <p>千房、木津市場、肉NOASATSU、NOKA 與 VIP 用餐節奏都在這裡。</p>
+        </a>
       </div>
     </section>
 
-    <section id="overview" class="section">
+    <section class="section">
       <div class="section-heading split-heading">
         <div>
-          <p class="eyebrow">旅遊總覽</p>
-          <h2>這趟旅行主打「住得好、玩得順、吃得舒服」</h2>
+          <p class="eyebrow">快速摘要</p>
+          <h2>保留原本的資料基準，只改輸出的閱讀方式</h2>
         </div>
         <p class="section-lead">
-          交通、USJ 與住宿安排都已整理成從容的版本，讓整趟旅程的節奏更完整。
+          這一版的重點是版型重設，不是建立平行方案；所有關鍵假設都延續目前 database 的主線。
         </p>
       </div>
 
       <div class="sales-strip panel">
         <div>
           <span>旅行日期</span>
-          <strong>2027/11/17 - 11/21</strong>
-        </div>
-        <div>
-          <span>旅遊風格</span>
-          <strong>Luxury Slow Travel</strong>
-        </div>
-        <div>
-          <span>預算觀念</span>
-          <strong data-budget-text="overview-recommended-total">由 JS 計算</strong>
+          <strong>2027/11/17 - 2027/11/21</strong>
         </div>
         <div>
           <span>住宿基地</span>
           <strong>InterContinental Osaka</strong>
         </div>
+        <div>
+          <span>主題樂園</span>
+          <strong>USJ VIP 5 小時</strong>
+        </div>
+        <div>
+          <span>頁面型態</span>
+          <strong>Multi-page booklet</strong>
+        </div>
       </div>
 
-      <div class="card-grid six-up">
+      <div class="card-grid four-up">
         <article class="info-card panel">
-          <span>住宿基調</span>
-          <strong>四晚都住在大阪洲際</strong>
-          <p>讓飯店不只是睡覺的地方，而是整段旅行裡可以放慢呼吸的基地。</p>
+          <span>出發感</span>
+          <strong>封面先定調，再往下翻頁</strong>
+          <p>首頁只留最重要的訊息與四個入口，讓視覺焦點不會被細節沖散。</p>
         </article>
         <article class="info-card panel">
-          <span>USJ 節奏</span>
-          <strong>VIP 5 小時</strong>
-          <p>用更從容的方式玩 USJ，把排隊壓力降到最低，也把用餐節奏一起包進去。</p>
+          <span>內容層次</span>
+          <strong>每一頁只講一種主題</strong>
+          <p>行程、預算、行前與餐飲各自成頁，細節比較好讀，也比較好更新。</p>
         </article>
         <article class="info-card panel">
-          <span>興趣安排</span>
-          <strong>寶可夢／動漫／模型</strong>
-          <p>梅田、心齋橋、日本橋都不是順路停靠，而是被正式寫進旅程裡的主題段落。</p>
+          <span>設計節奏</span>
+          <strong>深色封面 + 紙本章節</strong>
+          <p>延續影片參考的封面感，再把內頁切成像小冊子的章節頁。</p>
         </article>
         <article class="info-card panel">
-          <span>餐飲風格</span>
-          <strong>Taste-first</strong>
-          <p>不是追標籤，而是追求每一餐都剛好配得上當天的心情與節奏。</p>
-        </article>
-        <article class="info-card panel">
-          <span>行程節拍</span>
-          <strong>每天都留白</strong>
-          <p>回飯店、吃下午茶、再出門，讓這趟旅程保有真正的慢旅行質感。</p>
-        </article>
-        <article class="info-card panel">
-          <span>預算概念</span>
-          <strong data-budget-text="hero-recommended-total">由 JS 計算</strong>
+          <span>資料底線</span>
+          <strong data-budget-text="overview-recommended-total">由 JS 計算</strong>
           <p data-budget-text="overview-recommended-note">載入後自動更新。</p>
         </article>
       </div>
     </section>
 
-    <section id="visual-story" class="section">
-      <div class="section-heading split-heading">
-        <div>
-          <p class="eyebrow">Visual Story</p>
-          <h2>把五天四夜，寫成有畫面的旅行片段</h2>
-        </div>
-        <p class="section-lead">
-          以飯店、主題樂園、市場、購物與返程五個場景，讓這趟大阪行的氛圍更立體。
-        </p>
-      </div>
-
-      <div class="visual-grid">
-        <article class="visual-card tall scene-hotel image-arrival panel">
-          <div class="visual-copy">
-            <span>Stay</span>
-            <h3>先把節奏安放在飯店裡</h3>
-            <p>行政酒廊早餐、下午茶與休息時段，讓旅行不是一直在移動，而是有地方可以慢慢落腳。</p>
-          </div>
-        </article>
-        <!-- Modified: Day 2 USJ copy now clarifies Luminant meal and separate Studio Pass -->
-        <article class="visual-card scene-usj day-image-2 panel">
-          <div class="visual-copy">
-            <span>Play</span>
-            <h3>USJ 只留一整天，卻玩得很完整</h3>
-            <p>用 USJ VIP 5 小時把體驗濃縮得剛剛好，包含 1 餐並於 Luminant 用餐；Studio Pass 則需要另外購買。</p>
-          </div>
-        </article>
-        <article class="visual-card scene-market image-market panel">
-          <div class="visual-copy">
-            <span>Local Taste</span>
-            <h3>從木津市場開始，換一種大阪味道</h3>
-            <p>Day 3 不吃飯店早餐，改用市場的早午餐開啟大阪市內慢旅行。</p>
-          </div>
-        </article>
-        <article class="visual-card scene-anime image-hobby panel">
-          <div class="visual-copy">
-            <span>Hobby</span>
-            <h3>把興趣寫進正式行程</h3>
-            <p>日本橋的動漫、模型與周邊，不是空檔補充，而是這趟旅程的一個主題。</p>
-          </div>
-        </article>
-        <article class="visual-card scene-shopping day-image-4 panel">
-          <div class="visual-copy">
-            <span>Shopping</span>
-            <h3>把購物安排成一條順手的散步路線</h3>
-            <p>USJ 周邊、心齋橋百貨與大阪市內小物都保留空間，精品則獨立看待。</p>
-          </div>
-        </article>
-        <article class="visual-card scene-dining image-dining panel">
-          <div class="visual-copy">
-            <span>Dining</span>
-            <h3>晚餐也要有故事感</h3>
-            <p>Day 3 交給肉NOASATSU，Day 4 留給 NOKA Roast & Grill，讓晚餐成為每天的收束。</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="itinerary" class="section">
-      <div class="section-heading split-heading">
-        <div>
-          <p class="eyebrow">每日節奏</p>
-          <h2>五天四夜，像五段剛剛好的故事</h2>
-        </div>
-        <p class="section-lead">
-          不是把景點塞滿，而是讓每天都像一個完整段落，走起來順、看起來也有畫面。
-        </p>
-      </div>
-
-      <div class="proposal-strip panel" aria-label="五日提案摘要">
-        <div class="proposal-item">
-          <span>Day 1</span>
-          <strong>抵達大阪，先把節奏放進飯店</strong>
-          <p>行政酒廊、梅田寶可夢中心與千房晚餐，建立整趟旅程的舒適起點。</p>
-        </div>
-        <div class="proposal-item">
-          <span>Day 2</span>
-          <strong>USJ VIP 5 小時</strong>
-          <p>用更從容的方式玩園區，把 1 餐先納入，並於 Luminant 用餐；Studio Pass 另外購買。</p>
-        </div>
-        <div class="proposal-item">
-          <span>Day 3</span>
-          <strong>木津市場到日本橋</strong>
-          <p>市場早午餐、動漫模型採買與飯店午後休息，讓大阪市內線條更完整。</p>
-        </div>
-        <div class="proposal-item">
-          <span>Day 4</span>
-          <strong>心齋橋與紀念日晚餐</strong>
-          <p>午前購物、午後回飯店、晚餐留給 NOKA Roast &amp; Grill。</p>
-        </div>
-        <div class="proposal-item">
-          <span>Day 5</span>
-          <strong>從容收尾，返回台北</strong>
-          <p>保留最後整理與早餐時間，讓離開也維持旅行的優雅節拍。</p>
-        </div>
-      </div>
-
-      <div class="timeline editorial-timeline">
-        <!-- Modified: Day 1 itinerary adds hotel bathhouse and sauna -->
-        <article class="day-card panel">
-          <div class="day-media day-image-1"><span class="day-chip">Day 1</span></div>
-          <div class="day-body">
-            <h3>抵達之後，先讓大阪慢慢靠近</h3>
-            <p>行政酒廊下午茶後先休息，再去梅田 Pokémon Center OSAKA，晚餐收在千房梅田周邊店，之後下樓去飯店 4 樓大浴場與蒸汽／乾式三溫暖，最後回房休息。</p>
-            <ul><li>關西機場 → InterContinental Osaka</li><li>Executive Lounge 下午茶</li><li>梅田 Pokémon Center OSAKA</li><li>千房 梅田周邊店晚餐</li><li>4 樓大浴場／三溫暖</li></ul>
-          </div>
-        </article>
-
-        <!-- Modified: Day 2 itinerary clarifies one meal at Luminant and separate Studio Pass -->
-        <article class="day-card panel">
-          <div class="day-media day-image-2"><span class="day-chip">Day 2</span></div>
-          <div class="day-body">
-            <h3>把 USJ 交給一個完整而從容的白天</h3>
-            <p>USJ 方案從 Express Pass 7 改為 VIP 5 小時；去程使用大阪環狀線 + JR 夢咲線，回程改為包車，讓整天玩起來更順手。VIP 的 1 餐將於 Luminant 享用，Studio Pass 則需另外購買。</p>
-            <ul><li>USJ VIP 5 小時</li><li>USJ Studio Pass（需另購）</li><li>大阪環狀線 + JR 夢咲線去程</li><li>USJ 回程包車</li><li>VIP 1 餐於 Luminant</li></ul>
-          </div>
-        </article>
-
-        <!-- Modified: Day 3 adds tax-free coupon note -->
-        <article class="day-card panel">
-          <div class="day-media day-image-3"><span class="day-chip">Day 3</span></div>
-          <div class="day-body">
-            <h3>不去京都，改把時間留給大阪市內</h3>
-            <p>木津市場早午餐、日本橋動漫模型採買、飯店休息與行政酒廊下午茶，最後用肉NOASATSU 收尾；日本橋的免稅特化門市也可以先把 10% tax-free + extra 8% coupon 準備好。</p>
-            <ul><li>木津市場早午餐</li><li>難波／日本橋採買</li><li>飯店休息與下午茶</li><li>肉NOASATSU 壽司晚餐</li></ul>
-          </div>
-        </article>
-
-        <!-- Modified: Day 4 notes PIERRE fallback conditions -->
-        <article class="day-card panel">
-          <div class="day-media day-image-4"><span class="day-chip">Day 4</span></div>
-          <div class="day-body">
-            <h3>心齋橋逛完，回到飯店把夜晚過好</h3>
-            <p>上午在心齋橋與大丸心齋橋活動，午餐後回 InterContinental Osaka，下午茶後進入 NOKA Roast & Grill 紀念日晚餐；如果想把奢華備案換成 PIERRE，請記得 Smart Casual 與 12 歲以下不接待的規則。</p>
-            <ul><li>Pokémon Center OSAKA DX</li><li>午餐後回飯店</li><li>行政酒廊下午茶</li><li>NOKA Roast & Grill</li></ul>
-          </div>
-        </article>
-
-        <article class="day-card panel">
-          <div class="day-media day-image-5"><span class="day-chip">Day 5</span></div>
-          <div class="day-body">
-            <h3>最後一天，保留一點從容收尾</h3>
-            <p>保留上午整理與最後採買時間，傍晚搭 BR129 返回台北，把旅行收在剛好的節奏裡。</p>
-            <ul><li>行政酒廊早餐</li><li>飯店 → KIX 接送</li><li>BR129 18:30 KIX → 20:30 TPE</li></ul>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="hotel-reply" class="section">
-      <div class="section-heading split-heading">
-        <div><p class="eyebrow">飯店回信</p><h2>把住宿的細節，整理成看得見的安心感</h2></div>
-        <p class="section-lead">房型、升等與入住細節會以飯店最終回覆為準，這裡先整理目前的規劃重點。</p>
-      </div>
-      <div class="card-grid six-up">
-        <article class="info-card panel"><span>FAQ</span><strong>預訂約 10 個月前開放</strong><p>飯店表示 2027/11 的預訂通常會在 2027/02 左右開放。</p></article>
-        <article class="info-card panel"><span>FAQ</span><strong>預計房型與升等</strong><p>預計房型是 1 King Premium Club Lounge Access，通常可升等為 1 King Junior Suite with club lounge access。</p></article>
-        <article class="info-card panel"><span>飯店政策</span><strong>連住可盡量同房</strong><p>若兩筆連住都訂同房型，飯店會盡量安排同一間房；若都含 Club Lounge Access，入住期間可持續使用 Lounge。</p></article>
-        <article class="info-card panel"><span>飯店政策</span><strong>F&B credit 只給一次</strong><p>飯店有提醒，兩筆連住的 Food & Beverage credit 只會提供一次。</p></article>
-        <article class="info-card panel"><span>入住彈性</span><strong>12:00 提早入住</strong><p>可視當天房況安排；若要保證，需在完成訂房後詢問付費方案與實際加價。</p></article>
-        <article class="info-card panel"><span>預計房型</span><strong>1 King Premium Club Lounge Access</strong><p>這是目前預計的入住房型，也是後續拆單連住時的核心比對基準。</p></article>
-        <!-- Added: hotel bathhouse / sauna recovery card -->
-        <article class="info-card panel"><span>Bathhouse</span><strong>4F Japanese Bathhouse</strong><p>飯店 4 樓健身中心可免費泡湯，並有 steam / dry sauna；很適合 Day 1 抵達後與 Day 2 USJ 回飯店後放鬆。</p></article>
-      </div>
-    </section>
-
-    <section id="calendar" class="section">
-      <div class="section-heading split-heading">
-        <div><p class="eyebrow">行前準備</p><h2>行李、文件、季節天氣，一次整理好</h2></div>
-        <p class="section-lead">先把出發前最容易漏掉的東西整理好，後面每天的行程才會更從容。</p>
-      </div>
-
-      <div class="prep-grid">
-        <article class="prep-card panel">
-          <div class="prep-head">
-            <span class="prep-index">01</span>
-            <div>
-              <p class="prep-kicker">Packing</p>
-              <h3>行李清單</h3>
-            </div>
-          </div>
-          <p class="prep-lead">晚秋的大阪適合分層穿搭，行李先以輕薄、好走、好收納為原則。</p>
-          <ul class="prep-list">
-            <li>護照、護照影本、錢包與信用卡</li>
-            <li>手機、充電器、行動電源、轉接頭</li>
-            <li>雨具、摺疊購物袋、常備藥</li>
-            <li>舒適鞋、薄外套、可層疊上衣</li>
-            <li>USJ 當日需要的票券與收據收納夾</li>
-          </ul>
-        </article>
-
-        <article class="prep-card panel">
-          <div class="prep-head">
-            <span class="prep-index">02</span>
-            <div>
-              <p class="prep-kicker">Documents</p>
-              <h3>文件清單</h3>
-            </div>
-          </div>
-          <p class="prep-lead">把最容易散落的文件先集中到同一個資料夾，出發前查找會輕鬆很多。</p>
-          <ul class="prep-list">
-            <li>來回機票訂位資料與電子票券</li>
-            <li>InterContinental Osaka 訂房確認</li>
-            <li>旅遊保險、漫遊與付款確認</li>
-            <li>Hello Kitty HARUKA、KKday #129909、USJ VIP 5h、Studio Pass 資料</li>
-            <li>重要聯絡方式與緊急備用聯絡人</li>
-          </ul>
-        </article>
-
-        <article class="prep-card panel">
-          <div class="prep-head">
-            <span class="prep-index">03</span>
-            <div>
-              <p class="prep-kicker">Weather</p>
-              <h3>季節天氣</h3>
-            </div>
-          </div>
-          <p class="prep-lead">以大阪 11 月中旬的常態氣候推估，整體會是偏涼、偏乾的晚秋節奏。</p>
-          <div class="weather-grid">
-            <div class="weather-stat">
-              <strong>白天</strong>
-              <span>約 14–18°C</span>
-            </div>
-            <div class="weather-stat">
-              <strong>夜晚</strong>
-              <span>約 8–12°C</span>
-            </div>
-            <div class="weather-stat">
-              <strong>建議</strong>
-              <span>薄外套 + 分層穿搭</span>
-            </div>
-          </div>
-          <p class="prep-footnote">USJ、購物與城市步行都比較長，建議把可脫穿的層次放在外層。</p>
-        </article>
-      </div>
-
-      <div class="calendar-visual panel">
-        <div class="chart-head"><div><p class="chart-kicker">Key dates</p><h3>採買與預約里程碑</h3></div><strong>2026/11 → 2027/11</strong></div>
-        <div class="milestone-track" aria-label="採買與預約里程碑時間軸">
-          <div class="milestone"><span class="milestone-dot"></span><strong>2026/11</strong><span>機票</span></div>
-          <div class="milestone"><span class="milestone-dot"></span><strong>2027/09/17</strong><span>USJ VIP + NOKA</span></div>
-          <div class="milestone"><span class="milestone-dot"></span><strong>2027/10/10</strong><span>接送 + Studio Pass</span></div>
-          <div class="milestone"><span class="milestone-dot"></span><strong>2027/11/05</strong><span>保險 + 漫遊</span></div>
-        </div>
-      </div>
-
-      <div class="table-panel panel">
-        <table>
-          <thead><tr><th>日期</th><th>你要準備的事</th><th>類別</th><th>狀態</th><th>備註</th></tr></thead>
-          <tbody>
-            <tr><td><strong>2026/11</strong></td><td>買機票：EVA Air BR178／BR129</td><td><span class="tag">交通</span></td><td>已規劃</td><td>兩人來回預算 TWD 36,000；等官方班表與票價確認後下手。</td></tr>
-            <tr><td><strong>2027/09/17</strong></td><td>購買／預約 USJ VIP 5 小時</td><td><span class="tag">USJ</span></td><td>需再確認</td><td>暫以 TWD 60,000 納入主預算；VIP 的 1 餐將於 Luminant 享用，Studio Pass 確認需另外購買。確認幣別、最終價格與取消政策。</td></tr>
-            <tr><td><strong>2027/09/17</strong></td><td>NOKA Roast & Grill 訂位</td><td><span class="tag">餐廳</span></td><td>待開放</td><td>記得備註紀念日晚餐，並請求對應的座位與餐點安排；實際需求仍以餐廳確認為準。</td></tr>
-            <tr><td><strong>2027/10/10</strong></td><td>買 USJ 回程包車</td><td><span class="tag">交通</span></td><td>已規劃</td><td>對應 Day 2 USJ 回程；車型與可訂狀態待確認。</td></tr>
-            <tr><td><strong>2027/10/10</strong></td><td>買 KKday 飯店→KIX 回程接送</td><td><span class="tag">交通</span></td><td>已規劃</td><td>對應 KKday #129909；KIX→飯店改搭 Hello Kitty HARUKA。</td></tr>
-            <tr><td><strong>2027/10/10</strong></td><td>買 USJ Studio Pass</td><td><span class="tag">USJ</span></td><td>視官方公告</td><td>確認需另外購買；確認 2027 價格、入園規則、平台庫存與取消政策。</td></tr>
-            <tr><td><strong>2027/11/05</strong></td><td>旅遊保險</td><td><span class="tag">其他</span></td><td>已規劃</td><td>金額 TWD 6,900。</td></tr>
-            <tr><td><strong>2027/11/05</strong></td><td>申請漫遊</td><td><span class="tag">其他</span></td><td>已規劃</td><td>金額 TWD 499，適合和保險一起收尾。</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section id="budget" class="section">
-      <div class="section-heading split-heading">
-        <div><p class="eyebrow">預算概覽</p><h2>把每一筆花費，也整理成好讀的一頁</h2></div>
-        <p class="section-lead"></p>
-      </div>
-      <div id="budget-app"></div>
-    </section>
-
-    <section id="dining" class="section">
-      <div class="section-heading split-heading">
-        <div><p class="eyebrow">餐飲亮點</p><h2>這趟旅行的記憶，會有很多餐桌畫面</h2></div>
-        <p class="section-lead"></p>
-      </div>
-      <div class="card-grid three-up">
-        <article class="feature-card panel"><div class="feature-photo scene-okonomi"></div><span class="feature-kicker">Day 1</span><h3>千房 梅田周邊店</h3><p>抵達日的正式晚餐方向，安排在梅田動線內，重點是穩定、好走、吃得舒服。</p></article>
-        <article class="feature-card panel"><div class="feature-photo scene-sushi"></div><span class="feature-kicker">Day 3</span><h3>肉NOASATSU 壽司晚餐</h3><p>把壽司留在 Day 3 的收尾，讓市場、採買與休息之後有一個安靜而完整的句點。</p></article>
-        <article class="feature-card panel"><div class="feature-photo scene-noka"></div><span class="feature-kicker">Day 4</span><h3>NOKA Roast & Grill</h3><p>紀念日晚餐交給 NOKA Roast &amp; Grill，作為心齋橋與飯店節奏之後的優雅收束。</p></article>
-      </div>
-    </section>
-
-    <section id="pending" class="section">
-      <div class="section-heading split-heading">
-        <div><p class="eyebrow">待確認清單</p><h2>出發前，把還沒定案的地方先收好</h2></div>
-        <p class="section-lead"></p>
-      </div>
-      <!-- Added: warning / tip callout for USJ VIP booking strategy -->
-      <div class="callout warning panel">
-        <span class="callout-title">Tip / Warning</span>
-        <h3>USJ 私人導覽名額極度稀缺，搶票與填表順序都很重要</h3>
-        <p>USJ VIP 方案通常會在入園前 60 天左右開賣；由於 USJ 日本官網對海外信用卡（Visa / Mastercard）容易出現授權錯誤，優先考慮 KKday 或 Klook 的網頁版，並提前填好 Traveler Info Form。</p>
-        <ul>
-          <li>優先把需求備註成中／英文導遊配置。</li>
-          <li>若官網刷卡失敗，不要反覆重刷同一張卡。</li>
-          <li>KKday / Klook 網頁版通常更適合先把名額卡住。</li>
-        </ul>
-      </div>
-      <div class="pending-grid panel">
-        <ul class="pending-list">
-          <li>USJ VIP 5 小時 2027 商品名稱、幣別、最終價格、可訂日、取消政策與庫存；Studio Pass 確認需另外購買。</li>
-          <li>USJ Studio Pass 2027 官方價格、入園規則、平台庫存與取消政策；確認需另外購買。</li>
-          <li>EVA Air BR178 / BR129 2027/11 官方班表、票價、機型、航廈、行李與訂位狀態。</li>
-          <li>InterContinental Osaka 行政酒廊 2027 實際開放時段、入住日使用資格與同行者規則。</li>
-          <li>Hello Kitty HARUKA 的 2027 時刻、指定席規則與行李限制；KKday #129909 的回程價格、車型、等待時間與可訂狀態；以及大阪環狀線 + JR 夢咲線的 2027 班次、月台與轉乘動線。</li>
-          <li>Day 1 千房實際分店、營業時間、訂位規則、價格與動線。</li>
-          <li>Day 1 / Day 2 飯店 4 樓 Japanese Bathhouse、steam sauna、dry sauna 的實際開放規則。</li>
-          <li>Day 3 日本橋營業、活動與採買動線，以及肉NOASATSU 壽司晚餐資訊。</li>
-          <li>Day 4 NOKA 訂位窗口、套餐、飲品、特價菜單日規則與取消政策。</li>
-          <li>Day 4 PIERRE 備案的 dress code、年齡限制與訂位條件。</li>
-        </ul>
-      </div>
-    </section>
-
     <section class="section">
       <div class="note panel">
-        <p class="eyebrow">Design language</p>
-        <h2>像一份可以直接分享的旅遊故事</h2>
+        <p class="eyebrow">Version</p>
+        <h2>讓網站像一本能翻頁的大阪旅遊提案</h2>
         <p>
-          這份行程保留慢旅行的節奏，也把每天的重點整理得清楚好讀，適合直接分享給同行者。
+          你如果要，我下一步也可以再把各頁做成更強烈的「封面 / 章節 / 內頁」層次，甚至再拆成更像影片節奏的逐步翻頁版。
         </p>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <span>V5.59.0 · 2027 Osaka Travel Proposal</span>
+    <span>V5.61.0 · 2027 Osaka Travel Atlas</span>
     <span>Luxury Slow Travel</span>
   </footer>
   <script defer src="./budget.js"></script>

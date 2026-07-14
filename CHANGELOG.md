@@ -1,5 +1,45 @@
 # CHANGELOG
 
+# V5.61.0 - 2026-07-14
+
+### Changed
+
+- Strengthened the public website cover so the homepage now feels more like a cinematic opening frame.
+- Added a clearer chapter-spine and story-beat rhythm to the homepage to better match the Threads-style pacing the user referenced.
+- Tuned the home page and shared styles so the multi-page site reads more like an editorial booklet with a stronger opening sequence.
+- Kept the database values, itinerary decisions, and budget baseline unchanged.
+- Added version note `docs/13_版本與更新/V5.61.0_Web_Threads_Film_Rhythm_Refresh.md`.
+
+### Reason
+
+The user wanted the multi-page redesign to feel even closer to the referenced Threads video, with a stronger cover impression and more obvious frame-by-frame rhythm.
+
+### Impact
+
+- The homepage now has a more cinematic opening and clearer chapter pacing.
+- The site feels closer to a visual travel proposal than a standard navigation page.
+- No itinerary or budget totals changed.
+
+# V5.60.0 - 2026-07-14
+
+### Changed
+
+- Reworked the public website into a multi-page travel atlas instead of a single long page.
+- Turned `web/index.html` into a true entry page with chapter links to itinerary, budget, prep, and dining pages.
+- Added new dedicated pages for itinerary, budget, prep, and dining so the site now reads more like a booklet than a scroll.
+- Kept the database values, itinerary decisions, and budget baseline unchanged.
+- Added version note `docs/13_版本與更新/V5.60.0_Web_Multi_Page_Threads_Style_Redesign.md`.
+
+### Reason
+
+The user wanted to reference the Threads video style, but without remaining constrained to a single-page layout. The site needed a presentation redesign that expanded into multiple pages while preserving the current travel baseline.
+
+### Impact
+
+- The homepage now serves as a visual cover and navigation hub.
+- Travel details are split into clearer thematic pages.
+- No itinerary or budget totals changed.
+
 # V5.59.0 - 2026-07-13
 
 ### Changed

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>2027 大阪自由行｜預算頁</title>
+  <meta name="description" content="2027 大阪自由行的預算頁，整理建議版、節制版、安全版與各分類花費。">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="./index.html" aria-label="回到首頁">
+      <span class="brand-mark">OSAKA 2027</span>
+      <span class="brand-sub">Budget</span>
+    </a>
+    <nav class="topnav" aria-label="頁面導覽">
+      <a href="./index.html">首頁</a>
+      <a href="./itinerary.html">行程</a>
+      <a href="./budget.html" aria-current="page">預算</a>
+      <a href="./prep.html">行前</a>
+      <a href="./dining.html">餐飲</a>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="hero hero-cover">
+      <div class="hero-copy panel dark">
+        <p class="eyebrow">CHAPTER 02</p>
+        <h1>預算頁</h1>
+        <p class="hero-subtitle">建議版、節制版、安全版與硬上限</p>
+        <p class="hero-text">
+          這一頁只處理數字，不處理故事。
+          資料仍然沿用目前的主預算基準，並把 USJ、交通、住宿、購物、餐飲與其他項目整理成容易檢視的分層結構。
+        </p>
+        <div class="hero-status">
+          <span class="status-pill"><i></i><strong>主預算</strong></span>
+          <span>兩位旅客</span>
+          <span>NT$242,070</span>
+          <span>硬上限 NT$280,000</span>
+        </div>
+        <div class="hero-meta">
+          <div><span>建議版</span><strong>NT$242,070</strong></div>
+          <div><span>節制版</span><strong>NT$237,372</strong></div>
+          <div><span>安全版</span><strong>NT$280,000</strong></div>
+          <div><span>Ambassador</span><strong>USD 250 另計</strong></div>
+        </div>
+      </div>
+
+      <aside class="hero-visual panel dark">
+        <div class="poster-scene scene-shopping image-shopping" role="img" aria-label="預算頁封面插圖">
+          <div class="poster-copy">
+            <span>BUDGET MAP</span>
+            <strong>交通 · 住宿 · USJ · 餐飲 · 購物 · 其他</strong>
+          </div>
+        </div>
+        <div class="mini-photo-grid">
+          <div class="mini-photo image-arrival"><span>Transport</span><strong>交通</strong></div>
+          <div class="mini-photo image-market"><span>Lodging</span><strong>住宿</strong></div>
+          <div class="mini-photo image-shopping"><span>Shopping</span><strong>購物</strong></div>
+          <div class="mini-photo scene-sushi"><span>Dining</span><strong>餐飲</strong></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">總覽</p>
+          <h2>先看結論，再往下拆分類</h2>
+        </div>
+        <p class="section-lead">
+          這一頁把成本結構拆成可閱讀的樹狀內容，方便檢查每一類是否符合目前 baseline。
+        </p>
+      </div>
+
+      <div class="sales-strip panel">
+        <div>
+          <span>推薦總額</span>
+          <strong data-budget-text="overview-recommended-total">由 JS 計算</strong>
+        </div>
+        <div>
+          <span>已排程付款</span>
+          <strong>NT$105,199 + USD 250</strong>
+        </div>
+        <div>
+          <span>購物政策</span>
+          <strong>精品包 / 珠寶 / 手錶另計</strong>
+        </div>
+        <div>
+          <span>USJ 規則</span>
+          <strong>VIP 5h 含 1 餐，Studio Pass 另購</strong>
+        </div>
+      </div>
+
+      <div class="card-grid four-up">
+        <article class="info-card panel">
+          <span>交通</span>
+          <strong>機票、HARUKA、接送、包車</strong>
+          <p>交通已細分到每一段，便於確認哪一段還沒買。</p>
+        </article>
+        <article class="info-card panel">
+          <span>住宿</span>
+          <strong>淨額 NT$65,900</strong>
+          <p>住宿採兩筆連住，計算方式以低價那晚免費後的淨額為準。</p>
+        </article>
+        <article class="info-card panel">
+          <span>USJ</span>
+          <strong>VIP 5 小時 + Studio Pass</strong>
+          <p>VIP 5 小時目前以 TWD 60,000 估算，Studio Pass 仍需另購確認。</p>
+        </article>
+        <article class="info-card panel">
+          <span>其他</span>
+          <strong>保險與漫遊已排程</strong>
+          <p>這兩項維持獨立追蹤，不混進基本旅費計算。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div id="budget-app"></div>
+    </section>
+
+    <section class="section">
+      <div class="callout panel">
+        <span class="callout-title">Budget note</span>
+        <h3>這個預算頁只反映目前的正式基準，不再展示舊版平行方案</h3>
+        <p>如果後續官方價格或訂位條件更新，只需要回到 database 與預算模型改值，網站這頁會跟著同一套資料更新。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>V5.61.0 · Budget</span>
+    <span>Luxury Slow Travel</span>
+  </footer>
+  <script defer src="./budget.js"></script>
+</body>
+</html>
